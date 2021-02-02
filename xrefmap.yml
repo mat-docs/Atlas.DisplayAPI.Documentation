@@ -685,6 +685,324 @@ references:
   commentId: Overload:MAT.Atlas.Api.Core.Data.TimeRange.Start
   fullName: MAT.Atlas.Api.Core.Data.TimeRange.Start
   nameWithType: TimeRange.Start
+- uid: MAT.Atlas.Api.Core.Diagnostics
+  name: MAT.Atlas.Api.Core.Diagnostics
+  href: api/MAT.Atlas.Api.Core.Diagnostics.html
+  commentId: N:MAT.Atlas.Api.Core.Diagnostics
+  fullName: MAT.Atlas.Api.Core.Diagnostics
+  nameWithType: MAT.Atlas.Api.Core.Diagnostics
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger
+  name: ILogger
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html
+  commentId: T:MAT.Atlas.Api.Core.Diagnostics.ILogger
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger
+  nameWithType: ILogger
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.Func{System.String})
+  name: Debug(Func<String>)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_Func_System_String__
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.Func{System.String})
+  name.vb: Debug(Func(Of String))
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.Func<System.String>)
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.Func(Of System.String))
+  nameWithType: ILogger.Debug(Func<String>)
+  nameWithType.vb: ILogger.Debug(Func(Of String))
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String)
+  name: Debug(String)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_String_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String)
+  nameWithType: ILogger.Debug(String)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String,System.Exception)
+  name: Debug(String, Exception)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_String_System_Exception_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String,System.Exception)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String, System.Exception)
+  nameWithType: ILogger.Debug(String, Exception)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String,System.Object[])
+  name: Debug(String, Object[])
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_String_System_Object___
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String,System.Object[])
+  name.vb: Debug(String, Object())
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String, System.Object[])
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String, System.Object())
+  nameWithType: ILogger.Debug(String, Object[])
+  nameWithType.vb: ILogger.Debug(String, Object())
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug*
+  name: Debug
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug
+  nameWithType: ILogger.Debug
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.Func{System.String})
+  name: Error(Func<String>)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_Func_System_String__
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.Func{System.String})
+  name.vb: Error(Func(Of String))
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.Func<System.String>)
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.Func(Of System.String))
+  nameWithType: ILogger.Error(Func<String>)
+  nameWithType.vb: ILogger.Error(Func(Of String))
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String)
+  name: Error(String)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_String_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String)
+  nameWithType: ILogger.Error(String)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String,System.Exception)
+  name: Error(String, Exception)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_String_System_Exception_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String,System.Exception)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String, System.Exception)
+  nameWithType: ILogger.Error(String, Exception)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String,System.Object[])
+  name: Error(String, Object[])
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_String_System_Object___
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String,System.Object[])
+  name.vb: Error(String, Object())
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String, System.Object[])
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String, System.Object())
+  nameWithType: ILogger.Error(String, Object[])
+  nameWithType.vb: ILogger.Error(String, Object())
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error*
+  name: Error
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.Error
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Error
+  nameWithType: ILogger.Error
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.Func{System.String})
+  name: Information(Func<String>)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_Func_System_String__
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.Func{System.String})
+  name.vb: Information(Func(Of String))
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.Func<System.String>)
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.Func(Of System.String))
+  nameWithType: ILogger.Information(Func<String>)
+  nameWithType.vb: ILogger.Information(Func(Of String))
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String)
+  name: Information(String)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_String_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String)
+  nameWithType: ILogger.Information(String)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String,System.Exception)
+  name: Information(String, Exception)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_String_System_Exception_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String,System.Exception)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String, System.Exception)
+  nameWithType: ILogger.Information(String, Exception)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String,System.Object[])
+  name: Information(String, Object[])
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_String_System_Object___
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String,System.Object[])
+  name.vb: Information(String, Object())
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String, System.Object[])
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String, System.Object())
+  nameWithType: ILogger.Information(String, Object[])
+  nameWithType.vb: ILogger.Information(String, Object())
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information*
+  name: Information
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.Information
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Information
+  nameWithType: ILogger.Information
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled
+  name: IsDebugEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsDebugEnabled
+  commentId: P:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled
+  nameWithType: ILogger.IsDebugEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled*
+  name: IsDebugEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsDebugEnabled_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled
+  nameWithType: ILogger.IsDebugEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled
+  name: IsErrorEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsErrorEnabled
+  commentId: P:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled
+  nameWithType: ILogger.IsErrorEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled*
+  name: IsErrorEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsErrorEnabled_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled
+  nameWithType: ILogger.IsErrorEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled
+  name: IsFatalEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsFatalEnabled
+  commentId: P:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled
+  nameWithType: ILogger.IsFatalEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled*
+  name: IsFatalEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsFatalEnabled_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled
+  nameWithType: ILogger.IsFatalEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled
+  name: IsInformationEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsInformationEnabled
+  commentId: P:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled
+  nameWithType: ILogger.IsInformationEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled*
+  name: IsInformationEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsInformationEnabled_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled
+  nameWithType: ILogger.IsInformationEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled
+  name: IsTraceEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsTraceEnabled
+  commentId: P:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled
+  nameWithType: ILogger.IsTraceEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled*
+  name: IsTraceEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsTraceEnabled_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled
+  nameWithType: ILogger.IsTraceEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled
+  name: IsWarningEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsWarningEnabled
+  commentId: P:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled
+  nameWithType: ILogger.IsWarningEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled*
+  name: IsWarningEnabled
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_IsWarningEnabled_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled
+  nameWithType: ILogger.IsWarningEnabled
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel(MAT.Atlas.Api.Core.Diagnostics.LogLevel)
+  name: SetLogLevel(LogLevel)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_SetLogLevel_MAT_Atlas_Api_Core_Diagnostics_LogLevel_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel(MAT.Atlas.Api.Core.Diagnostics.LogLevel)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel(MAT.Atlas.Api.Core.Diagnostics.LogLevel)
+  nameWithType: ILogger.SetLogLevel(LogLevel)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel*
+  name: SetLogLevel
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_SetLogLevel_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel
+  nameWithType: ILogger.SetLogLevel
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.Func{System.String})
+  name: Trace(Func<String>)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_Func_System_String__
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.Func{System.String})
+  name.vb: Trace(Func(Of String))
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.Func<System.String>)
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.Func(Of System.String))
+  nameWithType: ILogger.Trace(Func<String>)
+  nameWithType.vb: ILogger.Trace(Func(Of String))
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String)
+  name: Trace(String)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_String_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String)
+  nameWithType: ILogger.Trace(String)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String,System.Exception)
+  name: Trace(String, Exception)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_String_System_Exception_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String,System.Exception)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String, System.Exception)
+  nameWithType: ILogger.Trace(String, Exception)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String,System.Object[])
+  name: Trace(String, Object[])
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_String_System_Object___
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String,System.Object[])
+  name.vb: Trace(String, Object())
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String, System.Object[])
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String, System.Object())
+  nameWithType: ILogger.Trace(String, Object[])
+  nameWithType.vb: ILogger.Trace(String, Object())
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace*
+  name: Trace
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace
+  nameWithType: ILogger.Trace
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.Func{System.String})
+  name: Warning(Func<String>)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_Func_System_String__
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.Func{System.String})
+  name.vb: Warning(Func(Of String))
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.Func<System.String>)
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.Func(Of System.String))
+  nameWithType: ILogger.Warning(Func<String>)
+  nameWithType.vb: ILogger.Warning(Func(Of String))
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String)
+  name: Warning(String)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_String_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String)
+  nameWithType: ILogger.Warning(String)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String,System.Exception)
+  name: Warning(String, Exception)
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_String_System_Exception_
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String,System.Exception)
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String, System.Exception)
+  nameWithType: ILogger.Warning(String, Exception)
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String,System.Object[])
+  name: Warning(String, Object[])
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_String_System_Object___
+  commentId: M:MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String,System.Object[])
+  name.vb: Warning(String, Object())
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String, System.Object[])
+  fullName.vb: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String, System.Object())
+  nameWithType: ILogger.Warning(String, Object[])
+  nameWithType.vb: ILogger.Warning(String, Object())
+- uid: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning*
+  name: Warning
+  href: api/MAT.Atlas.Api.Core.Diagnostics.ILogger.html#MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_
+  commentId: Overload:MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning
+  fullName: MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning
+  nameWithType: ILogger.Warning
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel
+  name: LogLevel
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html
+  commentId: T:MAT.Atlas.Api.Core.Diagnostics.LogLevel
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel
+  nameWithType: LogLevel
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Debug
+  name: Debug
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_Debug
+  commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.Debug
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Debug
+  nameWithType: LogLevel.Debug
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Error
+  name: Error
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_Error
+  commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.Error
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Error
+  nameWithType: LogLevel.Error
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Fatal
+  name: Fatal
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_Fatal
+  commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.Fatal
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Fatal
+  nameWithType: LogLevel.Fatal
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Info
+  name: Info
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_Info
+  commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.Info
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Info
+  nameWithType: LogLevel.Info
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Trace
+  name: Trace
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_Trace
+  commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.Trace
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Trace
+  nameWithType: LogLevel.Trace
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Warn
+  name: Warn
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_Warn
+  commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.Warn
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Warn
+  nameWithType: LogLevel.Warn
 - uid: MAT.Atlas.Api.Core.Extensions
   name: MAT.Atlas.Api.Core.Extensions
   href: api/MAT.Atlas.Api.Core.Extensions.html
@@ -712,6 +1030,72 @@ references:
   commentId: Overload:MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.MergeOverLaps
   fullName: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.MergeOverLaps
   nameWithType: TimeRangeExtensions.MergeOverLaps
+- uid: MAT.Atlas.Api.Core.IScopeIdentity
+  name: IScopeIdentity
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html
+  commentId: T:MAT.Atlas.Api.Core.IScopeIdentity
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity
+  nameWithType: IScopeIdentity
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.ClonedIdentity
+  name: ClonedIdentity
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_ClonedIdentity
+  commentId: P:MAT.Atlas.Api.Core.IScopeIdentity.ClonedIdentity
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.ClonedIdentity
+  nameWithType: IScopeIdentity.ClonedIdentity
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.ClonedIdentity*
+  name: ClonedIdentity
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_ClonedIdentity_
+  commentId: Overload:MAT.Atlas.Api.Core.IScopeIdentity.ClonedIdentity
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.ClonedIdentity
+  nameWithType: IScopeIdentity.ClonedIdentity
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.Guid
+  name: Guid
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_Guid
+  commentId: P:MAT.Atlas.Api.Core.IScopeIdentity.Guid
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.Guid
+  nameWithType: IScopeIdentity.Guid
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.Guid*
+  name: Guid
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_Guid_
+  commentId: Overload:MAT.Atlas.Api.Core.IScopeIdentity.Guid
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.Guid
+  nameWithType: IScopeIdentity.Guid
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.Identity
+  name: Identity
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_Identity
+  commentId: P:MAT.Atlas.Api.Core.IScopeIdentity.Identity
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.Identity
+  nameWithType: IScopeIdentity.Identity
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.Identity*
+  name: Identity
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_Identity_
+  commentId: Overload:MAT.Atlas.Api.Core.IScopeIdentity.Identity
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.Identity
+  nameWithType: IScopeIdentity.Identity
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.ParentIdentity
+  name: ParentIdentity
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_ParentIdentity
+  commentId: P:MAT.Atlas.Api.Core.IScopeIdentity.ParentIdentity
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.ParentIdentity
+  nameWithType: IScopeIdentity.ParentIdentity
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.ParentIdentity*
+  name: ParentIdentity
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_ParentIdentity_
+  commentId: Overload:MAT.Atlas.Api.Core.IScopeIdentity.ParentIdentity
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.ParentIdentity
+  nameWithType: IScopeIdentity.ParentIdentity
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.TypeName
+  name: TypeName
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_TypeName
+  commentId: P:MAT.Atlas.Api.Core.IScopeIdentity.TypeName
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.TypeName
+  nameWithType: IScopeIdentity.TypeName
+- uid: MAT.Atlas.Api.Core.IScopeIdentity.TypeName*
+  name: TypeName
+  href: api/MAT.Atlas.Api.Core.IScopeIdentity.html#MAT_Atlas_Api_Core_IScopeIdentity_TypeName_
+  commentId: Overload:MAT.Atlas.Api.Core.IScopeIdentity.TypeName
+  fullName: MAT.Atlas.Api.Core.IScopeIdentity.TypeName
+  nameWithType: IScopeIdentity.TypeName
 - uid: MAT.Atlas.Api.Core.Presentation
   name: MAT.Atlas.Api.Core.Presentation
   href: api/MAT.Atlas.Api.Core.Presentation.html
@@ -940,6 +1324,126 @@ references:
   commentId: Overload:MAT.Atlas.Api.Core.Presentation.NotNullAttribute.#ctor
   fullName: MAT.Atlas.Api.Core.Presentation.NotNullAttribute.NotNullAttribute
   nameWithType: NotNullAttribute.NotNullAttribute
+- uid: MAT.Atlas.Api.Core.ScopeIdentity
+  name: ScopeIdentity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html
+  commentId: T:MAT.Atlas.Api.Core.ScopeIdentity
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity
+  nameWithType: ScopeIdentity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.#ctor(MAT.Atlas.Api.Core.IScopeIdentity,System.String)
+  name: ScopeIdentity(IScopeIdentity, String)
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity__ctor_MAT_Atlas_Api_Core_IScopeIdentity_System_String_
+  commentId: M:MAT.Atlas.Api.Core.ScopeIdentity.#ctor(MAT.Atlas.Api.Core.IScopeIdentity,System.String)
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ScopeIdentity(MAT.Atlas.Api.Core.IScopeIdentity, System.String)
+  nameWithType: ScopeIdentity.ScopeIdentity(IScopeIdentity, String)
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.#ctor(System.String)
+  name: ScopeIdentity(String)
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity__ctor_System_String_
+  commentId: M:MAT.Atlas.Api.Core.ScopeIdentity.#ctor(System.String)
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ScopeIdentity(System.String)
+  nameWithType: ScopeIdentity.ScopeIdentity(String)
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.#ctor(System.String,System.String)
+  name: ScopeIdentity(String, String)
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity__ctor_System_String_System_String_
+  commentId: M:MAT.Atlas.Api.Core.ScopeIdentity.#ctor(System.String,System.String)
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ScopeIdentity(System.String, System.String)
+  nameWithType: ScopeIdentity.ScopeIdentity(String, String)
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.#ctor(System.String,System.String,System.String)
+  name: ScopeIdentity(String, String, String)
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity__ctor_System_String_System_String_System_String_
+  commentId: M:MAT.Atlas.Api.Core.ScopeIdentity.#ctor(System.String,System.String,System.String)
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ScopeIdentity(System.String, System.String, System.String)
+  nameWithType: ScopeIdentity.ScopeIdentity(String, String, String)
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.#ctor*
+  name: ScopeIdentity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity__ctor_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.#ctor
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ScopeIdentity
+  nameWithType: ScopeIdentity.ScopeIdentity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.ClonedIdentity
+  name: ClonedIdentity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_ClonedIdentity
+  commentId: P:MAT.Atlas.Api.Core.ScopeIdentity.ClonedIdentity
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ClonedIdentity
+  nameWithType: ScopeIdentity.ClonedIdentity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.ClonedIdentity*
+  name: ClonedIdentity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_ClonedIdentity_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.ClonedIdentity
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ClonedIdentity
+  nameWithType: ScopeIdentity.ClonedIdentity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.Equals(System.Object)
+  name: Equals(Object)
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_Equals_System_Object_
+  commentId: M:MAT.Atlas.Api.Core.ScopeIdentity.Equals(System.Object)
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.Equals(System.Object)
+  nameWithType: ScopeIdentity.Equals(Object)
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.Equals*
+  name: Equals
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_Equals_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.Equals
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.Equals
+  nameWithType: ScopeIdentity.Equals
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.GetHashCode
+  name: GetHashCode()
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_GetHashCode
+  commentId: M:MAT.Atlas.Api.Core.ScopeIdentity.GetHashCode
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.GetHashCode()
+  nameWithType: ScopeIdentity.GetHashCode()
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.GetHashCode*
+  name: GetHashCode
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_GetHashCode_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.GetHashCode
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.GetHashCode
+  nameWithType: ScopeIdentity.GetHashCode
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.Guid
+  name: Guid
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_Guid
+  commentId: P:MAT.Atlas.Api.Core.ScopeIdentity.Guid
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.Guid
+  nameWithType: ScopeIdentity.Guid
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.Guid*
+  name: Guid
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_Guid_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.Guid
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.Guid
+  nameWithType: ScopeIdentity.Guid
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.Identity
+  name: Identity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_Identity
+  commentId: P:MAT.Atlas.Api.Core.ScopeIdentity.Identity
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.Identity
+  nameWithType: ScopeIdentity.Identity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.Identity*
+  name: Identity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_Identity_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.Identity
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.Identity
+  nameWithType: ScopeIdentity.Identity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.ParentIdentity
+  name: ParentIdentity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_ParentIdentity
+  commentId: P:MAT.Atlas.Api.Core.ScopeIdentity.ParentIdentity
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ParentIdentity
+  nameWithType: ScopeIdentity.ParentIdentity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.ParentIdentity*
+  name: ParentIdentity
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_ParentIdentity_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.ParentIdentity
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.ParentIdentity
+  nameWithType: ScopeIdentity.ParentIdentity
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.TypeName
+  name: TypeName
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_TypeName
+  commentId: P:MAT.Atlas.Api.Core.ScopeIdentity.TypeName
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.TypeName
+  nameWithType: ScopeIdentity.TypeName
+- uid: MAT.Atlas.Api.Core.ScopeIdentity.TypeName*
+  name: TypeName
+  href: api/MAT.Atlas.Api.Core.ScopeIdentity.html#MAT_Atlas_Api_Core_ScopeIdentity_TypeName_
+  commentId: Overload:MAT.Atlas.Api.Core.ScopeIdentity.TypeName
+  fullName: MAT.Atlas.Api.Core.ScopeIdentity.TypeName
+  nameWithType: ScopeIdentity.TypeName
 - uid: MAT.Atlas.Api.Core.Sessions
   name: MAT.Atlas.Api.Core.Sessions
   href: api/MAT.Atlas.Api.Core.Sessions.html
@@ -2287,6 +2791,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.DiagnosticsServiceAddress
   fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.DiagnosticsServiceAddress
   nameWithType: AutomationServices.DiagnosticsServiceAddress
+- uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.DialogProviderServiceAddress
+  name: DialogProviderServiceAddress
+  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_DialogProviderServiceAddress
+  commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.DialogProviderServiceAddress
+  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.DialogProviderServiceAddress
+  nameWithType: AutomationServices.DialogProviderServiceAddress
 - uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.DisplayServiceAddress
   name: DisplayServiceAddress
   href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_DisplayServiceAddress
@@ -3673,6 +4183,24 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Faults.DataSourceServiceFault.#ctor
   fullName: MAT.Atlas.Automation.Api.Faults.DataSourceServiceFault.DataSourceServiceFault
   nameWithType: DataSourceServiceFault.DataSourceServiceFault
+- uid: MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault
+  name: DialogProviderServiceFault
+  href: api/MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.html
+  commentId: T:MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault
+  fullName: MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault
+  nameWithType: DialogProviderServiceFault
+- uid: MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.#ctor
+  name: DialogProviderServiceFault()
+  href: api/MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.html#MAT_Atlas_Automation_Api_Faults_DialogProviderServiceFault__ctor
+  commentId: M:MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.#ctor
+  fullName: MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.DialogProviderServiceFault()
+  nameWithType: DialogProviderServiceFault.DialogProviderServiceFault()
+- uid: MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.#ctor*
+  name: DialogProviderServiceFault
+  href: api/MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.html#MAT_Atlas_Automation_Api_Faults_DialogProviderServiceFault__ctor_
+  commentId: Overload:MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.#ctor
+  fullName: MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.DialogProviderServiceFault
+  nameWithType: DialogProviderServiceFault.DialogProviderServiceFault
 - uid: MAT.Atlas.Automation.Api.Faults.DisplayServiceFault
   name: DisplayServiceFault
   href: api/MAT.Atlas.Automation.Api.Faults.DisplayServiceFault.html
@@ -4430,6 +4958,24 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.IDiagnosticsService.TakeMemorySnapshot
   fullName: MAT.Atlas.Automation.Api.IDiagnosticsService.TakeMemorySnapshot
   nameWithType: IDiagnosticsService.TakeMemorySnapshot
+- uid: MAT.Atlas.Automation.Api.IDialogProviderService
+  name: IDialogProviderService
+  href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html
+  commentId: T:MAT.Atlas.Automation.Api.IDialogProviderService
+  fullName: MAT.Atlas.Automation.Api.IDialogProviderService
+  nameWithType: IDialogProviderService
+- uid: MAT.Atlas.Automation.Api.IDialogProviderService.OpenSessionBrowser
+  name: OpenSessionBrowser()
+  href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html#MAT_Atlas_Automation_Api_IDialogProviderService_OpenSessionBrowser
+  commentId: M:MAT.Atlas.Automation.Api.IDialogProviderService.OpenSessionBrowser
+  fullName: MAT.Atlas.Automation.Api.IDialogProviderService.OpenSessionBrowser()
+  nameWithType: IDialogProviderService.OpenSessionBrowser()
+- uid: MAT.Atlas.Automation.Api.IDialogProviderService.OpenSessionBrowser*
+  name: OpenSessionBrowser
+  href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html#MAT_Atlas_Automation_Api_IDialogProviderService_OpenSessionBrowser_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDialogProviderService.OpenSessionBrowser
+  fullName: MAT.Atlas.Automation.Api.IDialogProviderService.OpenSessionBrowser
+  nameWithType: IDialogProviderService.OpenSessionBrowser
 - uid: MAT.Atlas.Automation.Api.IDisplayService
   name: IDisplayService
   href: api/MAT.Atlas.Automation.Api.IDisplayService.html
@@ -13325,6 +13871,36 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.DiagnosticsServiceClient.TakeMemorySnapshot
   fullName: MAT.Atlas.Automation.Client.Services.DiagnosticsServiceClient.TakeMemorySnapshot
   nameWithType: DiagnosticsServiceClient.TakeMemorySnapshot
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient
+  name: DialogProviderServiceClient
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html
+  commentId: T:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient
+  nameWithType: DialogProviderServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.#ctor
+  name: DialogProviderServiceClient()
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient__ctor
+  commentId: M:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.#ctor
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.DialogProviderServiceClient()
+  nameWithType: DialogProviderServiceClient.DialogProviderServiceClient()
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.#ctor*
+  name: DialogProviderServiceClient
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient__ctor_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.#ctor
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.DialogProviderServiceClient
+  nameWithType: DialogProviderServiceClient.DialogProviderServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenSessionBrowser
+  name: OpenSessionBrowser()
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient_OpenSessionBrowser
+  commentId: M:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenSessionBrowser
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenSessionBrowser()
+  nameWithType: DialogProviderServiceClient.OpenSessionBrowser()
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenSessionBrowser*
+  name: OpenSessionBrowser
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient_OpenSessionBrowser_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenSessionBrowser
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenSessionBrowser
+  nameWithType: DialogProviderServiceClient.OpenSessionBrowser
 - uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient
   name: DisplayServiceClient
   href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html
@@ -13792,6 +14368,24 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDataSourceServiceClient.GetServiceConnections
   fullName: MAT.Atlas.Automation.Client.Services.Interface.IDataSourceServiceClient.GetServiceConnections
   nameWithType: IDataSourceServiceClient.GetServiceConnections
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient
+  name: IDialogProviderServiceClient
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html
+  commentId: T:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient
+  nameWithType: IDialogProviderServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenSessionBrowser
+  name: OpenSessionBrowser()
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDialogProviderServiceClient_OpenSessionBrowser
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenSessionBrowser
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenSessionBrowser()
+  nameWithType: IDialogProviderServiceClient.OpenSessionBrowser()
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenSessionBrowser*
+  name: OpenSessionBrowser
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDialogProviderServiceClient_OpenSessionBrowser_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenSessionBrowser
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenSessionBrowser
+  nameWithType: IDialogProviderServiceClient.OpenSessionBrowser
 - uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient
   name: IDisplayServiceClient
   href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html
@@ -19949,72 +20543,6 @@ references:
   commentId: Overload:MAT.Atlas.Client.Presentation.Displays.IDisplayPluginServiceContext.DisplayParameterService
   fullName: MAT.Atlas.Client.Presentation.Displays.IDisplayPluginServiceContext.DisplayParameterService
   nameWithType: IDisplayPluginServiceContext.DisplayParameterService
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity
-  name: IScopeIdentity
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html
-  commentId: T:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity
-  nameWithType: IScopeIdentity
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ClonedIdentity
-  name: ClonedIdentity
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_ClonedIdentity
-  commentId: P:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ClonedIdentity
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ClonedIdentity
-  nameWithType: IScopeIdentity.ClonedIdentity
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ClonedIdentity*
-  name: ClonedIdentity
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_ClonedIdentity_
-  commentId: Overload:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ClonedIdentity
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ClonedIdentity
-  nameWithType: IScopeIdentity.ClonedIdentity
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Guid
-  name: Guid
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_Guid
-  commentId: P:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Guid
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Guid
-  nameWithType: IScopeIdentity.Guid
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Guid*
-  name: Guid
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_Guid_
-  commentId: Overload:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Guid
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Guid
-  nameWithType: IScopeIdentity.Guid
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Identity
-  name: Identity
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_Identity
-  commentId: P:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Identity
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Identity
-  nameWithType: IScopeIdentity.Identity
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Identity*
-  name: Identity
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_Identity_
-  commentId: Overload:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Identity
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.Identity
-  nameWithType: IScopeIdentity.Identity
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ParentIdentity
-  name: ParentIdentity
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_ParentIdentity
-  commentId: P:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ParentIdentity
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ParentIdentity
-  nameWithType: IScopeIdentity.ParentIdentity
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ParentIdentity*
-  name: ParentIdentity
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_ParentIdentity_
-  commentId: Overload:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ParentIdentity
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.ParentIdentity
-  nameWithType: IScopeIdentity.ParentIdentity
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.TypeName
-  name: TypeName
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_TypeName
-  commentId: P:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.TypeName
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.TypeName
-  nameWithType: IScopeIdentity.TypeName
-- uid: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.TypeName*
-  name: TypeName
-  href: api/MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.html#MAT_Atlas_Client_Presentation_Displays_IScopeIdentity_TypeName_
-  commentId: Overload:MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.TypeName
-  fullName: MAT.Atlas.Client.Presentation.Displays.IScopeIdentity.TypeName
-  nameWithType: IScopeIdentity.TypeName
 - uid: MAT.Atlas.Client.Presentation.Plugins
   name: MAT.Atlas.Client.Presentation.Plugins
   href: api/MAT.Atlas.Client.Presentation.Plugins.html

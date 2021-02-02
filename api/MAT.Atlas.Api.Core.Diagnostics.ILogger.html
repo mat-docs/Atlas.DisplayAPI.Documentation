@@ -1,0 +1,956 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ILogger
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ILogger
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger">
+  
+  
+  <h1 id="MAT_Atlas_Api_Core_Diagnostics_ILogger" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger" class="text-break">Interface ILogger
+  </h1>
+  <div class="markdown level0 summary"><p>Provides logging functionality.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Api.Core.Diagnostics.html">MAT.Atlas.Api.Core.Diagnostics</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Api.Core.dll</h6>
+  <h5 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ILogger</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsDebugEnabled_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsDebugEnabled" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsDebugEnabled">IsDebugEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is debug enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsDebugEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is debug enabled; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsErrorEnabled_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsErrorEnabled" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsErrorEnabled">IsErrorEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is error enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsErrorEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is error enabled; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsFatalEnabled_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsFatalEnabled" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsFatalEnabled">IsFatalEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is fatal enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsFatalEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is fatal enabled; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsInformationEnabled_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsInformationEnabled" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsInformationEnabled">IsInformationEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is information enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsInformationEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is information enabled; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsTraceEnabled_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsTraceEnabled" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsTraceEnabled">IsTraceEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is trace enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsTraceEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is trace enabled; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsWarningEnabled_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_IsWarningEnabled" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.IsWarningEnabled">IsWarningEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is warning enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsWarningEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is warning enabled; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_Func_System_String__" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.Func{System.String})">Debug(Func&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Logs debug information using the message generation function .</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Debug(Func&lt;string&gt; messageGenerator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">messageGenerator</span></td>
+        <td><p>The message generator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_String_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String)">Debug(String)</h4>
+  <div class="markdown level1 summary"><p>Logs debug information with the specified message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Debug(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_String_System_Exception_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String,System.Exception)">Debug(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>Logs the specified exception as a debug message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Debug(string message, Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Debug_System_String_System_Object___" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Debug(System.String,System.Object[])">Debug(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Logs debug information with the specified formatted message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Debug(string message, params object[] arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">arguments</span></td>
+        <td><p>The arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_Func_System_String__" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.Func{System.String})">Error(Func&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Logs an error using the message generation function .</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(Func&lt;string&gt; messageGenerator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">messageGenerator</span></td>
+        <td><p>The message generator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_String_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String)">Error(String)</h4>
+  <div class="markdown level1 summary"><p>Logs an error with the specified message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_String_System_Exception_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String,System.Exception)">Error(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>Logs the specified exception as an error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(string message, Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Error_System_String_System_Object___" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Error(System.String,System.Object[])">Error(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Logs error information with the specified formatted message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(string message, params object[] arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">arguments</span></td>
+        <td><p>The arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_Func_System_String__" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.Func{System.String})">Information(Func&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Logs information using the message generation function .</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Information(Func&lt;string&gt; messageGenerator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">messageGenerator</span></td>
+        <td><p>The message generator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_String_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String)">Information(String)</h4>
+  <div class="markdown level1 summary"><p>Logs information with the specified message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Information(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_String_System_Exception_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String,System.Exception)">Information(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>Logs the specified exception as an information message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Information(string message, Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Information_System_String_System_Object___" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Information(System.String,System.Object[])">Information(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Logs information information with the specified formatted message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Information(string message, params object[] arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">arguments</span></td>
+        <td><p>The arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_SetLogLevel_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_SetLogLevel_MAT_Atlas_Api_Core_Diagnostics_LogLevel_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.SetLogLevel(MAT.Atlas.Api.Core.Diagnostics.LogLevel)">SetLogLevel(LogLevel)</h4>
+  <div class="markdown level1 summary"><p>Sets the current log level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetLogLevel(LogLevel level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Api.Core.Diagnostics.LogLevel.html">LogLevel</a></td>
+        <td><span class="parametername">level</span></td>
+        <td><p>The log level.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_Func_System_String__" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.Func{System.String})">Trace(Func&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Logs tracing information using the message generation function .</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Trace(Func&lt;string&gt; messageGenerator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">messageGenerator</span></td>
+        <td><p>The message generator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_String_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String)">Trace(String)</h4>
+  <div class="markdown level1 summary"><p>Logs tracing information with the specified message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Trace(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_String_System_Exception_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String,System.Exception)">Trace(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>Logs the specified exception as a trace message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Trace(string message, Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Trace_System_String_System_Object___" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Trace(System.String,System.Object[])">Trace(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Logs Trace information with the specified formatted message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Trace(string message, params object[] arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">arguments</span></td>
+        <td><p>The arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_Func_System_String__" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.Func{System.String})">Warning(Func&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Logs a warning using the message generation function .</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warning(Func&lt;string&gt; messageGenerator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">messageGenerator</span></td>
+        <td><p>The message generator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_String_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String)">Warning(String)</h4>
+  <div class="markdown level1 summary"><p>Logs a warning with the specified message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warning(string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_String_System_Exception_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String,System.Exception)">Warning(String, Exception)</h4>
+  <div class="markdown level1 summary"><p>Logs the specified exception as a warning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warning(string message, Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>The exception.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning*"></a>
+  <h4 id="MAT_Atlas_Api_Core_Diagnostics_ILogger_Warning_System_String_System_Object___" data-uid="MAT.Atlas.Api.Core.Diagnostics.ILogger.Warning(System.String,System.Object[])">Warning(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Logs Warning information with the specified formatted message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warning(string message, params object[] arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">arguments</span></td>
+        <td><p>The arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
