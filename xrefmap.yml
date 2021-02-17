@@ -2498,137 +2498,137 @@ references:
   fullName: MAT.Atlas.Api.Core.System.INotifyOfDisposal.Disposed
   nameWithType: INotifyOfDisposal.Disposed
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3
-  name: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>
+  name: TypeWrapperBase<TWrapper, TWrapped, TOriginal>
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html
   commentId: T:MAT.Atlas.Api.Core.TypeWrapperBase`3
-  name.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped)
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped)
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped)
+  name.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal)
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal)
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal)
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.#ctor
   name: TypeWrapperBase()
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3__ctor
   commentId: M:MAT.Atlas.Api.Core.TypeWrapperBase`3.#ctor
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.TypeWrapperBase()
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperBase()
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.TypeWrapperBase()
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperBase()
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.TypeWrapperBase()
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).TypeWrapperBase()
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.TypeWrapperBase()
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).TypeWrapperBase()
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.#ctor*
   name: TypeWrapperBase
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3__ctor_
   commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperBase`3.#ctor
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.TypeWrapperBase
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperBase
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.TypeWrapperBase
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperBase
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.TypeWrapperBase
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).TypeWrapperBase
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.TypeWrapperBase
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).TypeWrapperBase
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.FromWrapper(`1)
-  name: FromWrapper(TAsWrapped)
+  name: FromWrapper(TWrapped)
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3_FromWrapper__1_
   commentId: M:MAT.Atlas.Api.Core.TypeWrapperBase`3.FromWrapper(`1)
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.FromWrapper(TAsWrapped)
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).FromWrapper(TAsWrapped)
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.FromWrapper(TAsWrapped)
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).FromWrapper(TAsWrapped)
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.FromWrapper(TWrapped)
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).FromWrapper(TWrapped)
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.FromWrapper(TWrapped)
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).FromWrapper(TWrapped)
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.FromWrapper*
   name: FromWrapper
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3_FromWrapper_
   commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperBase`3.FromWrapper
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.FromWrapper
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).FromWrapper
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.FromWrapper
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).FromWrapper
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.FromWrapper
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).FromWrapper
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.FromWrapper
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).FromWrapper
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.Instance
   name: Instance
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3_Instance
   commentId: P:MAT.Atlas.Api.Core.TypeWrapperBase`3.Instance
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.Instance
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).Instance
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.Instance
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).Instance
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.Instance
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).Instance
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.Instance
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).Instance
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.Instance*
   name: Instance
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3_Instance_
   commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperBase`3.Instance
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.Instance
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).Instance
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.Instance
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).Instance
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.Instance
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).Instance
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.Instance
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).Instance
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.ToWrapper(`2,`0@)
-  name: ToWrapper(TWrapped, ref TWrapper)
+  name: ToWrapper(TOriginal, ref TWrapper)
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3_ToWrapper__2__0__
   commentId: M:MAT.Atlas.Api.Core.TypeWrapperBase`3.ToWrapper(`2,`0@)
-  name.vb: ToWrapper(TWrapped, ByRef TWrapper)
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.ToWrapper(TWrapped, ref TWrapper)
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).ToWrapper(TWrapped, ByRef TWrapper)
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.ToWrapper(TWrapped, ref TWrapper)
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).ToWrapper(TWrapped, ByRef TWrapper)
+  name.vb: ToWrapper(TOriginal, ByRef TWrapper)
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.ToWrapper(TOriginal, ref TWrapper)
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).ToWrapper(TOriginal, ByRef TWrapper)
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.ToWrapper(TOriginal, ref TWrapper)
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).ToWrapper(TOriginal, ByRef TWrapper)
 - uid: MAT.Atlas.Api.Core.TypeWrapperBase`3.ToWrapper*
   name: ToWrapper
   href: api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html#MAT_Atlas_Api_Core_TypeWrapperBase_3_ToWrapper_
   commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperBase`3.ToWrapper
-  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.ToWrapper
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).ToWrapper
-  nameWithType: TypeWrapperBase<TWrapper, TAsWrapped, TWrapped>.ToWrapper
-  nameWithType.vb: TypeWrapperBase(Of TWrapper, TAsWrapped, TWrapped).ToWrapper
+  fullName: MAT.Atlas.Api.Core.TypeWrapperBase<TWrapper, TWrapped, TOriginal>.ToWrapper
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).ToWrapper
+  nameWithType: TypeWrapperBase<TWrapper, TWrapped, TOriginal>.ToWrapper
+  nameWithType.vb: TypeWrapperBase(Of TWrapper, TWrapped, TOriginal).ToWrapper
 - uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3
-  name: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>
+  name: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>
   href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html
   commentId: T:MAT.Atlas.Api.Core.TypeWrapperCollection`3
-  name.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped)
-  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped)
-  nameWithType: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>
-  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped)
-- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.#ctor
-  name: TypeWrapperCollection()
-  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3__ctor
-  commentId: M:MAT.Atlas.Api.Core.TypeWrapperCollection`3.#ctor
-  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.TypeWrapperCollection()
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperCollection()
-  nameWithType: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.TypeWrapperCollection()
-  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperCollection()
-- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.#ctor*
-  name: TypeWrapperCollection
-  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3__ctor_
-  commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperCollection`3.#ctor
-  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.TypeWrapperCollection
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperCollection
-  nameWithType: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.TypeWrapperCollection
-  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).TypeWrapperCollection
-- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instance
-  name: Instance
-  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_Instance
-  commentId: P:MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instance
-  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.Instance
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).Instance
-  nameWithType: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.Instance
-  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).Instance
-- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instance*
-  name: Instance
-  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_Instance_
-  commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instance
-  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.Instance
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).Instance
-  nameWithType: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.Instance
-  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).Instance
-- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.ToWrapper(System.Collections.Generic.IReadOnlyList{`2},MAT.Atlas.Api.Core.TypeWrapperCollection{`0,`1,`2}@)
-  name: ToWrapper(IReadOnlyList<TWrapped>, ref TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>)
-  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_ToWrapper_System_Collections_Generic_IReadOnlyList__2__MAT_Atlas_Api_Core_TypeWrapperCollection__0__1__2___
-  commentId: M:MAT.Atlas.Api.Core.TypeWrapperCollection`3.ToWrapper(System.Collections.Generic.IReadOnlyList{`2},MAT.Atlas.Api.Core.TypeWrapperCollection{`0,`1,`2}@)
-  name.vb: ToWrapper(IReadOnlyList(Of TWrapped), ByRef TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped))
-  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.ToWrapper(System.Collections.Generic.IReadOnlyList<TWrapped>, ref MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>)
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).ToWrapper(System.Collections.Generic.IReadOnlyList(Of TWrapped), ByRef MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped))
-  nameWithType: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.ToWrapper(IReadOnlyList<TWrapped>, ref TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>)
-  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).ToWrapper(IReadOnlyList(Of TWrapped), ByRef TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped))
+  name.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal)
+  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal)
+  nameWithType: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>
+  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal)
+- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instances
+  name: Instances
+  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_Instances
+  commentId: P:MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instances
+  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Instances
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Instances
+  nameWithType: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Instances
+  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Instances
+- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instances*
+  name: Instances
+  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_Instances_
+  commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperCollection`3.Instances
+  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Instances
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Instances
+  nameWithType: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Instances
+  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Instances
+- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.ToWrapper(System.Collections.Generic.IReadOnlyList{`2},MAT.Atlas.Api.Core.TypeWrapperCollection{`0,`1,`2})
+  name: ToWrapper(IReadOnlyList<TOriginal>, TypeWrapperCollection<TWrapper, TWrapped, TOriginal>)
+  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_ToWrapper_System_Collections_Generic_IReadOnlyList__2__MAT_Atlas_Api_Core_TypeWrapperCollection__0__1__2__
+  commentId: M:MAT.Atlas.Api.Core.TypeWrapperCollection`3.ToWrapper(System.Collections.Generic.IReadOnlyList{`2},MAT.Atlas.Api.Core.TypeWrapperCollection{`0,`1,`2})
+  name.vb: ToWrapper(IReadOnlyList(Of TOriginal), TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal))
+  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.ToWrapper(System.Collections.Generic.IReadOnlyList<TOriginal>, MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>)
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).ToWrapper(System.Collections.Generic.IReadOnlyList(Of TOriginal), MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal))
+  nameWithType: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.ToWrapper(IReadOnlyList<TOriginal>, TypeWrapperCollection<TWrapper, TWrapped, TOriginal>)
+  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).ToWrapper(IReadOnlyList(Of TOriginal), TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal))
 - uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.ToWrapper*
   name: ToWrapper
   href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_ToWrapper_
   commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperCollection`3.ToWrapper
-  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.ToWrapper
-  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).ToWrapper
-  nameWithType: TypeWrapperCollection<TWrapper, TAsWrapped, TWrapped>.ToWrapper
-  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TAsWrapped, TWrapped).ToWrapper
+  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.ToWrapper
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).ToWrapper
+  nameWithType: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.ToWrapper
+  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).ToWrapper
+- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.Wrappers
+  name: Wrappers
+  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_Wrappers
+  commentId: P:MAT.Atlas.Api.Core.TypeWrapperCollection`3.Wrappers
+  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Wrappers
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Wrappers
+  nameWithType: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Wrappers
+  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Wrappers
+- uid: MAT.Atlas.Api.Core.TypeWrapperCollection`3.Wrappers*
+  name: Wrappers
+  href: api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html#MAT_Atlas_Api_Core_TypeWrapperCollection_3_Wrappers_
+  commentId: Overload:MAT.Atlas.Api.Core.TypeWrapperCollection`3.Wrappers
+  fullName: MAT.Atlas.Api.Core.TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Wrappers
+  fullName.vb: MAT.Atlas.Api.Core.TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Wrappers
+  nameWithType: TypeWrapperCollection<TWrapper, TWrapped, TOriginal>.Wrappers
+  nameWithType.vb: TypeWrapperCollection(Of TWrapper, TWrapped, TOriginal).Wrappers
 - uid: MAT.Atlas.Automation.Api
   name: MAT.Atlas.Automation.Api
   href: api/MAT.Atlas.Automation.Api.html
