@@ -85,8 +85,6 @@ public interface ITimeBaseServiceWeb : IAutomationService</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
   <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_GetTimeBase_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.GetTimeBase*"></a>
   <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_GetTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.GetTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId)">GetTimeBase(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Get the properties of a timebase.</p>
@@ -130,8 +128,6 @@ public interface ITimeBaseServiceWeb : IAutomationService</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursor_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursor*"></a>
   <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursor_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int64_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursor(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int64)">SetCursor(ObjectId, Int64)</h4>
   <div class="markdown level1 summary"><p>Set time stamp of cursor.</p>
@@ -165,8 +161,78 @@ public interface ITimeBaseServiceWeb : IAutomationService</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
+  <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistance_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistance_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)">SetCursorToDistance(ObjectId, Double)</h4>
+  <div class="markdown level1 summary"><p>Set cursor to distance (absolute).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCursorToDistance(ObjectId timeBaseId, double distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>Distance of cursor into session (absolute).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistanceIntoLap_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistanceIntoLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_System_Int16_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)">SetCursorToDistanceIntoLap(ObjectId, Double, Int16)</h4>
+  <div class="markdown level1 summary"><p>Set cursor to distance into lap.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCursorToDistanceIntoLap(ObjectId timeBaseId, double distance, short lapNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">timeBaseId</span></td>
+        <td><p>Unique identifier of a timebase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>Distance of cursor into lap.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">lapNumber</span></td>
+        <td><p>Lap number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBase_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBase*"></a>
   <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int64_System_Int64_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int64,System.Int64)">SetTimeBase(ObjectId, Int64, Int64)</h4>
   <div class="markdown level1 summary"><p>Set time range of timebase.</p>
@@ -206,8 +272,6 @@ public interface ITimeBaseServiceWeb : IAutomationService</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBaseByLap_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBaseByLap*"></a>
   <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBaseByLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int16_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBaseByLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int16)">SetTimeBaseByLap(ObjectId, Int16)</h4>
   <div class="markdown level1 summary"><p>Set timebase from a lap.</p>
@@ -241,8 +305,6 @@ public interface ITimeBaseServiceWeb : IAutomationService</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBaseByLaps_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBaseByLaps*"></a>
   <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBaseByLaps_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int16_System_Int16_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBaseByLaps(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int16,System.Int16)">SetTimeBaseByLaps(ObjectId, Int16, Int16)</h4>
   <div class="markdown level1 summary"><p>Set timebase from a range of laps.</p>
@@ -282,8 +344,6 @@ public interface ITimeBaseServiceWeb : IAutomationService</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBaseFastestLap_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBaseFastestLap*"></a>
   <h4 id="MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBaseFastestLap_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBaseFastestLap(MAT.Atlas.Automation.Api.Models.ObjectId)">SetTimeBaseFastestLap(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Set timebase from fastest lap.</p>
@@ -316,10 +376,6 @@ public interface ITimeBaseServiceWeb : IAutomationService</code></pre>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
                 <h5>In This Article</h5>
                 <div></div>

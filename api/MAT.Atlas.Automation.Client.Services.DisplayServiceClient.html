@@ -146,8 +146,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient__ctor_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.#ctor*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient__ctor" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.#ctor">DisplayServiceClient()</h4>
   <div class="markdown level1 summary"></div>
@@ -158,8 +156,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_AddDisplayParameter_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.AddDisplayParameter*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_AddDisplayParameter_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.AddDisplayParameter(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)">AddDisplayParameter(ObjectId, String)</h4>
   <div class="markdown level1 summary"><p>Add a parameter to a display.</p>
@@ -209,8 +205,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_AssociateSetToDisplay_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.AssociateSetToDisplay*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_AssociateSetToDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.AssociateSetToDisplay(MAT.Atlas.Automation.Api.Models.ObjectId,MAT.Atlas.Automation.Api.Models.ObjectId)">AssociateSetToDisplay(ObjectId, ObjectId)</h4>
   <div class="markdown level1 summary"><p>Associate a set to a display.</p>
@@ -247,8 +241,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
   <h5 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_AssociateSetToDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Only works if set association is not currently locked.</p>
 </div>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_CycleDisplayXAxisMapping_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.CycleDisplayXAxisMapping*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_CycleDisplayXAxisMapping_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.CycleDisplayXAxisMapping(MAT.Atlas.Automation.Api.Models.ObjectId)">CycleDisplayXAxisMapping(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Cycle XAxis mapping for the display.</p>
@@ -276,8 +268,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplay_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplay*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)">GetDisplay(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Get the properties of a display.</p>
@@ -321,8 +311,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterById_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterById*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterById_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterById(MAT.Atlas.Automation.Api.Models.ObjectId,MAT.Atlas.Automation.Api.Models.ObjectId)">GetDisplayParameterById(ObjectId, ObjectId)</h4>
   <div class="markdown level1 summary"><p>Get the properties of a parameter associated with a display.</p>
@@ -372,8 +360,110 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
+  <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterProperties_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterProperties_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)">GetDisplayParameterProperties(ObjectId, String)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a display parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Property[] GetDisplayParameterProperties(ObjectId displayId, string parameterIdentifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>Unique identifier of a display.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Property.html">Property</a>[]</td>
+        <td><p>Collection of display parameter properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterPropertyValue_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String)">GetDisplayParameterPropertyValue(ObjectId, String, String)</h4>
+  <div class="markdown level1 summary"><p>Get display parameter property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Value GetDisplayParameterPropertyValue(ObjectId displayId, string parameterIdentifier, string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>Unique identifier of a display.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Property name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Value.html">Value</a></td>
+        <td><p>Property value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameters_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameters*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameters_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameters(MAT.Atlas.Automation.Api.Models.ObjectId)">GetDisplayParameters(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Get the properties of all parameters associated with a display.</p>
@@ -417,8 +507,98 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
+  <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayProperties_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayProperties_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)">GetDisplayProperties(ObjectId)</h4>
+  <div class="markdown level1 summary"><p>Get the properties of a display.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Property[] GetDisplayProperties(ObjectId displayId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>Unique identifier of a display.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Property.html">Property</a>[]</td>
+        <td><p>Collection of display properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayPropertyValue_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)">GetDisplayPropertyValue(ObjectId, String)</h4>
+  <div class="markdown level1 summary"><p>Get display property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Value GetDisplayPropertyValue(ObjectId displayId, string propertyName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>Unique identifier of a display.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Property name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Value.html">Value</a></td>
+        <td><p>Property value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayTimeBase_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayTimeBase*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId)">GetDisplayTimeBase(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Get the timebase properties of a display.</p>
@@ -462,8 +642,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RemoveDisplay_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RemoveDisplay*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RemoveDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RemoveDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)">RemoveDisplay(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Remove a display.</p>
@@ -491,8 +669,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RemoveDisplayParameter_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RemoveDisplayParameter*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RemoveDisplayParameter_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RemoveDisplayParameter(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)">RemoveDisplayParameter(ObjectId, String)</h4>
   <div class="markdown level1 summary"><p>Remove a parameter from a display.</p>
@@ -526,8 +702,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RemoveDisplayParameterById_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RemoveDisplayParameterById*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RemoveDisplayParameterById_MAT_Atlas_Automation_Api_Models_ObjectId_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RemoveDisplayParameterById(MAT.Atlas.Automation.Api.Models.ObjectId,MAT.Atlas.Automation.Api.Models.ObjectId)">RemoveDisplayParameterById(ObjectId, ObjectId)</h4>
   <div class="markdown level1 summary"><p>Remove a parameter from a display.</p>
@@ -561,8 +735,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RenameDisplay_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RenameDisplay*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_RenameDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.RenameDisplay(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)">RenameDisplay(ObjectId, String)</h4>
   <div class="markdown level1 summary"><p>Change the title of a display.</p>
@@ -596,8 +768,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayLockedToCurrentAssociation_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayLockedToCurrentAssociation*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayLockedToCurrentAssociation_MAT_Atlas_Automation_Api_Models_ObjectId_System_Boolean_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayLockedToCurrentAssociation(MAT.Atlas.Automation.Api.Models.ObjectId,System.Boolean)">SetDisplayLockedToCurrentAssociation(ObjectId, Boolean)</h4>
   <div class="markdown level1 summary"><p>Lock/Unlock the associated set of a display.</p>
@@ -631,8 +801,90 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
       </tr>
     </tbody>
   </table>
-  
-  
+  <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayParameterPropertyValue_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_MAT_Atlas_Automation_Api_Models_Value_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String,MAT.Atlas.Automation.Api.Models.Value)">SetDisplayParameterPropertyValue(ObjectId, String, String, Value)</h4>
+  <div class="markdown level1 summary"><p>Set display parameter property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDisplayParameterPropertyValue(ObjectId displayId, string parameterIdentifier, string propertyName, Value propertyValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>Unique identifier of a display.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Property name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Value.html">Value</a></td>
+        <td><span class="parametername">propertyValue</span></td>
+        <td><p>Property value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayPropertyValue_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_MAT_Atlas_Automation_Api_Models_Value_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,MAT.Atlas.Automation.Api.Models.Value)">SetDisplayPropertyValue(ObjectId, String, Value)</h4>
+  <div class="markdown level1 summary"><p>Set display property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDisplayPropertyValue(ObjectId displayId, string propertyName, Value propertyValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
+        <td><span class="parametername">displayId</span></td>
+        <td><p>Unique identifier of a display.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Property name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Value.html">Value</a></td>
+        <td><span class="parametername">propertyValue</span></td>
+        <td><p>Property value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_TogglePause_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.TogglePause*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_DisplayServiceClient_TogglePause_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.DisplayServiceClient.TogglePause(MAT.Atlas.Automation.Api.Models.ObjectId)">TogglePause(ObjectId)</h4>
   <div class="markdown level1 summary"><p>Toggle between live and pause or historic replay for a display.</p>
@@ -675,10 +927,6 @@ public sealed class DisplayServiceClient : AutomationServiceClientNoCallbackBase
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
                 <h5>In This Article</h5>
                 <div></div>

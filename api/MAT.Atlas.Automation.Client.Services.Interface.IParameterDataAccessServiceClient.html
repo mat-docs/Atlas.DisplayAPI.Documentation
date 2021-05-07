@@ -86,8 +86,6 @@ public interface IParameterDataAccessServiceClient</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatistics_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatistics*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatistics_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetDataStatistics(SessionId, String, Int64, Int64, StatisticOption)</h4>
   <div class="markdown level1 summary"><p>Get statistics for a parameter over a specified time range.</p>
@@ -156,8 +154,6 @@ StatisticsData GetDataStatistics(SessionId sessionId, string parameterIdentifier
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatisticsVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatisticsVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetDataStatisticsVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)</h4>
   <div class="markdown level1 summary"><p>Get statistics for a parameter over a specified time range for VBA.</p>
@@ -223,8 +219,6 @@ StatisticsData GetDataStatistics(SessionId sessionId, string parameterIdentifier
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextData_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextData*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextData_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_MAT_Atlas_Automation_Api_Enums_SampleMode_System_Boolean_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextData(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,MAT.Atlas.Automation.Api.Enums.SampleMode,System.Boolean)">GetNextData(SessionId, String, Int64, SampleMode, Boolean)</h4>
   <div class="markdown level1 summary"><p>Get next data (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) with fixed increment (sample increment set via
@@ -294,8 +288,6 @@ ParameterValues GetNextData(SessionId sessionId, string parameterIdentifier, lon
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextDataVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextDataVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextDataVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int32_MAT_Atlas_Automation_Api_Enums_SampleMode_System_Boolean_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextDataVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int32,MAT.Atlas.Automation.Api.Enums.SampleMode,System.Boolean)">GetNextDataVba(SessionId, String, Int32, SampleMode, Boolean)</h4>
   <div class="markdown level1 summary"><p>Get next data (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) with fixed increment (sample increment set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrement_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">SetSampleIncrement(SessionId, String, Int64)</a>) for VBA.</p>
@@ -362,8 +354,6 @@ ParameterValues GetNextData(SessionId sessionId, string parameterIdentifier, lon
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamples_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamples*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamples_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamples(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">GetNextSamples(SessionId, String, Int64)</h4>
   <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples.</p>
@@ -420,8 +410,6 @@ ParameterValues GetNextSamples(SessionId sessionId, string parameterIdentifier, 
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTime_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTime*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTime_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTime(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">GetNextSamplesToTime(SessionId, String, Int64)</h4>
   <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) over a specified time range.</p>
@@ -478,8 +466,6 @@ ParameterValues GetNextSamplesToTime(SessionId sessionId, string parameterIdenti
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTimeVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTimeVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesToTimeVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesToTimeVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double)">GetNextSamplesToTimeVba(SessionId, String, Double)</h4>
   <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) over a specified time range for VBA.</p>
@@ -534,8 +520,6 @@ ParameterValues GetNextSamplesToTime(SessionId sessionId, string parameterIdenti
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetNextSamplesVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int32_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetNextSamplesVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int32)">GetNextSamplesVba(SessionId, String, Int32)</h4>
   <div class="markdown level1 summary"><p>Get next samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples for VBA.</p>
@@ -590,8 +574,6 @@ ParameterValues GetNextSamplesToTime(SessionId sessionId, string parameterIdenti
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamples_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamples*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamples_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamples(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">GetPreviousSamples(SessionId, String, Int64)</h4>
   <div class="markdown level1 summary"><p>Get previous samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples.</p>
@@ -648,8 +630,6 @@ ParameterValues GetPreviousSamples(SessionId sessionId, string parameterIdentifi
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamplesVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamplesVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetPreviousSamplesVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int32_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetPreviousSamplesVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int32)">GetPreviousSamplesVba(SessionId, String, Int32)</h4>
   <div class="markdown level1 summary"><p>Get previous samples (start of time range set via <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_">Goto(SessionId, String, Int64)</a>) for a maximum number of samples for VBA.</p>
@@ -704,8 +684,6 @@ ParameterValues GetPreviousSamples(SessionId sessionId, string parameterIdentifi
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimate_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimate*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimate_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimate(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64)">GetSamplesCountEstimate(SessionId, String, Int64, Int64)</h4>
   <div class="markdown level1 summary"><p>Get estimated number of samples for a parameter over a specified time range.</p>
@@ -768,8 +746,6 @@ long GetSamplesCountEstimate(SessionId sessionId, string parameterIdentifier, lo
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimateVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimateVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetSamplesCountEstimateVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimateVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double)">GetSamplesCountEstimateVba(SessionId, String, Double, Double)</h4>
   <div class="markdown level1 summary"><p>Get estimated number of samples for a parameter over a specified time range for VBA.</p>
@@ -829,8 +805,6 @@ long GetSamplesCountEstimate(SessionId sessionId, string parameterIdentifier, lo
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.Goto*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.Goto(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">Goto(SessionId, String, Int64)</h4>
   <div class="markdown level1 summary"><p>Set start of time range for subsequent data/sample requests.</p>
@@ -871,8 +845,6 @@ void Goto(SessionId sessionId, string parameterIdentifier, long time)</code></pr
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GotoVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GotoVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GotoVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GotoVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double)">GotoVba(SessionId, String, Double)</h4>
   <div class="markdown level1 summary"><p>Set start of time range for subsequent data/sample requests for VBA.</p>
@@ -911,8 +883,6 @@ void Goto(SessionId sessionId, string parameterIdentifier, long time)</code></pr
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrement_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrement*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrement_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrement(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)">SetSampleIncrement(SessionId, String, Int64)</h4>
   <div class="markdown level1 summary"><p>Set sample increment for subsequent data requests.</p>
@@ -953,8 +923,6 @@ void SetSampleIncrement(SessionId sessionId, string parameterIdentifier, long sa
       </tr>
     </tbody>
   </table>
-  
-  
   <a id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrementVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrementVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_SetSampleIncrementVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.SetSampleIncrementVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double)">SetSampleIncrementVba(SessionId, String, Double)</h4>
   <div class="markdown level1 summary"><p>Set sample increment for subsequent data requests for VBA.</p>
@@ -998,10 +966,6 @@ void SetSampleIncrement(SessionId sessionId, string parameterIdentifier, long sa
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
                 <h5>In This Article</h5>
                 <div></div>

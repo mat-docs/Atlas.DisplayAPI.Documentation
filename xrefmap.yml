@@ -1009,6 +1009,48 @@ references:
   commentId: N:MAT.Atlas.Api.Core.Extensions
   fullName: MAT.Atlas.Api.Core.Extensions
   nameWithType: MAT.Atlas.Api.Core.Extensions
+- uid: MAT.Atlas.Api.Core.Extensions.ExpressionExtensions
+  name: ExpressionExtensions
+  href: api/MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.html
+  commentId: T:MAT.Atlas.Api.Core.Extensions.ExpressionExtensions
+  fullName: MAT.Atlas.Api.Core.Extensions.ExpressionExtensions
+  nameWithType: ExpressionExtensions
+- uid: MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.GetPropertyInfo*
+  name: GetPropertyInfo
+  href: api/MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.html#MAT_Atlas_Api_Core_Extensions_ExpressionExtensions_GetPropertyInfo_
+  commentId: Overload:MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.GetPropertyInfo
+  fullName: MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.GetPropertyInfo
+  nameWithType: ExpressionExtensions.GetPropertyInfo
+- uid: MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.GetPropertyInfo``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name: GetPropertyInfo<TSource, TProperty>(Expression<Func<TSource, TProperty>>)
+  href: api/MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.html#MAT_Atlas_Api_Core_Extensions_ExpressionExtensions_GetPropertyInfo__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  commentId: M:MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.GetPropertyInfo``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name.vb: GetPropertyInfo(Of TSource, TProperty)(Expression(Of Func(Of TSource, TProperty)))
+  fullName: MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.GetPropertyInfo<TSource, TProperty>(System.Linq.Expressions.Expression<System.Func<TSource, TProperty>>)
+  fullName.vb: MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.GetPropertyInfo(Of TSource, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of TSource, TProperty)))
+  nameWithType: ExpressionExtensions.GetPropertyInfo<TSource, TProperty>(Expression<Func<TSource, TProperty>>)
+  nameWithType.vb: ExpressionExtensions.GetPropertyInfo(Of TSource, TProperty)(Expression(Of Func(Of TSource, TProperty)))
+- uid: MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions
+  name: NotifyPropertyChangedExtensions
+  href: api/MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.html
+  commentId: T:MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions
+  fullName: MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions
+  nameWithType: NotifyPropertyChangedExtensions
+- uid: MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent*
+  name: SubscribeToPropertyChangedEvent
+  href: api/MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.html#MAT_Atlas_Api_Core_Extensions_NotifyPropertyChangedExtensions_SubscribeToPropertyChangedEvent_
+  commentId: Overload:MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent
+  fullName: MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent
+  nameWithType: NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent
+- uid: MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Action{``1})
+  name: SubscribeToPropertyChangedEvent<TSource, TProperty>(TSource, Expression<Func<TSource, TProperty>>, Action<TProperty>)
+  href: api/MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.html#MAT_Atlas_Api_Core_Extensions_NotifyPropertyChangedExtensions_SubscribeToPropertyChangedEvent__2___0_System_Linq_Expressions_Expression_System_Func___0___1___System_Action___1__
+  commentId: M:MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Action{``1})
+  name.vb: SubscribeToPropertyChangedEvent(Of TSource, TProperty)(TSource, Expression(Of Func(Of TSource, TProperty)), Action(Of TProperty))
+  fullName: MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent<TSource, TProperty>(TSource, System.Linq.Expressions.Expression<System.Func<TSource, TProperty>>, System.Action<TProperty>)
+  fullName.vb: MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent(Of TSource, TProperty)(TSource, System.Linq.Expressions.Expression(Of System.Func(Of TSource, TProperty)), System.Action(Of TProperty))
+  nameWithType: NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent<TSource, TProperty>(TSource, Expression<Func<TSource, TProperty>>, Action<TProperty>)
+  nameWithType.vb: NotifyPropertyChangedExtensions.SubscribeToPropertyChangedEvent(Of TSource, TProperty)(TSource, Expression(Of Func(Of TSource, TProperty)), Action(Of TProperty))
 - uid: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions
   name: TimeRangeExtensions
   href: api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html
@@ -2401,6 +2443,36 @@ references:
   commentId: N:MAT.Atlas.Api.Core.System
   fullName: MAT.Atlas.Api.Core.System
   nameWithType: MAT.Atlas.Api.Core.System
+- uid: MAT.Atlas.Api.Core.System.DelegateDisposable
+  name: DelegateDisposable
+  href: api/MAT.Atlas.Api.Core.System.DelegateDisposable.html
+  commentId: T:MAT.Atlas.Api.Core.System.DelegateDisposable
+  fullName: MAT.Atlas.Api.Core.System.DelegateDisposable
+  nameWithType: DelegateDisposable
+- uid: MAT.Atlas.Api.Core.System.DelegateDisposable.#ctor(System.Action)
+  name: DelegateDisposable(Action)
+  href: api/MAT.Atlas.Api.Core.System.DelegateDisposable.html#MAT_Atlas_Api_Core_System_DelegateDisposable__ctor_System_Action_
+  commentId: M:MAT.Atlas.Api.Core.System.DelegateDisposable.#ctor(System.Action)
+  fullName: MAT.Atlas.Api.Core.System.DelegateDisposable.DelegateDisposable(System.Action)
+  nameWithType: DelegateDisposable.DelegateDisposable(Action)
+- uid: MAT.Atlas.Api.Core.System.DelegateDisposable.#ctor*
+  name: DelegateDisposable
+  href: api/MAT.Atlas.Api.Core.System.DelegateDisposable.html#MAT_Atlas_Api_Core_System_DelegateDisposable__ctor_
+  commentId: Overload:MAT.Atlas.Api.Core.System.DelegateDisposable.#ctor
+  fullName: MAT.Atlas.Api.Core.System.DelegateDisposable.DelegateDisposable
+  nameWithType: DelegateDisposable.DelegateDisposable
+- uid: MAT.Atlas.Api.Core.System.DelegateDisposable.Dispose
+  name: Dispose()
+  href: api/MAT.Atlas.Api.Core.System.DelegateDisposable.html#MAT_Atlas_Api_Core_System_DelegateDisposable_Dispose
+  commentId: M:MAT.Atlas.Api.Core.System.DelegateDisposable.Dispose
+  fullName: MAT.Atlas.Api.Core.System.DelegateDisposable.Dispose()
+  nameWithType: DelegateDisposable.Dispose()
+- uid: MAT.Atlas.Api.Core.System.DelegateDisposable.Dispose*
+  name: Dispose
+  href: api/MAT.Atlas.Api.Core.System.DelegateDisposable.html#MAT_Atlas_Api_Core_System_DelegateDisposable_Dispose_
+  commentId: Overload:MAT.Atlas.Api.Core.System.DelegateDisposable.Dispose
+  fullName: MAT.Atlas.Api.Core.System.DelegateDisposable.Dispose
+  nameWithType: DelegateDisposable.Dispose
 - uid: MAT.Atlas.Api.Core.System.DisposableBase
   name: DisposableBase
   href: api/MAT.Atlas.Api.Core.System.DisposableBase.html
@@ -3091,6 +3163,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.InvalidPrimarySession
   fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.InvalidPrimarySession
   nameWithType: FaultReasons.InvalidPrimarySession
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.InvalidPropertyName
+  name: InvalidPropertyName
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_InvalidPropertyName
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.InvalidPropertyName
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.InvalidPropertyName
+  nameWithType: FaultReasons.InvalidPropertyName
 - uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.InvalidSessionIdentifier
   name: InvalidSessionIdentifier
   href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_InvalidSessionIdentifier
@@ -3205,6 +3283,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.NoPrimarySessionFound
   fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.NoPrimarySessionFound
   nameWithType: FaultReasons.NoPrimarySessionFound
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.NoPropertyFound
+  name: NoPropertyFound
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_NoPropertyFound
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.NoPropertyFound
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.NoPropertyFound
+  nameWithType: FaultReasons.NoPropertyFound
 - uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.NoRecorderFound
   name: NoRecorderFound
   href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_NoRecorderFound
@@ -3313,6 +3397,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.ProfilingFailed
   fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.ProfilingFailed
   nameWithType: FaultReasons.ProfilingFailed
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.PropertyIsReadOnly
+  name: PropertyIsReadOnly
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_PropertyIsReadOnly
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.PropertyIsReadOnly
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.PropertyIsReadOnly
+  nameWithType: FaultReasons.PropertyIsReadOnly
 - uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.QueueAppendSessionRequestFailed
   name: QueueAppendSessionRequestFailed
   href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_QueueAppendSessionRequestFailed
@@ -4964,6 +5054,30 @@ references:
   commentId: T:MAT.Atlas.Automation.Api.IDialogProviderService
   fullName: MAT.Atlas.Automation.Api.IDialogProviderService
   nameWithType: IDialogProviderService
+- uid: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: OpenDisplayParameterProperties(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html#MAT_Atlas_Automation_Api_IDialogProviderService_OpenDisplayParameterProperties_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: IDialogProviderService.OpenDisplayParameterProperties(ObjectId, String)
+- uid: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayParameterProperties*
+  name: OpenDisplayParameterProperties
+  href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html#MAT_Atlas_Automation_Api_IDialogProviderService_OpenDisplayParameterProperties_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayParameterProperties
+  fullName: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayParameterProperties
+  nameWithType: IDialogProviderService.OpenDisplayParameterProperties
+- uid: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: OpenDisplayProperties(ObjectId)
+  href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html#MAT_Atlas_Automation_Api_IDialogProviderService_OpenDisplayProperties_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: IDialogProviderService.OpenDisplayProperties(ObjectId)
+- uid: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayProperties*
+  name: OpenDisplayProperties
+  href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html#MAT_Atlas_Automation_Api_IDialogProviderService_OpenDisplayProperties_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayProperties
+  fullName: MAT.Atlas.Automation.Api.IDialogProviderService.OpenDisplayProperties
+  nameWithType: IDialogProviderService.OpenDisplayProperties
 - uid: MAT.Atlas.Automation.Api.IDialogProviderService.OpenSessionBrowser
   name: OpenSessionBrowser()
   href: api/MAT.Atlas.Automation.Api.IDialogProviderService.html#MAT_Atlas_Automation_Api_IDialogProviderService_OpenSessionBrowser
@@ -5042,6 +5156,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterById
   fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterById
   nameWithType: IDisplayService.GetDisplayParameterById
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: GetDisplayParameterProperties(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayParameterProperties_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: IDisplayService.GetDisplayParameterProperties(ObjectId, String)
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterProperties*
+  name: GetDisplayParameterProperties
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayParameterProperties_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterProperties
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterProperties
+  nameWithType: IDisplayService.GetDisplayParameterProperties
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String)
+  name: GetDisplayParameterPropertyValue(ObjectId, String, String)
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_
+  commentId: M:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String)
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, System.String)
+  nameWithType: IDisplayService.GetDisplayParameterPropertyValue(ObjectId, String, String)
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterPropertyValue*
+  name: GetDisplayParameterPropertyValue
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayParameterPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterPropertyValue
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameterPropertyValue
+  nameWithType: IDisplayService.GetDisplayParameterPropertyValue
 - uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameters(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: GetDisplayParameters(ObjectId)
   href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayParameters_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -5054,6 +5192,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameters
   fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayParameters
   nameWithType: IDisplayService.GetDisplayParameters
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: GetDisplayProperties(ObjectId)
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayProperties_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: IDisplayService.GetDisplayProperties(ObjectId)
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayProperties*
+  name: GetDisplayProperties
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayProperties_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayProperties
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayProperties
+  nameWithType: IDisplayService.GetDisplayProperties
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: GetDisplayPropertyValue(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: IDisplayService.GetDisplayPropertyValue(ObjectId, String)
+- uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayPropertyValue*
+  name: GetDisplayPropertyValue
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.GetDisplayPropertyValue
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayPropertyValue
+  nameWithType: IDisplayService.GetDisplayPropertyValue
 - uid: MAT.Atlas.Automation.Api.IDisplayService.GetDisplayTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: GetDisplayTimeBase(ObjectId)
   href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_GetDisplayTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -5126,6 +5288,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.SetDisplayLockedToCurrentAssociation
   fullName: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayLockedToCurrentAssociation
   nameWithType: IDisplayService.SetDisplayLockedToCurrentAssociation
+- uid: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  name: SetDisplayParameterPropertyValue(ObjectId, String, String, Value)
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_SetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_MAT_Atlas_Automation_Api_Models_Value_
+  commentId: M:MAT.Atlas.Automation.Api.IDisplayService.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, System.String, MAT.Atlas.Automation.Api.Models.Value)
+  nameWithType: IDisplayService.SetDisplayParameterPropertyValue(ObjectId, String, String, Value)
+- uid: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayParameterPropertyValue*
+  name: SetDisplayParameterPropertyValue
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_SetDisplayParameterPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.SetDisplayParameterPropertyValue
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayParameterPropertyValue
+  nameWithType: IDisplayService.SetDisplayParameterPropertyValue
+- uid: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  name: SetDisplayPropertyValue(ObjectId, String, Value)
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_SetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_MAT_Atlas_Automation_Api_Models_Value_
+  commentId: M:MAT.Atlas.Automation.Api.IDisplayService.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, MAT.Atlas.Automation.Api.Models.Value)
+  nameWithType: IDisplayService.SetDisplayPropertyValue(ObjectId, String, Value)
+- uid: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayPropertyValue*
+  name: SetDisplayPropertyValue
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_SetDisplayPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.SetDisplayPropertyValue
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.SetDisplayPropertyValue
+  nameWithType: IDisplayService.SetDisplayPropertyValue
 - uid: MAT.Atlas.Automation.Api.IDisplayService.TogglePause(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: TogglePause(ObjectId)
   href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_TogglePause_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -5606,6 +5792,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.ISessionService.GetSessionFastestLap
   fullName: MAT.Atlas.Automation.Api.ISessionService.GetSessionFastestLap
   nameWithType: ISessionService.GetSessionFastestLap
+- uid: MAT.Atlas.Automation.Api.ISessionService.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)
+  name: GetSessionLapById(SessionId, Int32)
+  href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_GetSessionLapById_MAT_Atlas_Automation_Api_Models_SessionId_System_Int32_
+  commentId: M:MAT.Atlas.Automation.Api.ISessionService.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)
+  fullName: MAT.Atlas.Automation.Api.ISessionService.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId, System.Int32)
+  nameWithType: ISessionService.GetSessionLapById(SessionId, Int32)
+- uid: MAT.Atlas.Automation.Api.ISessionService.GetSessionLapById*
+  name: GetSessionLapById
+  href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_GetSessionLapById_
+  commentId: Overload:MAT.Atlas.Automation.Api.ISessionService.GetSessionLapById
+  fullName: MAT.Atlas.Automation.Api.ISessionService.GetSessionLapById
+  nameWithType: ISessionService.GetSessionLapById
 - uid: MAT.Atlas.Automation.Api.ISessionService.GetSessionLapByNumber(MAT.Atlas.Automation.Api.Models.SessionId,System.Int16)
   name: GetSessionLapByNumber(SessionId, Int16)
   href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_GetSessionLapByNumber_MAT_Atlas_Automation_Api_Models_SessionId_System_Int16_
@@ -5972,6 +6170,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursor
   fullName: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursor
   nameWithType: ITimeBaseServiceWeb.SetCursor
+- uid: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
+  name: SetCursorToDistance(ObjectId, Double)
+  href: api/MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.html#MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistance_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_
+  commentId: M:MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
+  fullName: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId, System.Double)
+  nameWithType: ITimeBaseServiceWeb.SetCursorToDistance(ObjectId, Double)
+- uid: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance*
+  name: SetCursorToDistance
+  href: api/MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.html#MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistance_
+  commentId: Overload:MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance
+  fullName: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistance
+  nameWithType: ITimeBaseServiceWeb.SetCursorToDistance
+- uid: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)
+  name: SetCursorToDistanceIntoLap(ObjectId, Double, Int16)
+  href: api/MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.html#MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistanceIntoLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_System_Int16_
+  commentId: M:MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)
+  fullName: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId, System.Double, System.Int16)
+  nameWithType: ITimeBaseServiceWeb.SetCursorToDistanceIntoLap(ObjectId, Double, Int16)
+- uid: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap*
+  name: SetCursorToDistanceIntoLap
+  href: api/MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.html#MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetCursorToDistanceIntoLap_
+  commentId: Overload:MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap
+  fullName: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetCursorToDistanceIntoLap
+  nameWithType: ITimeBaseServiceWeb.SetCursorToDistanceIntoLap
 - uid: MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.SetTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int64,System.Int64)
   name: SetTimeBase(ObjectId, Int64, Int64)
   href: api/MAT.Atlas.Automation.Api.ITimeBaseServiceWeb.html#MAT_Atlas_Automation_Api_ITimeBaseServiceWeb_SetTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int64_System_Int64_
@@ -7934,6 +8156,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.ILap.EndTimeVba
   fullName: MAT.Atlas.Automation.Api.Models.Interfaces.ILap.EndTimeVba
   nameWithType: ILap.EndTimeVba
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.ILap.LapId
+  name: LapId
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.ILap.html#MAT_Atlas_Automation_Api_Models_Interfaces_ILap_LapId
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.ILap.LapId
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.ILap.LapId
+  nameWithType: ILap.LapId
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.ILap.LapId*
+  name: LapId
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.ILap.html#MAT_Atlas_Automation_Api_Models_Interfaces_ILap_LapId_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.ILap.LapId
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.ILap.LapId
+  nameWithType: ILap.LapId
 - uid: MAT.Atlas.Automation.Api.Models.Interfaces.ILap.LapTime
   name: LapTime
   href: api/MAT.Atlas.Automation.Api.Models.Interfaces.ILap.html#MAT_Atlas_Automation_Api_Models_Interfaces_ILap_LapTime
@@ -8504,12 +8738,102 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IParameterValues.TimeVba
   fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IParameterValues.TimeVba
   nameWithType: IParameterValues.TimeVba
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty
+  name: IProperty
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html
+  commentId: T:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty
+  nameWithType: IProperty
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Category
+  name: Category
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_Category
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Category
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Category
+  nameWithType: IProperty.Category
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Category*
+  name: Category
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_Category_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Category
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Category
+  nameWithType: IProperty.Category
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Description
+  name: Description
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_Description
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Description
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Description
+  nameWithType: IProperty.Description
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Description*
+  name: Description
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_Description_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Description
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Description
+  nameWithType: IProperty.Description
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.DisplayName
+  name: DisplayName
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_DisplayName
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.DisplayName
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.DisplayName
+  nameWithType: IProperty.DisplayName
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.DisplayName*
+  name: DisplayName
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_DisplayName_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.DisplayName
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.DisplayName
+  nameWithType: IProperty.DisplayName
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.IsReadOnly
+  name: IsReadOnly
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_IsReadOnly
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.IsReadOnly
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.IsReadOnly
+  nameWithType: IProperty.IsReadOnly
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.IsReadOnly*
+  name: IsReadOnly
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_IsReadOnly_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.IsReadOnly
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.IsReadOnly
+  nameWithType: IProperty.IsReadOnly
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Name
+  name: Name
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_Name
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Name
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Name
+  nameWithType: IProperty.Name
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Name*
+  name: Name
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_Name_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Name
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.Name
+  nameWithType: IProperty.Name
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.TypeAssemblyQualifiedName
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_TypeAssemblyQualifiedName
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.TypeAssemblyQualifiedName
+  nameWithType: IProperty.TypeAssemblyQualifiedName
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.TypeAssemblyQualifiedName*
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html#MAT_Atlas_Automation_Api_Models_Interfaces_IProperty_TypeAssemblyQualifiedName_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.TypeAssemblyQualifiedName
+  nameWithType: IProperty.TypeAssemblyQualifiedName
 - uid: MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder
   name: IRecorder
   href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.html
   commentId: T:MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder
   fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder
   nameWithType: IRecorder
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.AutoExportSessionsEnabled
+  name: AutoExportSessionsEnabled
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.html#MAT_Atlas_Automation_Api_Models_Interfaces_IRecorder_AutoExportSessionsEnabled
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.AutoExportSessionsEnabled
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.AutoExportSessionsEnabled
+  nameWithType: IRecorder.AutoExportSessionsEnabled
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.AutoExportSessionsEnabled*
+  name: AutoExportSessionsEnabled
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.html#MAT_Atlas_Automation_Api_Models_Interfaces_IRecorder_AutoExportSessionsEnabled_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.AutoExportSessionsEnabled
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.AutoExportSessionsEnabled
+  nameWithType: IRecorder.AutoExportSessionsEnabled
 - uid: MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.AutoRecordAvailable
   name: AutoRecordAvailable
   href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.html#MAT_Atlas_Automation_Api_Models_Interfaces_IRecorder_AutoRecordAvailable
@@ -9254,6 +9578,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Number
   fullName: MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Number
   nameWithType: ISet.Number
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Parameters
+  name: Parameters
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.ISet.html#MAT_Atlas_Automation_Api_Models_Interfaces_ISet_Parameters
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Parameters
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Parameters
+  nameWithType: ISet.Parameters
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Parameters*
+  name: Parameters
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.ISet.html#MAT_Atlas_Automation_Api_Models_Interfaces_ISet_Parameters_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Parameters
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Parameters
+  nameWithType: ISet.Parameters
 - uid: MAT.Atlas.Automation.Api.Models.Interfaces.ISet.Sessions
   name: Sessions
   href: api/MAT.Atlas.Automation.Api.Models.Interfaces.ISet.html#MAT_Atlas_Automation_Api_Models_Interfaces_ISet_Sessions
@@ -9692,6 +10028,36 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.ITimeBase.StartTimeVba
   fullName: MAT.Atlas.Automation.Api.Models.Interfaces.ITimeBase.StartTimeVba
   nameWithType: ITimeBase.StartTimeVba
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IValue
+  name: IValue
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IValue.html
+  commentId: T:MAT.Atlas.Automation.Api.Models.Interfaces.IValue
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IValue
+  nameWithType: IValue
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.Data
+  name: Data
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IValue.html#MAT_Atlas_Automation_Api_Models_Interfaces_IValue_Data
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IValue.Data
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.Data
+  nameWithType: IValue.Data
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.Data*
+  name: Data
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IValue.html#MAT_Atlas_Automation_Api_Models_Interfaces_IValue_Data_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IValue.Data
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.Data
+  nameWithType: IValue.Data
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.TypeAssemblyQualifiedName
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IValue.html#MAT_Atlas_Automation_Api_Models_Interfaces_IValue_TypeAssemblyQualifiedName
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IValue.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.TypeAssemblyQualifiedName
+  nameWithType: IValue.TypeAssemblyQualifiedName
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.TypeAssemblyQualifiedName*
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IValue.html#MAT_Atlas_Automation_Api_Models_Interfaces_IValue_TypeAssemblyQualifiedName_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IValue.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IValue.TypeAssemblyQualifiedName
+  nameWithType: IValue.TypeAssemblyQualifiedName
 - uid: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter
   name: IWaveformDisplayParameter
   href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.html
@@ -9722,18 +10088,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Units
   fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Units
   nameWithType: IWaveformDisplayParameter.Units
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Value
-  name: Value
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_Interfaces_IWaveformDisplayParameter_Value
-  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Value
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Value
-  nameWithType: IWaveformDisplayParameter.Value
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Value*
-  name: Value
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_Interfaces_IWaveformDisplayParameter_Value_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Value
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Value
-  nameWithType: IWaveformDisplayParameter.Value
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Values
+  name: Values
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_Interfaces_IWaveformDisplayParameter_Values
+  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Values
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Values
+  nameWithType: IWaveformDisplayParameter.Values
+- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Values*
+  name: Values
+  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_Interfaces_IWaveformDisplayParameter_Values_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Values
+  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.Values
+  nameWithType: IWaveformDisplayParameter.Values
 - uid: MAT.Atlas.Automation.Api.Models.Interfaces.IWorkbook
   name: IWorkbook
   href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IWorkbook.html
@@ -9848,6 +10214,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Lap.EndTimeVba
   fullName: MAT.Atlas.Automation.Api.Models.Lap.EndTimeVba
   nameWithType: Lap.EndTimeVba
+- uid: MAT.Atlas.Automation.Api.Models.Lap.LapId
+  name: LapId
+  href: api/MAT.Atlas.Automation.Api.Models.Lap.html#MAT_Atlas_Automation_Api_Models_Lap_LapId
+  commentId: P:MAT.Atlas.Automation.Api.Models.Lap.LapId
+  fullName: MAT.Atlas.Automation.Api.Models.Lap.LapId
+  nameWithType: Lap.LapId
+- uid: MAT.Atlas.Automation.Api.Models.Lap.LapId*
+  name: LapId
+  href: api/MAT.Atlas.Automation.Api.Models.Lap.html#MAT_Atlas_Automation_Api_Models_Lap_LapId_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Lap.LapId
+  fullName: MAT.Atlas.Automation.Api.Models.Lap.LapId
+  nameWithType: Lap.LapId
 - uid: MAT.Atlas.Automation.Api.Models.Lap.LapTime
   name: LapTime
   href: api/MAT.Atlas.Automation.Api.Models.Lap.html#MAT_Atlas_Automation_Api_Models_Lap_LapTime
@@ -10712,6 +11090,102 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.ParameterValues.TimeVba
   fullName: MAT.Atlas.Automation.Api.Models.ParameterValues.TimeVba
   nameWithType: ParameterValues.TimeVba
+- uid: MAT.Atlas.Automation.Api.Models.Property
+  name: Property
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html
+  commentId: T:MAT.Atlas.Automation.Api.Models.Property
+  fullName: MAT.Atlas.Automation.Api.Models.Property
+  nameWithType: Property
+- uid: MAT.Atlas.Automation.Api.Models.Property.#ctor
+  name: Property()
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property__ctor
+  commentId: M:MAT.Atlas.Automation.Api.Models.Property.#ctor
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Property()
+  nameWithType: Property.Property()
+- uid: MAT.Atlas.Automation.Api.Models.Property.#ctor*
+  name: Property
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property__ctor_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Property.#ctor
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Property
+  nameWithType: Property.Property
+- uid: MAT.Atlas.Automation.Api.Models.Property.Category
+  name: Category
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_Category
+  commentId: P:MAT.Atlas.Automation.Api.Models.Property.Category
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Category
+  nameWithType: Property.Category
+- uid: MAT.Atlas.Automation.Api.Models.Property.Category*
+  name: Category
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_Category_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Property.Category
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Category
+  nameWithType: Property.Category
+- uid: MAT.Atlas.Automation.Api.Models.Property.Description
+  name: Description
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_Description
+  commentId: P:MAT.Atlas.Automation.Api.Models.Property.Description
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Description
+  nameWithType: Property.Description
+- uid: MAT.Atlas.Automation.Api.Models.Property.Description*
+  name: Description
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_Description_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Property.Description
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Description
+  nameWithType: Property.Description
+- uid: MAT.Atlas.Automation.Api.Models.Property.DisplayName
+  name: DisplayName
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_DisplayName
+  commentId: P:MAT.Atlas.Automation.Api.Models.Property.DisplayName
+  fullName: MAT.Atlas.Automation.Api.Models.Property.DisplayName
+  nameWithType: Property.DisplayName
+- uid: MAT.Atlas.Automation.Api.Models.Property.DisplayName*
+  name: DisplayName
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_DisplayName_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Property.DisplayName
+  fullName: MAT.Atlas.Automation.Api.Models.Property.DisplayName
+  nameWithType: Property.DisplayName
+- uid: MAT.Atlas.Automation.Api.Models.Property.Empty
+  name: Empty
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_Empty
+  commentId: F:MAT.Atlas.Automation.Api.Models.Property.Empty
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Empty
+  nameWithType: Property.Empty
+- uid: MAT.Atlas.Automation.Api.Models.Property.IsReadOnly
+  name: IsReadOnly
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_IsReadOnly
+  commentId: P:MAT.Atlas.Automation.Api.Models.Property.IsReadOnly
+  fullName: MAT.Atlas.Automation.Api.Models.Property.IsReadOnly
+  nameWithType: Property.IsReadOnly
+- uid: MAT.Atlas.Automation.Api.Models.Property.IsReadOnly*
+  name: IsReadOnly
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_IsReadOnly_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Property.IsReadOnly
+  fullName: MAT.Atlas.Automation.Api.Models.Property.IsReadOnly
+  nameWithType: Property.IsReadOnly
+- uid: MAT.Atlas.Automation.Api.Models.Property.Name
+  name: Name
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_Name
+  commentId: P:MAT.Atlas.Automation.Api.Models.Property.Name
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Name
+  nameWithType: Property.Name
+- uid: MAT.Atlas.Automation.Api.Models.Property.Name*
+  name: Name
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_Name_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Property.Name
+  fullName: MAT.Atlas.Automation.Api.Models.Property.Name
+  nameWithType: Property.Name
+- uid: MAT.Atlas.Automation.Api.Models.Property.TypeAssemblyQualifiedName
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_TypeAssemblyQualifiedName
+  commentId: P:MAT.Atlas.Automation.Api.Models.Property.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Property.TypeAssemblyQualifiedName
+  nameWithType: Property.TypeAssemblyQualifiedName
+- uid: MAT.Atlas.Automation.Api.Models.Property.TypeAssemblyQualifiedName*
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Property.html#MAT_Atlas_Automation_Api_Models_Property_TypeAssemblyQualifiedName_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Property.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Property.TypeAssemblyQualifiedName
+  nameWithType: Property.TypeAssemblyQualifiedName
 - uid: MAT.Atlas.Automation.Api.Models.Recorder
   name: Recorder
   href: api/MAT.Atlas.Automation.Api.Models.Recorder.html
@@ -10730,6 +11204,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Recorder.#ctor
   fullName: MAT.Atlas.Automation.Api.Models.Recorder.Recorder
   nameWithType: Recorder.Recorder
+- uid: MAT.Atlas.Automation.Api.Models.Recorder.AutoExportSessionsEnabled
+  name: AutoExportSessionsEnabled
+  href: api/MAT.Atlas.Automation.Api.Models.Recorder.html#MAT_Atlas_Automation_Api_Models_Recorder_AutoExportSessionsEnabled
+  commentId: P:MAT.Atlas.Automation.Api.Models.Recorder.AutoExportSessionsEnabled
+  fullName: MAT.Atlas.Automation.Api.Models.Recorder.AutoExportSessionsEnabled
+  nameWithType: Recorder.AutoExportSessionsEnabled
+- uid: MAT.Atlas.Automation.Api.Models.Recorder.AutoExportSessionsEnabled*
+  name: AutoExportSessionsEnabled
+  href: api/MAT.Atlas.Automation.Api.Models.Recorder.html#MAT_Atlas_Automation_Api_Models_Recorder_AutoExportSessionsEnabled_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Recorder.AutoExportSessionsEnabled
+  fullName: MAT.Atlas.Automation.Api.Models.Recorder.AutoExportSessionsEnabled
+  nameWithType: Recorder.AutoExportSessionsEnabled
 - uid: MAT.Atlas.Automation.Api.Models.Recorder.AutoRecordAvailable
   name: AutoRecordAvailable
   href: api/MAT.Atlas.Automation.Api.Models.Recorder.html#MAT_Atlas_Automation_Api_Models_Recorder_AutoRecordAvailable
@@ -11696,6 +12182,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Set.Number
   fullName: MAT.Atlas.Automation.Api.Models.Set.Number
   nameWithType: Set.Number
+- uid: MAT.Atlas.Automation.Api.Models.Set.Parameters
+  name: Parameters
+  href: api/MAT.Atlas.Automation.Api.Models.Set.html#MAT_Atlas_Automation_Api_Models_Set_Parameters
+  commentId: P:MAT.Atlas.Automation.Api.Models.Set.Parameters
+  fullName: MAT.Atlas.Automation.Api.Models.Set.Parameters
+  nameWithType: Set.Parameters
+- uid: MAT.Atlas.Automation.Api.Models.Set.Parameters*
+  name: Parameters
+  href: api/MAT.Atlas.Automation.Api.Models.Set.html#MAT_Atlas_Automation_Api_Models_Set_Parameters_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Set.Parameters
+  fullName: MAT.Atlas.Automation.Api.Models.Set.Parameters
+  nameWithType: Set.Parameters
 - uid: MAT.Atlas.Automation.Api.Models.Set.Sessions
   name: Sessions
   href: api/MAT.Atlas.Automation.Api.Models.Set.html#MAT_Atlas_Automation_Api_Models_Set_Sessions
@@ -12548,6 +13046,102 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.UpdateLoopStatistics.UpdateablesStatistics
   fullName: MAT.Atlas.Automation.Api.Models.UpdateLoopStatistics.UpdateablesStatistics
   nameWithType: UpdateLoopStatistics.UpdateablesStatistics
+- uid: MAT.Atlas.Automation.Api.Models.Value
+  name: Value
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html
+  commentId: T:MAT.Atlas.Automation.Api.Models.Value
+  fullName: MAT.Atlas.Automation.Api.Models.Value
+  nameWithType: Value
+- uid: MAT.Atlas.Automation.Api.Models.Value.#ctor
+  name: Value()
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value__ctor
+  commentId: M:MAT.Atlas.Automation.Api.Models.Value.#ctor
+  fullName: MAT.Atlas.Automation.Api.Models.Value.Value()
+  nameWithType: Value.Value()
+- uid: MAT.Atlas.Automation.Api.Models.Value.#ctor*
+  name: Value
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value__ctor_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Value.#ctor
+  fullName: MAT.Atlas.Automation.Api.Models.Value.Value
+  nameWithType: Value.Value
+- uid: MAT.Atlas.Automation.Api.Models.Value.CreateFromInstance(System.Object)
+  name: CreateFromInstance(Object)
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_CreateFromInstance_System_Object_
+  commentId: M:MAT.Atlas.Automation.Api.Models.Value.CreateFromInstance(System.Object)
+  fullName: MAT.Atlas.Automation.Api.Models.Value.CreateFromInstance(System.Object)
+  nameWithType: Value.CreateFromInstance(Object)
+- uid: MAT.Atlas.Automation.Api.Models.Value.CreateFromInstance*
+  name: CreateFromInstance
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_CreateFromInstance_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Value.CreateFromInstance
+  fullName: MAT.Atlas.Automation.Api.Models.Value.CreateFromInstance
+  nameWithType: Value.CreateFromInstance
+- uid: MAT.Atlas.Automation.Api.Models.Value.CreateFromString(System.String)
+  name: CreateFromString(String)
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_CreateFromString_System_String_
+  commentId: M:MAT.Atlas.Automation.Api.Models.Value.CreateFromString(System.String)
+  fullName: MAT.Atlas.Automation.Api.Models.Value.CreateFromString(System.String)
+  nameWithType: Value.CreateFromString(String)
+- uid: MAT.Atlas.Automation.Api.Models.Value.CreateFromString*
+  name: CreateFromString
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_CreateFromString_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Value.CreateFromString
+  fullName: MAT.Atlas.Automation.Api.Models.Value.CreateFromString
+  nameWithType: Value.CreateFromString
+- uid: MAT.Atlas.Automation.Api.Models.Value.Data
+  name: Data
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_Data
+  commentId: P:MAT.Atlas.Automation.Api.Models.Value.Data
+  fullName: MAT.Atlas.Automation.Api.Models.Value.Data
+  nameWithType: Value.Data
+- uid: MAT.Atlas.Automation.Api.Models.Value.Data*
+  name: Data
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_Data_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Value.Data
+  fullName: MAT.Atlas.Automation.Api.Models.Value.Data
+  nameWithType: Value.Data
+- uid: MAT.Atlas.Automation.Api.Models.Value.Empty
+  name: Empty
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_Empty
+  commentId: F:MAT.Atlas.Automation.Api.Models.Value.Empty
+  fullName: MAT.Atlas.Automation.Api.Models.Value.Empty
+  nameWithType: Value.Empty
+- uid: MAT.Atlas.Automation.Api.Models.Value.GetInstance
+  name: GetInstance()
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_GetInstance
+  commentId: M:MAT.Atlas.Automation.Api.Models.Value.GetInstance
+  fullName: MAT.Atlas.Automation.Api.Models.Value.GetInstance()
+  nameWithType: Value.GetInstance()
+- uid: MAT.Atlas.Automation.Api.Models.Value.GetInstance*
+  name: GetInstance
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_GetInstance_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Value.GetInstance
+  fullName: MAT.Atlas.Automation.Api.Models.Value.GetInstance
+  nameWithType: Value.GetInstance
+- uid: MAT.Atlas.Automation.Api.Models.Value.ToString
+  name: ToString()
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_ToString
+  commentId: M:MAT.Atlas.Automation.Api.Models.Value.ToString
+  fullName: MAT.Atlas.Automation.Api.Models.Value.ToString()
+  nameWithType: Value.ToString()
+- uid: MAT.Atlas.Automation.Api.Models.Value.ToString*
+  name: ToString
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_ToString_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Value.ToString
+  fullName: MAT.Atlas.Automation.Api.Models.Value.ToString
+  nameWithType: Value.ToString
+- uid: MAT.Atlas.Automation.Api.Models.Value.TypeAssemblyQualifiedName
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_TypeAssemblyQualifiedName
+  commentId: P:MAT.Atlas.Automation.Api.Models.Value.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Value.TypeAssemblyQualifiedName
+  nameWithType: Value.TypeAssemblyQualifiedName
+- uid: MAT.Atlas.Automation.Api.Models.Value.TypeAssemblyQualifiedName*
+  name: TypeAssemblyQualifiedName
+  href: api/MAT.Atlas.Automation.Api.Models.Value.html#MAT_Atlas_Automation_Api_Models_Value_TypeAssemblyQualifiedName_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Value.TypeAssemblyQualifiedName
+  fullName: MAT.Atlas.Automation.Api.Models.Value.TypeAssemblyQualifiedName
+  nameWithType: Value.TypeAssemblyQualifiedName
 - uid: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter
   name: WaveformDisplayParameter
   href: api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html
@@ -12566,6 +13160,12 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.#ctor
   fullName: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.WaveformDisplayParameter
   nameWithType: WaveformDisplayParameter.WaveformDisplayParameter
+- uid: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Empty
+  name: Empty
+  href: api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_WaveformDisplayParameter_Empty
+  commentId: F:MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Empty
+  fullName: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Empty
+  nameWithType: WaveformDisplayParameter.Empty
 - uid: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Identifier
   name: Identifier
   href: api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_WaveformDisplayParameter_Identifier
@@ -12590,18 +13190,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Units
   fullName: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Units
   nameWithType: WaveformDisplayParameter.Units
-- uid: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Value
-  name: Value
-  href: api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_WaveformDisplayParameter_Value
-  commentId: P:MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Value
-  fullName: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Value
-  nameWithType: WaveformDisplayParameter.Value
-- uid: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Value*
-  name: Value
-  href: api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_WaveformDisplayParameter_Value_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Value
-  fullName: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Value
-  nameWithType: WaveformDisplayParameter.Value
+- uid: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Values
+  name: Values
+  href: api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_WaveformDisplayParameter_Values
+  commentId: P:MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Values
+  fullName: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Values
+  nameWithType: WaveformDisplayParameter.Values
+- uid: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Values*
+  name: Values
+  href: api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html#MAT_Atlas_Automation_Api_Models_WaveformDisplayParameter_Values_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Values
+  fullName: MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.Values
+  nameWithType: WaveformDisplayParameter.Values
 - uid: MAT.Atlas.Automation.Api.Models.Workbook
   name: Workbook
   href: api/MAT.Atlas.Automation.Api.Models.Workbook.html
@@ -12686,6 +13286,144 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Workbook.Title
   fullName: MAT.Atlas.Automation.Api.Models.Workbook.Title
   nameWithType: Workbook.Title
+- uid: MAT.Atlas.Automation.Api.TypeConverters
+  name: MAT.Atlas.Automation.Api.TypeConverters
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.html
+  commentId: N:MAT.Atlas.Automation.Api.TypeConverters
+  fullName: MAT.Atlas.Automation.Api.TypeConverters
+  nameWithType: MAT.Atlas.Automation.Api.TypeConverters
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter
+  name: ObjectIdConverter
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html
+  commentId: T:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter
+  nameWithType: ObjectIdConverter
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.#ctor
+  name: ObjectIdConverter()
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter__ctor
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.#ctor
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ObjectIdConverter()
+  nameWithType: ObjectIdConverter.ObjectIdConverter()
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.#ctor*
+  name: ObjectIdConverter
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter__ctor_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.#ctor
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ObjectIdConverter
+  nameWithType: ObjectIdConverter.ObjectIdConverter
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  name: CanConvertFrom(ITypeDescriptorContext, Type)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_CanConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Type_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Type)
+  nameWithType: ObjectIdConverter.CanConvertFrom(ITypeDescriptorContext, Type)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertFrom*
+  name: CanConvertFrom
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_CanConvertFrom_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertFrom
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertFrom
+  nameWithType: ObjectIdConverter.CanConvertFrom
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  name: CanConvertTo(ITypeDescriptorContext, Type)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_CanConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Type_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Type)
+  nameWithType: ObjectIdConverter.CanConvertTo(ITypeDescriptorContext, Type)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertTo*
+  name: CanConvertTo
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_CanConvertTo_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertTo
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.CanConvertTo
+  nameWithType: ObjectIdConverter.CanConvertTo
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  name: ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object)
+  nameWithType: ObjectIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertFrom*
+  name: ConvertFrom
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_ConvertFrom_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertFrom
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertFrom
+  nameWithType: ObjectIdConverter.ConvertFrom
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  name: ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_System_Type_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object, System.Type)
+  nameWithType: ObjectIdConverter.ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertTo*
+  name: ConvertTo
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_ObjectIdConverter_ConvertTo_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertTo
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.ObjectIdConverter.ConvertTo
+  nameWithType: ObjectIdConverter.ConvertTo
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter
+  name: SessionIdConverter
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html
+  commentId: T:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter
+  nameWithType: SessionIdConverter
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.#ctor
+  name: SessionIdConverter()
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter__ctor
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.#ctor
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.SessionIdConverter()
+  nameWithType: SessionIdConverter.SessionIdConverter()
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.#ctor*
+  name: SessionIdConverter
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter__ctor_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.#ctor
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.SessionIdConverter
+  nameWithType: SessionIdConverter.SessionIdConverter
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  name: CanConvertFrom(ITypeDescriptorContext, Type)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_CanConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Type_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Type)
+  nameWithType: SessionIdConverter.CanConvertFrom(ITypeDescriptorContext, Type)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertFrom*
+  name: CanConvertFrom
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_CanConvertFrom_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertFrom
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertFrom
+  nameWithType: SessionIdConverter.CanConvertFrom
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  name: CanConvertTo(ITypeDescriptorContext, Type)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_CanConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Type_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Type)
+  nameWithType: SessionIdConverter.CanConvertTo(ITypeDescriptorContext, Type)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertTo*
+  name: CanConvertTo
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_CanConvertTo_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertTo
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.CanConvertTo
+  nameWithType: SessionIdConverter.CanConvertTo
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  name: ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object)
+  nameWithType: SessionIdConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertFrom*
+  name: ConvertFrom
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_ConvertFrom_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertFrom
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertFrom
+  nameWithType: SessionIdConverter.ConvertFrom
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  name: ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_System_Type_
+  commentId: M:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object, System.Type)
+  nameWithType: SessionIdConverter.ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
+- uid: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertTo*
+  name: ConvertTo
+  href: api/MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.html#MAT_Atlas_Automation_Api_TypeConverters_SessionIdConverter_ConvertTo_
+  commentId: Overload:MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertTo
+  fullName: MAT.Atlas.Automation.Api.TypeConverters.SessionIdConverter.ConvertTo
+  nameWithType: SessionIdConverter.ConvertTo
 - uid: MAT.Atlas.Automation.Client
   name: MAT.Atlas.Automation.Client
   href: api/MAT.Atlas.Automation.Client.html
@@ -13889,6 +14627,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.#ctor
   fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.DialogProviderServiceClient
   nameWithType: DialogProviderServiceClient.DialogProviderServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: OpenDisplayParameterProperties(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient_OpenDisplayParameterProperties_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: DialogProviderServiceClient.OpenDisplayParameterProperties(ObjectId, String)
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayParameterProperties*
+  name: OpenDisplayParameterProperties
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient_OpenDisplayParameterProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayParameterProperties
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayParameterProperties
+  nameWithType: DialogProviderServiceClient.OpenDisplayParameterProperties
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: OpenDisplayProperties(ObjectId)
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient_OpenDisplayProperties_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: DialogProviderServiceClient.OpenDisplayProperties(ObjectId)
+- uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayProperties*
+  name: OpenDisplayProperties
+  href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient_OpenDisplayProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayProperties
+  fullName: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenDisplayProperties
+  nameWithType: DialogProviderServiceClient.OpenDisplayProperties
 - uid: MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.OpenSessionBrowser
   name: OpenSessionBrowser()
   href: api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_DialogProviderServiceClient_OpenSessionBrowser
@@ -13979,6 +14741,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterById
   fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterById
   nameWithType: DisplayServiceClient.GetDisplayParameterById
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: GetDisplayParameterProperties(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterProperties_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: DisplayServiceClient.GetDisplayParameterProperties(ObjectId, String)
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties*
+  name: GetDisplayParameterProperties
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterProperties
+  nameWithType: DisplayServiceClient.GetDisplayParameterProperties
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String)
+  name: GetDisplayParameterPropertyValue(ObjectId, String, String)
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, System.String)
+  nameWithType: DisplayServiceClient.GetDisplayParameterPropertyValue(ObjectId, String, String)
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue*
+  name: GetDisplayParameterPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameterPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameterPropertyValue
+  nameWithType: DisplayServiceClient.GetDisplayParameterPropertyValue
 - uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameters(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: GetDisplayParameters(ObjectId)
   href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayParameters_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -13991,6 +14777,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameters
   fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayParameters
   nameWithType: DisplayServiceClient.GetDisplayParameters
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: GetDisplayProperties(ObjectId)
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayProperties_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: DisplayServiceClient.GetDisplayProperties(ObjectId)
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties*
+  name: GetDisplayProperties
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayProperties
+  nameWithType: DisplayServiceClient.GetDisplayProperties
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: GetDisplayPropertyValue(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: DisplayServiceClient.GetDisplayPropertyValue(ObjectId, String)
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue*
+  name: GetDisplayPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayPropertyValue
+  nameWithType: DisplayServiceClient.GetDisplayPropertyValue
 - uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.GetDisplayTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: GetDisplayTimeBase(ObjectId)
   href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_GetDisplayTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -14063,6 +14873,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayLockedToCurrentAssociation
   fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayLockedToCurrentAssociation
   nameWithType: DisplayServiceClient.SetDisplayLockedToCurrentAssociation
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  name: SetDisplayParameterPropertyValue(ObjectId, String, String, Value)
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_MAT_Atlas_Automation_Api_Models_Value_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, System.String, MAT.Atlas.Automation.Api.Models.Value)
+  nameWithType: DisplayServiceClient.SetDisplayParameterPropertyValue(ObjectId, String, String, Value)
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue*
+  name: SetDisplayParameterPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayParameterPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayParameterPropertyValue
+  nameWithType: DisplayServiceClient.SetDisplayParameterPropertyValue
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  name: SetDisplayPropertyValue(ObjectId, String, Value)
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_MAT_Atlas_Automation_Api_Models_Value_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, MAT.Atlas.Automation.Api.Models.Value)
+  nameWithType: DisplayServiceClient.SetDisplayPropertyValue(ObjectId, String, Value)
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue*
+  name: SetDisplayPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_SetDisplayPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.SetDisplayPropertyValue
+  nameWithType: DisplayServiceClient.SetDisplayPropertyValue
 - uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.TogglePause(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: TogglePause(ObjectId)
   href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_TogglePause_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -14374,6 +15208,30 @@ references:
   commentId: T:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient
   fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient
   nameWithType: IDialogProviderServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: OpenDisplayParameterProperties(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDialogProviderServiceClient_OpenDisplayParameterProperties_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: IDialogProviderServiceClient.OpenDisplayParameterProperties(ObjectId, String)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayParameterProperties*
+  name: OpenDisplayParameterProperties
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDialogProviderServiceClient_OpenDisplayParameterProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayParameterProperties
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayParameterProperties
+  nameWithType: IDialogProviderServiceClient.OpenDisplayParameterProperties
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: OpenDisplayProperties(ObjectId)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDialogProviderServiceClient_OpenDisplayProperties_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: IDialogProviderServiceClient.OpenDisplayProperties(ObjectId)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayProperties*
+  name: OpenDisplayProperties
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDialogProviderServiceClient_OpenDisplayProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayProperties
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenDisplayProperties
+  nameWithType: IDialogProviderServiceClient.OpenDisplayProperties
 - uid: MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.OpenSessionBrowser
   name: OpenSessionBrowser()
   href: api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDialogProviderServiceClient_OpenSessionBrowser
@@ -14452,6 +15310,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterById
   fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterById
   nameWithType: IDisplayServiceClient.GetDisplayParameterById
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: GetDisplayParameterProperties(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayParameterProperties_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterProperties(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: IDisplayServiceClient.GetDisplayParameterProperties(ObjectId, String)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterProperties*
+  name: GetDisplayParameterProperties
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayParameterProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterProperties
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterProperties
+  nameWithType: IDisplayServiceClient.GetDisplayParameterProperties
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String)
+  name: GetDisplayParameterPropertyValue(ObjectId, String, String)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, System.String)
+  nameWithType: IDisplayServiceClient.GetDisplayParameterPropertyValue(ObjectId, String, String)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterPropertyValue*
+  name: GetDisplayParameterPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayParameterPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameterPropertyValue
+  nameWithType: IDisplayServiceClient.GetDisplayParameterPropertyValue
 - uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameters(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: GetDisplayParameters(ObjectId)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayParameters_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -14464,6 +15346,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameters
   fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayParameters
   nameWithType: IDisplayServiceClient.GetDisplayParameters
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: GetDisplayProperties(ObjectId)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayProperties_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayProperties(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: IDisplayServiceClient.GetDisplayProperties(ObjectId)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayProperties*
+  name: GetDisplayProperties
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayProperties_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayProperties
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayProperties
+  nameWithType: IDisplayServiceClient.GetDisplayProperties
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  name: GetDisplayPropertyValue(ObjectId, String)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String)
+  nameWithType: IDisplayServiceClient.GetDisplayPropertyValue(ObjectId, String)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayPropertyValue*
+  name: GetDisplayPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayPropertyValue
+  nameWithType: IDisplayServiceClient.GetDisplayPropertyValue
 - uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.GetDisplayTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: GetDisplayTimeBase(ObjectId)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_GetDisplayTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -14536,6 +15442,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayLockedToCurrentAssociation
   fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayLockedToCurrentAssociation
   nameWithType: IDisplayServiceClient.SetDisplayLockedToCurrentAssociation
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  name: SetDisplayParameterPropertyValue(ObjectId, String, String, Value)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_SetDisplayParameterPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_System_String_MAT_Atlas_Automation_Api_Models_Value_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayParameterPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, System.String, MAT.Atlas.Automation.Api.Models.Value)
+  nameWithType: IDisplayServiceClient.SetDisplayParameterPropertyValue(ObjectId, String, String, Value)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayParameterPropertyValue*
+  name: SetDisplayParameterPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_SetDisplayParameterPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayParameterPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayParameterPropertyValue
+  nameWithType: IDisplayServiceClient.SetDisplayParameterPropertyValue
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  name: SetDisplayPropertyValue(ObjectId, String, Value)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_SetDisplayPropertyValue_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_MAT_Atlas_Automation_Api_Models_Value_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId,System.String,MAT.Atlas.Automation.Api.Models.Value)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayPropertyValue(MAT.Atlas.Automation.Api.Models.ObjectId, System.String, MAT.Atlas.Automation.Api.Models.Value)
+  nameWithType: IDisplayServiceClient.SetDisplayPropertyValue(ObjectId, String, Value)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayPropertyValue*
+  name: SetDisplayPropertyValue
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_SetDisplayPropertyValue_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayPropertyValue
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.SetDisplayPropertyValue
+  nameWithType: IDisplayServiceClient.SetDisplayPropertyValue
 - uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.TogglePause(MAT.Atlas.Automation.Api.Models.ObjectId)
   name: TogglePause(ObjectId)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_TogglePause_MAT_Atlas_Automation_Api_Models_ObjectId_
@@ -15175,6 +16105,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionFastestLap
   fullName: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionFastestLap
   nameWithType: ISessionServiceClient.GetSessionFastestLap
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)
+  name: GetSessionLapById(SessionId, Int32)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ISessionServiceClient_GetSessionLapById_MAT_Atlas_Automation_Api_Models_SessionId_System_Int32_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId, System.Int32)
+  nameWithType: ISessionServiceClient.GetSessionLapById(SessionId, Int32)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionLapById*
+  name: GetSessionLapById
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ISessionServiceClient_GetSessionLapById_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionLapById
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionLapById
+  nameWithType: ISessionServiceClient.GetSessionLapById
 - uid: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetSessionLapByNumber(MAT.Atlas.Automation.Api.Models.SessionId,System.Int16)
   name: GetSessionLapByNumber(SessionId, Int16)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ISessionServiceClient_GetSessionLapByNumber_MAT_Atlas_Automation_Api_Models_SessionId_System_Int16_
@@ -15487,6 +16429,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursor
   fullName: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursor
   nameWithType: ITimeBaseServiceClient.SetCursor
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
+  name: SetCursorToDistance(ObjectId, Double)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistance_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId, System.Double)
+  nameWithType: ITimeBaseServiceClient.SetCursorToDistance(ObjectId, Double)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance*
+  name: SetCursorToDistance
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistance_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance
+  nameWithType: ITimeBaseServiceClient.SetCursorToDistance
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)
+  name: SetCursorToDistanceIntoLap(ObjectId, Double, Int16)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistanceIntoLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_System_Int16_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId, System.Double, System.Int16)
+  nameWithType: ITimeBaseServiceClient.SetCursorToDistanceIntoLap(ObjectId, Double, Int16)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap*
+  name: SetCursorToDistanceIntoLap
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistanceIntoLap_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap
+  nameWithType: ITimeBaseServiceClient.SetCursorToDistanceIntoLap
 - uid: MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorVba(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
   name: SetCursorVba(ObjectId, Double)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorVba_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_
@@ -16474,6 +17440,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionFastestLap
   fullName: MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionFastestLap
   nameWithType: SessionServiceClient.GetSessionFastestLap
+- uid: MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)
+  name: GetSessionLapById(SessionId, Int32)
+  href: api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html#MAT_Atlas_Automation_Client_Services_SessionServiceClient_GetSessionLapById_MAT_Atlas_Automation_Api_Models_SessionId_System_Int32_
+  commentId: M:MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId,System.Int32)
+  fullName: MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionLapById(MAT.Atlas.Automation.Api.Models.SessionId, System.Int32)
+  nameWithType: SessionServiceClient.GetSessionLapById(SessionId, Int32)
+- uid: MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionLapById*
+  name: GetSessionLapById
+  href: api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html#MAT_Atlas_Automation_Client_Services_SessionServiceClient_GetSessionLapById_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionLapById
+  fullName: MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionLapById
+  nameWithType: SessionServiceClient.GetSessionLapById
 - uid: MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetSessionLapByNumber(MAT.Atlas.Automation.Api.Models.SessionId,System.Int16)
   name: GetSessionLapByNumber(SessionId, Int16)
   href: api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html#MAT_Atlas_Automation_Client_Services_SessionServiceClient_GetSessionLapByNumber_MAT_Atlas_Automation_Api_Models_SessionId_System_Int16_
@@ -17008,6 +17986,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursor
   fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursor
   nameWithType: TimeBaseServiceClientBase.SetCursor
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
+  name: SetCursorToDistance(ObjectId, Double)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientBase_SetCursorToDistance_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId, System.Double)
+  nameWithType: TimeBaseServiceClientBase.SetCursorToDistance(ObjectId, Double)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistance*
+  name: SetCursorToDistance
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientBase_SetCursorToDistance_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistance
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistance
+  nameWithType: TimeBaseServiceClientBase.SetCursorToDistance
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)
+  name: SetCursorToDistanceIntoLap(ObjectId, Double, Int16)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientBase_SetCursorToDistanceIntoLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_System_Int16_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId, System.Double, System.Int16)
+  nameWithType: TimeBaseServiceClientBase.SetCursorToDistanceIntoLap(ObjectId, Double, Int16)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistanceIntoLap*
+  name: SetCursorToDistanceIntoLap
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientBase_SetCursorToDistanceIntoLap_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistanceIntoLap
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorToDistanceIntoLap
+  nameWithType: TimeBaseServiceClientBase.SetCursorToDistanceIntoLap
 - uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.SetCursorVba(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)
   name: SetCursorVba(ObjectId, Double)
   href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientBase_SetCursorVba_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_
