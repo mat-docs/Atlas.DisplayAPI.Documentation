@@ -158,7 +158,7 @@ public sealed class ParameterDataAccessServiceClient : AutomationServiceClientNo
   </h3>
   <a id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetDataStatistics_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetDataStatistics*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetDataStatistics_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetDataStatistics(SessionId, String, Int64, Int64, StatisticOption)</h4>
-  <div class="markdown level1 summary"><p>Get statistics for a parameter over a specified time range.</p>
+  <div class="markdown level1 summary"><p>Get unweighted statistics for a parameter over a specified time range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -225,7 +225,7 @@ public sealed class ParameterDataAccessServiceClient : AutomationServiceClientNo
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetDataStatisticsVba_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetDataStatisticsVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetDataStatisticsVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)</h4>
-  <div class="markdown level1 summary"><p>Get statistics for a parameter over a specified time range for VBA.</p>
+  <div class="markdown level1 summary"><p>Get unweighted statistics for a parameter over a specified time range for VBA.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -865,6 +865,138 @@ public sealed class ParameterDataAccessServiceClient : AutomationServiceClientNo
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><p>Estimated sample count.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatistics_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatistics_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetWeightedDataStatistics(SessionId, String, Int64, Int64, StatisticOption)</h4>
+  <div class="markdown level1 summary"><p>Get weighted statistics for a parameter over a specified time range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StatisticsData GetWeightedDataStatistics(SessionId sessionId, string parameterIdentifier, long startTime, long duration, StatisticOption statisticOptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>Start of time range (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Length of time range (nanoseconds).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.StatisticOption.html">StatisticOption</a></td>
+        <td><span class="parametername">statisticOptions</span></td>
+        <td><p>What statistics to calculate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.StatisticsData.html">StatisticsData</a></td>
+        <td><p>Requested statistics.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatisticsVba_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatisticsVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_MAT_Atlas_Automation_Api_Enums_StatisticOption_" data-uid="MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)">GetWeightedDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)</h4>
+  <div class="markdown level1 summary"><p>Get weighted statistics for a parameter over a specified time range for VBA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StatisticsData GetWeightedDataStatisticsVba(SessionId sessionId, string parameterIdentifier, double startTime, double duration, StatisticOption statisticOptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterIdentifier</span></td>
+        <td><p>Unique identifier of a parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.StatisticOption.html">StatisticOption</a></td>
+        <td><span class="parametername">statisticOptions</span></td>
+        <td><p>What statistics to calculate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.StatisticsData.html">StatisticsData</a></td>
+        <td><p>Requested statistics.</p>
 </td>
       </tr>
     </tbody>

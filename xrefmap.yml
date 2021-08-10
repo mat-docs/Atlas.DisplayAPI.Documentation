@@ -5534,6 +5534,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.IParameterDataAccessService.GetSamplesCountEstimate
   fullName: MAT.Atlas.Automation.Api.IParameterDataAccessService.GetSamplesCountEstimate
   nameWithType: IParameterDataAccessService.GetSamplesCountEstimate
+- uid: MAT.Atlas.Automation.Api.IParameterDataAccessService.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  name: GetWeightedDataStatistics(SessionId, String, Int64, Int64, StatisticOption)
+  href: api/MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_GetWeightedDataStatistics_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_MAT_Atlas_Automation_Api_Enums_StatisticOption_
+  commentId: M:MAT.Atlas.Automation.Api.IParameterDataAccessService.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  fullName: MAT.Atlas.Automation.Api.IParameterDataAccessService.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId, System.String, System.Int64, System.Int64, MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  nameWithType: IParameterDataAccessService.GetWeightedDataStatistics(SessionId, String, Int64, Int64, StatisticOption)
+- uid: MAT.Atlas.Automation.Api.IParameterDataAccessService.GetWeightedDataStatistics*
+  name: GetWeightedDataStatistics
+  href: api/MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_GetWeightedDataStatistics_
+  commentId: Overload:MAT.Atlas.Automation.Api.IParameterDataAccessService.GetWeightedDataStatistics
+  fullName: MAT.Atlas.Automation.Api.IParameterDataAccessService.GetWeightedDataStatistics
+  nameWithType: IParameterDataAccessService.GetWeightedDataStatistics
 - uid: MAT.Atlas.Automation.Api.IParameterDataAccessService.Goto(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)
   name: Goto(SessionId, String, Int64)
   href: api/MAT.Atlas.Automation.Api.IParameterDataAccessService.html#MAT_Atlas_Automation_Api_IParameterDataAccessService_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_
@@ -15760,6 +15772,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimateVba
   fullName: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetSamplesCountEstimateVba
   nameWithType: IParameterDataAccessServiceClient.GetSamplesCountEstimateVba
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  name: GetWeightedDataStatistics(SessionId, String, Int64, Int64, StatisticOption)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetWeightedDataStatistics_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_MAT_Atlas_Automation_Api_Enums_StatisticOption_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId, System.String, System.Int64, System.Int64, MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  nameWithType: IParameterDataAccessServiceClient.GetWeightedDataStatistics(SessionId, String, Int64, Int64, StatisticOption)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatistics*
+  name: GetWeightedDataStatistics
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetWeightedDataStatistics_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatistics
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatistics
+  nameWithType: IParameterDataAccessServiceClient.GetWeightedDataStatistics
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  name: GetWeightedDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetWeightedDataStatisticsVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_MAT_Atlas_Automation_Api_Enums_StatisticOption_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId, System.String, System.Double, System.Double, MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  nameWithType: IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba*
+  name: GetWeightedDataStatisticsVba
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_GetWeightedDataStatisticsVba_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba
+  nameWithType: IParameterDataAccessServiceClient.GetWeightedDataStatisticsVba
 - uid: MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.Goto(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)
   name: Goto(SessionId, String, Int64)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_
@@ -17071,6 +17107,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetSamplesCountEstimateVba
   fullName: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetSamplesCountEstimateVba
   nameWithType: ParameterDataAccessServiceClient.GetSamplesCountEstimateVba
+- uid: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  name: GetWeightedDataStatistics(SessionId, String, Int64, Int64, StatisticOption)
+  href: api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatistics_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_System_Int64_MAT_Atlas_Automation_Api_Enums_StatisticOption_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64,System.Int64,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  fullName: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics(MAT.Atlas.Automation.Api.Models.SessionId, System.String, System.Int64, System.Int64, MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  nameWithType: ParameterDataAccessServiceClient.GetWeightedDataStatistics(SessionId, String, Int64, Int64, StatisticOption)
+- uid: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics*
+  name: GetWeightedDataStatistics
+  href: api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatistics_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics
+  fullName: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatistics
+  nameWithType: ParameterDataAccessServiceClient.GetWeightedDataStatistics
+- uid: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  name: GetWeightedDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)
+  href: api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatisticsVba_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Double_System_Double_MAT_Atlas_Automation_Api_Enums_StatisticOption_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Double,System.Double,MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  fullName: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(MAT.Atlas.Automation.Api.Models.SessionId, System.String, System.Double, System.Double, MAT.Atlas.Automation.Api.Enums.StatisticOption)
+  nameWithType: ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba(SessionId, String, Double, Double, StatisticOption)
+- uid: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba*
+  name: GetWeightedDataStatisticsVba
+  href: api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_GetWeightedDataStatisticsVba_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba
+  fullName: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba
+  nameWithType: ParameterDataAccessServiceClient.GetWeightedDataStatisticsVba
 - uid: MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.Goto(MAT.Atlas.Automation.Api.Models.SessionId,System.String,System.Int64)
   name: Goto(SessionId, String, Int64)
   href: api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.html#MAT_Atlas_Automation_Client_Services_ParameterDataAccessServiceClient_Goto_MAT_Atlas_Automation_Api_Models_SessionId_System_String_System_Int64_
