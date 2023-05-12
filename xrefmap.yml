@@ -1057,6 +1057,30 @@ references:
   commentId: T:MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions
   fullName: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions
   nameWithType: TimeRangeExtensions
+- uid: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsGreaterThan(MAT.Atlas.Api.Core.Data.TimeRange,System.Int64)
+  name: IsGreaterThan(TimeRange, Int64)
+  href: api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html#MAT_Atlas_Api_Core_Extensions_TimeRangeExtensions_IsGreaterThan_MAT_Atlas_Api_Core_Data_TimeRange_System_Int64_
+  commentId: M:MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsGreaterThan(MAT.Atlas.Api.Core.Data.TimeRange,System.Int64)
+  fullName: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsGreaterThan(MAT.Atlas.Api.Core.Data.TimeRange, System.Int64)
+  nameWithType: TimeRangeExtensions.IsGreaterThan(TimeRange, Int64)
+- uid: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsGreaterThan*
+  name: IsGreaterThan
+  href: api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html#MAT_Atlas_Api_Core_Extensions_TimeRangeExtensions_IsGreaterThan_
+  commentId: Overload:MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsGreaterThan
+  fullName: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsGreaterThan
+  nameWithType: TimeRangeExtensions.IsGreaterThan
+- uid: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsValid(MAT.Atlas.Api.Core.Data.TimeRange)
+  name: IsValid(TimeRange)
+  href: api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html#MAT_Atlas_Api_Core_Extensions_TimeRangeExtensions_IsValid_MAT_Atlas_Api_Core_Data_TimeRange_
+  commentId: M:MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsValid(MAT.Atlas.Api.Core.Data.TimeRange)
+  fullName: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsValid(MAT.Atlas.Api.Core.Data.TimeRange)
+  nameWithType: TimeRangeExtensions.IsValid(TimeRange)
+- uid: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsValid*
+  name: IsValid
+  href: api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html#MAT_Atlas_Api_Core_Extensions_TimeRangeExtensions_IsValid_
+  commentId: Overload:MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsValid
+  fullName: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.IsValid
+  nameWithType: TimeRangeExtensions.IsValid
 - uid: MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.MergeOverLaps(System.Collections.Generic.IEnumerable{MAT.Atlas.Api.Core.Data.TimeRange})
   name: MergeOverLaps(IEnumerable<TimeRange>)
   href: api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html#MAT_Atlas_Api_Core_Extensions_TimeRangeExtensions_MergeOverLaps_System_Collections_Generic_IEnumerable_MAT_Atlas_Api_Core_Data_TimeRange__
@@ -12998,6 +13022,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.UpdateableStatistics.Overruns
   fullName: MAT.Atlas.Automation.Api.Models.UpdateableStatistics.Overruns
   nameWithType: UpdateableStatistics.Overruns
+- uid: MAT.Atlas.Automation.Api.Models.UpdateableStatistics.PendingWorkCount
+  name: PendingWorkCount
+  href: api/MAT.Atlas.Automation.Api.Models.UpdateableStatistics.html#MAT_Atlas_Automation_Api_Models_UpdateableStatistics_PendingWorkCount
+  commentId: P:MAT.Atlas.Automation.Api.Models.UpdateableStatistics.PendingWorkCount
+  fullName: MAT.Atlas.Automation.Api.Models.UpdateableStatistics.PendingWorkCount
+  nameWithType: UpdateableStatistics.PendingWorkCount
+- uid: MAT.Atlas.Automation.Api.Models.UpdateableStatistics.PendingWorkCount*
+  name: PendingWorkCount
+  href: api/MAT.Atlas.Automation.Api.Models.UpdateableStatistics.html#MAT_Atlas_Automation_Api_Models_UpdateableStatistics_PendingWorkCount_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.UpdateableStatistics.PendingWorkCount
+  fullName: MAT.Atlas.Automation.Api.Models.UpdateableStatistics.PendingWorkCount
+  nameWithType: UpdateableStatistics.PendingWorkCount
 - uid: MAT.Atlas.Automation.Api.Models.UpdateableStatistics.State
   name: State
   href: api/MAT.Atlas.Automation.Api.Models.UpdateableStatistics.html#MAT_Atlas_Automation_Api_Models_UpdateableStatistics_State
