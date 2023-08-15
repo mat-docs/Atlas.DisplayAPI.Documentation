@@ -79,19 +79,13 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Attribute</span></div>
-    <div class="level2"><span class="xref">NotNullAttribute</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.Runtime.InteropServices._Attribute</span></div>
+    <div class="level1"><span class="xref">NotNullAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Api.Core.Presentation.html">MAT.Atlas.Api.Core.Presentation</a></h6>
   <h6><strong>Assembly</strong>: MAT.Atlas.Api.Core.dll</h6>
   <h5 id="MAT_Atlas_Api_Core_Presentation_NotNullAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Parameter | AttributeTargets.Delegate | AttributeTargets.GenericParameter)]
-public sealed class NotNullAttribute : Attribute, _Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class NotNullAttribute : Attribute</code></pre>
   </div>
   <h5 id="MAT_Atlas_Api_Core_Presentation_NotNullAttribute_examples"><strong>Examples</strong></h5>
   <pre><code>[NotNull] object Foo() {
@@ -107,10 +101,6 @@ return null; // Warning: Possible &apos;null&apos; assignment
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public NotNullAttribute()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.Runtime.InteropServices._Attribute</span>
   </div>
 </article>
           </div>

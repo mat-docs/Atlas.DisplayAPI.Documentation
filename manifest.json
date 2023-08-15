@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.AtlasColor.html",
-          "hash": "Twj9CO2R1yId6vm9qO81SQ=="
+          "hash": "5NmPrZ1W8RrrPlAegn7BTg=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.AtlasColors.html",
-          "hash": "lDncrrdoXOawWJGNQxAm2A=="
+          "hash": "1QoeHq1TM+gXJ7hqPyrxkA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Autofac.ContainerBuilderExtensions.html",
-          "hash": "F4EClg+qHwDXKe5kTPwFvA=="
+          "hash": "AeKtC0O/L9klyyNb3IdZnw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Data.TimeRange.html",
-          "hash": "NbBdkWD8JrcRC3w7MFr1Gw=="
+          "hash": "6w/iXauYSfGCtGnyD/pXmA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Data.html",
-          "hash": "xRn8DDwgE8YBdMts2lpM8A=="
+          "hash": "sAUTblsSFN/JF4Y7QBxHjQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html",
-          "hash": "A9y9J3JCovZXHaNmH+DkwA=="
+          "hash": "Iium0tYwBUK5R3cmxSVKnA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Diagnostics.html",
-          "hash": "oLqj3FQuFn4BewH3RfgE4Q=="
+          "hash": "tF7a7gIs9qZJGsJTiqzrYQ=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Extensions.ExpressionExtensions.html",
-          "hash": "/GrywivGnHh2bbDC5HTgAw=="
+          "hash": "kyNFRbs+Xw3tSQ2dm/O0ug=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Extensions.NotifyPropertyChangedExtensions.html",
-          "hash": "jyyWdy6+bGRqcRjWHB0+sA=="
+          "hash": "TYXsiF3s8yBHXsaS2wwRAA=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Extensions.TimeRangeExtensions.html",
-          "hash": "6sppcruCv4GCmXhbpphX6Q=="
+          "hash": "i1QpgkPRMr7oVgxnEl0Dhw=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Presentation.BindableBase.html",
-          "hash": "iAktW9qJvTIbWJxt4Q4c4A=="
+          "hash": "SCu1aiPYAY91PGDu1s2dig=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Presentation.CanBeNullAttribute.html",
-          "hash": "YQHcQhBDw/ypAgo4uGzOmA=="
+          "hash": "XiIgIUMPPkTuwh7299qHmQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Presentation.DisposableBindableBase.html",
-          "hash": "TH6SbUOe2Ok6v1Am8BClIg=="
+          "hash": "dXb84iGt9gBbEp/5Vec0kg=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Presentation.NotNullAttribute.html",
-          "hash": "Qc/Nele9hqrtm02KUn9HjA=="
+          "hash": "a7quQAsAuSX+TmXvTPDwtQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Presentation.NotifyPropertyChangedInvocatorAttribute.html",
-          "hash": "uZ9QrHRFKr38mYJ8lYZyMQ=="
+          "hash": "G6rgisRIAXdddFWaGsAohA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.ScopeIdentity.html",
-          "hash": "EttUYx4/AiYpv0XtQ+X7/g=="
+          "hash": "hRC1KBEjR/kQJ/vUff1AhQ=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Sessions.CompositeSessionContainerIdentifier.html",
-          "hash": "VLYYnCBdIBuHUzwGSO9e9g=="
+          "hash": "LxjOA16exLF1YtxHv3hAEw=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Sessions.CompositeSessionIdentifier.html",
-          "hash": "z50aq/cTcIyjaQScSIpl8A=="
+          "hash": "XQFSfT8R7NqF3djLlsaTVQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Sessions.SessionIdentifier.html",
-          "hash": "UtssrvzxsGhXFQJtQsL8+Q=="
+          "hash": "iP6GZGvq4VtXLT/LWpH2GQ=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Sessions.html",
-          "hash": "KdJ5LBnZgskAxEgNPehPSQ=="
+          "hash": "179JF62QKnCXw8lhtJ6dRA=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Signals.ISignalBus.html",
-          "hash": "LHINUPs7K1b/+8V5pDkgcg=="
+          "hash": "9kGkm2UwGI0apCn+7O6okQ=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Signals.SignalBase-1.html",
-          "hash": "Qkd4jhJgHX7/z2WpZkE4mA=="
+          "hash": "ixcCncAxRSUfXLgnwkpjyw=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Signals.SignalBase.html",
-          "hash": "WUQARxbgC3YXKUKlMD1E7g=="
+          "hash": "OsYmWKWruD4Lb8zJXokSFQ=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Signals.SourceSignalBase-1.html",
-          "hash": "2OrCNB88sR5zfWQrq2FPvQ=="
+          "hash": "1au6/og2TiJbyVjLiRt70w=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.Signals.SourceSignalBase.html",
-          "hash": "M53Fr/1tuy/9n3Y8CPM5Tg=="
+          "hash": "DwlAZFbfx2Z9YA01KpId5g=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.System.DelegateDisposable.html",
-          "hash": "jrVM6h2ESrCIOGK4Rs+phA=="
+          "hash": "XbY6ewt+Q5XFGIr9rBncOg=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.System.DisposableBase.html",
-          "hash": "nnviiZtwdWri/FaRw+LRig=="
+          "hash": "dXL7/k/Bfk96ANc0gGNleg=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.System.INotifyOfDisposal.html",
-          "hash": "c8LO1hLEnnwEYWUjzQxO9w=="
+          "hash": "NJ3rBajSvYY4wXYtvhGN/A=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.TypeWrapperBase-3.html",
-          "hash": "PHDzAC5ltxrssU7jBWgmLA=="
+          "hash": "IQhOZ+uUa6xvbrO/PCd0Wg=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.TypeWrapperCollection-3.html",
-          "hash": "MI5OnvLRdtxj8TKB4Parxw=="
+          "hash": "uvemM1arX+RJLM9oyVsiEg=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Api.Core.html",
-          "hash": "tsBnOBEDvQiA4JPhS81gsQ=="
+          "hash": "Yw69pkWYnMVm8JqKrHH6qg=="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.AutomationServiceAttribute.html",
-          "hash": "kmccqY/etSmCqjk9t/ab3g=="
+          "hash": "qSxnfN50sczIflE6pJMJMg=="
         }
       },
       "is_incremental": false,
@@ -521,11 +521,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.yml",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.AutomationSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html",
-          "hash": "a6aj5QrKoCJGQNl2ItrYZA=="
+          "relative_path": "api/MAT.Atlas.Automation.Api.AutomationSettings.html",
+          "hash": "MBg42ZB/u8FRGu3OwknkuA=="
         }
       },
       "is_incremental": false,
@@ -533,11 +533,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MAT.Atlas.Automation.Api.Binding.yml",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MAT.Atlas.Automation.Api.Binding.html",
-          "hash": "8R7WuKXJ5a6zbqLXROfccg=="
+          "relative_path": "api/MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.html",
+          "hash": "mcZfiPXsnDtqHNbjo+ZyHw=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html",
-          "hash": "yC5B37Aie9DS5yrYwmrT+w=="
+          "hash": "MNe/IZ741vjHEiHLGLSNlQ=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html",
-          "hash": "vgZFD9rrWSb41a3+VCt7mQ=="
+          "hash": "OZYqMmFJTYRg8WHNwaXXFQ=="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Constants.WellKnownSessionDetailNames.html",
-          "hash": "YrV3sXbNU8IjhV3iPw/Sug=="
+          "hash": "yJHvfAO2SP3zqj+/spXYFg=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Constants.html",
-          "hash": "iy93AyQL7nLrRxOwPoimiQ=="
+          "hash": "YHlxzXTF+IL8pJMBki3Azw=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.CompareModeType.html",
-          "hash": "CX6z7qmLSG/U4B+lASnBkA=="
+          "hash": "7m2Z/eaHknOGI4in+RSKIw=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.ConnectionState.html",
-          "hash": "qhm7tiLtAMSap/zQ7MwHgg=="
+          "hash": "/cpm6+a8zsts61PeJ8AU7w=="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.DataStatusType.html",
-          "hash": "jM7SbD3g2tWb8+oUqieQzA=="
+          "hash": "qTmyePXZOgw9QGg8zuhbnA=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.html",
-          "hash": "vLNLRSlCPTgJlzDbeX8gHQ=="
+          "hash": "gFP9AF9/52ze4fLx5eb0pA=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.EventPriority.html",
-          "hash": "jlZSD14tKbNr/x2bBV6uUg=="
+          "hash": "sJF9K7MKuvJXHlz2Pt3tbg=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.html",
-          "hash": "7RESMIomwSA7Gf/iETL2Aw=="
+          "hash": "KL++BhJjsMETANy9C/194w=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.PersistenceLevel.html",
-          "hash": "++tnNs5YLzdNUavFcH7xZA=="
+          "hash": "ZWOswAHoVBAltXVPsdfk6w=="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.RecorderState.html",
-          "hash": "to8LSoM1hDHAy8rKaLeSgA=="
+          "hash": "SMv3lujclbKjkU/y8jBRQg=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.SampleMode.html",
-          "hash": "6hwYCzIbpVmcT60LZ1SyjQ=="
+          "hash": "3rK2Db/1Zok5WG/FYlHC1w=="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.SessionState.html",
-          "hash": "F6QCsHNg//spAtCNTvwFgQ=="
+          "hash": "ggF3iRzd12beaAeLVtAEeQ=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.StatisticOption.html",
-          "hash": "q4CGdZRuvZMDEKIEBh3b6g=="
+          "hash": "c5U0DzYV4pE91YUCY9ixow=="
         }
       },
       "is_incremental": false,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.TriggerSource.html",
-          "hash": "Iyn0W9yJTPRR/2CUVpyO4A=="
+          "hash": "JghkKyIYQyiW68ktxUfvpA=="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.UpdateableState.html",
-          "hash": "bJPCA9oqhIjRq+x7y2gpow=="
+          "hash": "RKuWREdqqkXoLz1piJG4Mw=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.WorkbookState.html",
-          "hash": "x5J+ky9L4gP9JMt1P5Obcg=="
+          "hash": "yZY6kUXDNE9QEFZPH0XyQA=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.html",
-          "hash": "FPPn4aXUaMV0bcnd8TR+WQ=="
+          "hash": "wbVCIRz7MmgkvGDw6AN4dA=="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.AddDisplayParameterFailedFault.html",
-          "hash": "GW1qJvjh0UhH5lqB4QBXZA=="
+          "hash": "ktI307GmywKwWUyfEmf/Qw=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ApplicationServiceFault.html",
-          "hash": "G1sWLSQcWlWN0a66cin6Mg=="
+          "hash": "jhNOBl83nIJYC7OiPP3KVw=="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ConnectionServiceFault.html",
-          "hash": "FXLCKHibpeWF0Wc8Q/2dUQ=="
+          "hash": "x3IYqO7KWUKzEmMQoUjp7g=="
         }
       },
       "is_incremental": false,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.DataSourceServiceFault.html",
-          "hash": "El4Ym9ToFbaCazyMgmEQuQ=="
+          "hash": "i2mdTI/g35RiwtHmRUhFYQ=="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.DialogProviderServiceFault.html",
-          "hash": "2shWsBWTP9It2kVz6iUfmQ=="
+          "hash": "b0Cd289puONxJkdYh955nA=="
         }
       },
       "is_incremental": false,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.DisplayServiceFault.html",
-          "hash": "ThumHBrMV8Q8w3CfxMFuoA=="
+          "hash": "pk87Ws/Vwobjo4x5h6htZQ=="
         }
       },
       "is_incremental": false,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.FaultFactory.html",
-          "hash": "bv7gsegDD0ll6hNt36U5Xw=="
+          "hash": "3KW3MwgYYOATTNzfbqPT2Q=="
         }
       },
       "is_incremental": false,
@@ -861,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.InvalidArgumentFault.html",
-          "hash": "KcC0sWmeG6c7iPYQvIrklg=="
+          "hash": "eZu+OHVvuWCohrwDLv7YjQ=="
         }
       },
       "is_incremental": false,
@@ -873,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.NumericDisplayServiceFault.html",
-          "hash": "CTjEIOARlgPWv5O2tIQEgA=="
+          "hash": "PcP8A8UsqH1KX41Qx0dDkg=="
         }
       },
       "is_incremental": false,
@@ -885,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.PageServiceFault.html",
-          "hash": "kIDdS7hMZVUyz4KeotbgFQ=="
+          "hash": "DCbtlRbDHtPlNudsu/DNBQ=="
         }
       },
       "is_incremental": false,
@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ParameterDataAccessServiceFault.html",
-          "hash": "MHvZVJACulp1iMipZ5k2Bw=="
+          "hash": "b/VRTb9dMemvI2zbTrmbBQ=="
         }
       },
       "is_incremental": false,
@@ -909,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.ProfilingFault.html",
-          "hash": "mflFeqS+T9/9uHC6rv07Cg=="
+          "hash": "XlnKcRQkFSVDVSWqA6YF+g=="
         }
       },
       "is_incremental": false,
@@ -921,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.RecorderServiceFault.html",
-          "hash": "vEv/s2b6fRjG4KyjyrZjZw=="
+          "hash": "wGqpS++9700yJnCajCjiLw=="
         }
       },
       "is_incremental": false,
@@ -933,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.RemoveDisplayParameterFailedFault.html",
-          "hash": "WsjCnVh4Nw2ZZOF0CXJRgQ=="
+          "hash": "X+y9hpwl/4+Zv3ieh7PhjA=="
         }
       },
       "is_incremental": false,
@@ -945,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.SessionServiceFault.html",
-          "hash": "qLUBz9xoTSqQROJZ8zPLwA=="
+          "hash": "doWegttxkEtcxBXk8lwdBg=="
         }
       },
       "is_incremental": false,
@@ -957,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.SetServiceFault.html",
-          "hash": "iAjgCCsTkFLIvchBcshJMA=="
+          "hash": "onKKi9PRQToMvVJ4wqWzMA=="
         }
       },
       "is_incremental": false,
@@ -969,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.SummaryDisplayServiceFault.html",
-          "hash": "ZXrtcfbFF1XqXb00ah9LEQ=="
+          "hash": "WIYZ7hjcxx/Q3JauHco5Vg=="
         }
       },
       "is_incremental": false,
@@ -981,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.TimeBaseServiceFault.html",
-          "hash": "CSGauKRmrGZ2GMvyGNAGPA=="
+          "hash": "Vxu2bkvHBow2odOsWQS9QA=="
         }
       },
       "is_incremental": false,
@@ -993,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.TracerServiceFault.html",
-          "hash": "ThoApe5YuEqkR/ekAC9+Ew=="
+          "hash": "LU9y9S5tYgVhGJeVTfNIkg=="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.UpdateLoopStatisticsServiceFault.html",
-          "hash": "u7OrUgW5RvKrwDjzncOBYg=="
+          "hash": "eA8z1xLaJg6i5Q4p2gBLiQ=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.WaveformDisplayServiceFault.html",
-          "hash": "HJOo8r3/sq8nt+QEvbf+OQ=="
+          "hash": "ZmX+U/Jl6s/FYqMbYYc+9Q=="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.WorkbookServiceFault.html",
-          "hash": "SCie75Uj/Xj4uv7jaMSCKg=="
+          "hash": "DPuqYr3i+sscGp8OLLcRRw=="
         }
       },
       "is_incremental": false,
@@ -1325,23 +1325,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.BindingSetting.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.Atlas.Automation.Api.Models.BindingSetting.html",
-          "hash": "8/aCOh1sNWeAY/KZt3TYMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Color.yml",
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Color.html",
-          "hash": "8k9LjfMueIh1IY8hrxhJDw=="
+          "hash": "hemxrYZ/Dgm1/O7M5hGvoA=="
         }
       },
       "is_incremental": false,
@@ -1353,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.CompareMode.html",
-          "hash": "t+TTp6h8Bl+rMCwGLy0Vvg=="
+          "hash": "ilaucCv+a7QPAEckr+3DrA=="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.CompositeSession.html",
-          "hash": "v0EQ25C9pe6Qc1LcyT/qZw=="
+          "hash": "HzOvzNxbp77hdFl48iuUvw=="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Display.html",
-          "hash": "k9ssn3t2TVqVYRs62djZAQ=="
+          "hash": "NNRGUmhqmHokSvzhkMNzbQ=="
         }
       },
       "is_incremental": false,
@@ -1401,19 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.DisplayParameter.html",
-          "hash": "ruJ8Mq72PmSOaQKxzdZ4xA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html",
-          "hash": "ajlFe345d3dc67evGiJeyg=="
+          "hash": "354cXv2qgDi70lYfpbmNkQ=="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IColor.html",
-          "hash": "PbOi3fs+rHe2COc2bCkTEA=="
+          "hash": "OmGMfhyPTdu3vg1HXli9Rw=="
         }
       },
       "is_incremental": false,
@@ -1437,7 +1413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ICompareMode.html",
-          "hash": "fzEsRwj4lyDnduPd8A/9LA=="
+          "hash": "6DKzsGhcbNz5QfepMjMjwg=="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ICompositeSession.html",
-          "hash": "0uo86FWyXmsuIAy4qHQ0DQ=="
+          "hash": "ib+4++QW5/Ixsen8cel0yA=="
         }
       },
       "is_incremental": false,
@@ -1461,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IDisplay.html",
-          "hash": "mGYTmRabbuDieCUkV+yVIQ=="
+          "hash": "wYCV6+eOmmxR424DxciyVA=="
         }
       },
       "is_incremental": false,
@@ -1473,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IDisplayParameter.html",
-          "hash": "2KFelDIaBI6WFxd5GF5knA=="
+          "hash": "f4WBZzo/e2v5NDVbBFqImw=="
         }
       },
       "is_incremental": false,
@@ -1485,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ILap.html",
-          "hash": "AtRQ2UN4fnRKel6ttegsFw=="
+          "hash": "kfLmmKFGCD7kK6n1Mwny6w=="
         }
       },
       "is_incremental": false,
@@ -1497,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INewLap.html",
-          "hash": "1VKO5soqmVvKe0fSEqggYQ=="
+          "hash": "Ft0/xOSYxur2jvxufjZomg=="
         }
       },
       "is_incremental": false,
@@ -1509,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INewSessionEvent.html",
-          "hash": "LQJK8TAaItX7QVKj2OLIbA=="
+          "hash": "kDn9Pn5+rV4QEMQpjgN1Dw=="
         }
       },
       "is_incremental": false,
@@ -1521,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.INumericDisplayParameter.html",
-          "hash": "iaHUQDPIoTc8mcteArZPiw=="
+          "hash": "U+2BoZrazcy8OjZhvGiBqg=="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IObjectId.html",
-          "hash": "IQ/eT5xK3FwSlaHjKwxV/g=="
+          "hash": "2FM8aR6fhBw2+PwM2SNrRA=="
         }
       },
       "is_incremental": false,
@@ -1545,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IPage.html",
-          "hash": "1WELWBJ2o34NQ4ynDryKDA=="
+          "hash": "fe/BbG4k2FzCfhLhELRiiA=="
         }
       },
       "is_incremental": false,
@@ -1557,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IParameter.html",
-          "hash": "kQqJfQzVtA5zlR8G0sGnIA=="
+          "hash": "bS3l3Mlp5iNasfbs4rl45A=="
         }
       },
       "is_incremental": false,
@@ -1569,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IParameterValues.html",
-          "hash": "uSqf7TyrV4oI4e+wzV7cLQ=="
+          "hash": "7D/t8kN9GyOp6yzrrt/slg=="
         }
       },
       "is_incremental": false,
@@ -1581,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IProperty.html",
-          "hash": "ThnoUF0XYCrjDK4CtTwm5w=="
+          "hash": "QwQ1wIvDuEd/fVK6PEoKcA=="
         }
       },
       "is_incremental": false,
@@ -1593,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.html",
-          "hash": "COD2quLyyXJBi942nKMcDA=="
+          "hash": "GxBrlbuZ88CKo+BIktMIaw=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IServiceConnection.html",
-          "hash": "sM8mZIQ4Zfpdyd+lPRNJgA=="
+          "hash": "vbfppM3PPqI0OhHIFKo/Sg=="
         }
       },
       "is_incremental": false,
@@ -1617,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISession.html",
-          "hash": "e/YSrOy+L+w8DPSpijTVqA=="
+          "hash": "Fny15XiIzCO7b9WLWmE3Yg=="
         }
       },
       "is_incremental": false,
@@ -1629,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionDetail.html",
-          "hash": "AbHIvlfL0mD9FMZBcgOrlA=="
+          "hash": "UaFW3Ir5U1h037Z1C8CaCA=="
         }
       },
       "is_incremental": false,
@@ -1641,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionEvent.html",
-          "hash": "H7MbaWmxqYgXFtFBJ2ciXw=="
+          "hash": "guLvR04KroyZL6blh+d+BA=="
         }
       },
       "is_incremental": false,
@@ -1653,7 +1629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionId.html",
-          "hash": "Z5/TAfPQ0p8An7fJomBrAQ=="
+          "hash": "XUcj962NIzaPZIaMMczy+Q=="
         }
       },
       "is_incremental": false,
@@ -1665,7 +1641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionLoaded.html",
-          "hash": "K/DqL0B3f+7AM50wUBawdw=="
+          "hash": "ciLhj3EVNDGeFhsEUOplqw=="
         }
       },
       "is_incremental": false,
@@ -1677,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISessionRemoved.html",
-          "hash": "h64lr60svRr0cfOt/BjhzA=="
+          "hash": "Yeu0Ft7VmI6uvO5WqnfYBg=="
         }
       },
       "is_incremental": false,
@@ -1689,7 +1665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ISet.html",
-          "hash": "Gy5CSXV5uRMGkKivlEuUmg=="
+          "hash": "K+4/4S9CA0YrpgZ3ObIwdg=="
         }
       },
       "is_incremental": false,
@@ -1701,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IStatisticsData.html",
-          "hash": "1A6F+o9w8W53rObnaLKJ1g=="
+          "hash": "oxDvCaFsWJ36LjbAxrY6wA=="
         }
       },
       "is_incremental": false,
@@ -1713,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITelemetryMapping.html",
-          "hash": "ra29VuEpSWnDZgMrL8fGGA=="
+          "hash": "28jdpMDGcmi6A2dl1UwavQ=="
         }
       },
       "is_incremental": false,
@@ -1725,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITimeBase.html",
-          "hash": "g645/cQY0JjQ+nsmOg5zSQ=="
+          "hash": "KrDr7yF9YPqIGr9HPR/HWg=="
         }
       },
       "is_incremental": false,
@@ -1737,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IValue.html",
-          "hash": "4l0bvPL63Y0IW7lnDMik4w=="
+          "hash": "FDdWTmtZyb6kwb/SFsCBYQ=="
         }
       },
       "is_incremental": false,
@@ -1749,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IWaveformDisplayParameter.html",
-          "hash": "tBXRaJNYtNhj911ekmM+VA=="
+          "hash": "4cNIJzmXZTGgkkDm+zSTKQ=="
         }
       },
       "is_incremental": false,
@@ -1761,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IWorkbook.html",
-          "hash": "dUXRAG9gTOZ6JEcmAzkE3Q=="
+          "hash": "6VJ0xC+6p8xtGvLhEMyQog=="
         }
       },
       "is_incremental": false,
@@ -1773,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.html",
-          "hash": "XvyD232RyuCT3SunJvNuiw=="
+          "hash": "/1UMTV4yzmZUqJOtnOaBMQ=="
         }
       },
       "is_incremental": false,
@@ -1785,7 +1761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Lap.html",
-          "hash": "r2m/LkLsck/FtWuq0qNtdQ=="
+          "hash": "1/uR7cVk2Kum/hsb3Spcvw=="
         }
       },
       "is_incremental": false,
@@ -1797,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.ModelBase.html",
-          "hash": "b1b03hCX8dTN42IOeCkl7A=="
+          "hash": "aLUkpAmyn0I9BS7pqyLocQ=="
         }
       },
       "is_incremental": false,
@@ -1809,7 +1785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.NewLap.html",
-          "hash": "co6RdrK5Ycp8AfdqtDIZ2A=="
+          "hash": "5OUgp4HaN35HZ3tQw4skRQ=="
         }
       },
       "is_incremental": false,
@@ -1821,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.NewSessionEvent.html",
-          "hash": "fuufKEMrYnIR6jb7Hojz0A=="
+          "hash": "dmGE3Ov4JfM3evu5hbV9yA=="
         }
       },
       "is_incremental": false,
@@ -1833,7 +1809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.html",
-          "hash": "QKYPMNtiaxzBxY0X/UQaxA=="
+          "hash": "CqhFN8R3Ench8N7slvfG2g=="
         }
       },
       "is_incremental": false,
@@ -1845,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.ObjectId.html",
-          "hash": "lsa6xbOY55XQt/YPKgQvRA=="
+          "hash": "nW0ySyyB+1hn/wE32t25Qg=="
         }
       },
       "is_incremental": false,
@@ -1857,7 +1833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Page.html",
-          "hash": "kE9mQ2SvTqmk35msJWE4QQ=="
+          "hash": "mZn1P5olutYiXvFjvqiH/g=="
         }
       },
       "is_incremental": false,
@@ -1869,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Parameter.html",
-          "hash": "U2OzXP2orui58uSF5w0ipw=="
+          "hash": "lwLCPajb9pKP/o3mQKiX4w=="
         }
       },
       "is_incremental": false,
@@ -1893,7 +1869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.ParameterValues.html",
-          "hash": "IK4rBo4UhjuItqqbg11EIA=="
+          "hash": "kzVdXeRh0ybRUH8ZpXyQKA=="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1881,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Property.html",
-          "hash": "ZtQfF6E65au5E2XE/i9qMw=="
+          "hash": "h66iTWqjBEnNFb8CT3lDRg=="
         }
       },
       "is_incremental": false,
@@ -1917,7 +1893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Recorder.html",
-          "hash": "i9xfsvosNz+YOb7Jdkws+g=="
+          "hash": "6gGDHZh4sVQEgQGtY5PzkA=="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.ServiceConnection.html",
-          "hash": "pkhzPoWJgYzEsNSVSzrlaw=="
+          "hash": "liSA/f1r8BesREBark8zIg=="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Session.html",
-          "hash": "CtDCS7az8zcTMJ2ONome5g=="
+          "hash": "6SSaNDa6xI6rrWnLmh+6xA=="
         }
       },
       "is_incremental": false,
@@ -1965,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionDetail.html",
-          "hash": "tywPtmBm0mEMhU4lZUXQZQ=="
+          "hash": "Cw6NR4t45d+ig5WBG+L1Ug=="
         }
       },
       "is_incremental": false,
@@ -1977,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionEvent.html",
-          "hash": "W1XNSJOJYeltovS3dMw4Nw=="
+          "hash": "YFyDwy+siqbn4uJ+HCqoJQ=="
         }
       },
       "is_incremental": false,
@@ -1989,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionId.html",
-          "hash": "Pq+s5dgzCK3vqJCOhQ38KQ=="
+          "hash": "PqDnG55bKEYbyGgkOTBk+Q=="
         }
       },
       "is_incremental": false,
@@ -2001,7 +1977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionLoaded.html",
-          "hash": "5W9O0r7G9AdugBerAorQdQ=="
+          "hash": "egJFyXhyb/Po3nHmKhRKCg=="
         }
       },
       "is_incremental": false,
@@ -2013,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.SessionRemoved.html",
-          "hash": "rn2TuDEOrs6yudohqoeHuQ=="
+          "hash": "oZNI3XYHQzIe6r764nVrrw=="
         }
       },
       "is_incremental": false,
@@ -2025,7 +2001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Set.html",
-          "hash": "VTXLo8dbMUv7E9rVbr1geA=="
+          "hash": "ZAfbiYZtj+TfnTyz0eCbDg=="
         }
       },
       "is_incremental": false,
@@ -2037,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.StatisticsData.html",
-          "hash": "ZHpmigLZWyEZQK60f8E25A=="
+          "hash": "RDAbDbV3Fajg58jwsXQp4A=="
         }
       },
       "is_incremental": false,
@@ -2049,7 +2025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.TelemetryMapping.html",
-          "hash": "17CzMIo//utAvmUtU/X2Jg=="
+          "hash": "G7mtbpfJH9TTQFvHnLhXiA=="
         }
       },
       "is_incremental": false,
@@ -2061,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.TimeBase.html",
-          "hash": "+nYFTWei4zXp6sT8Q4J2uQ=="
+          "hash": "f6N2f0Ob2lpGYa+vmKRUvQ=="
         }
       },
       "is_incremental": false,
@@ -2121,7 +2097,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Value.html",
-          "hash": "vev2mbibz2dGRXImFsHrbw=="
+          "hash": "hK1L5YzyDIaACxbDE6gpPw=="
         }
       },
       "is_incremental": false,
@@ -2133,7 +2109,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.WaveformDisplayParameter.html",
-          "hash": "O6h7AMmQOkNBCUEkNpOs8w=="
+          "hash": "KD3EHDZGpDfxsz2Wfjh5iw=="
         }
       },
       "is_incremental": false,
@@ -2145,7 +2121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Workbook.html",
-          "hash": "3i8idYANeDh8DcNebsAQxQ=="
+          "hash": "e5uM7hoyh6+a6e9QSIcCpA=="
         }
       },
       "is_incremental": false,
@@ -2157,7 +2133,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.html",
-          "hash": "d2jkAI1YUhwPyiu9s4FHxw=="
+          "hash": "1ts5cNBtDVRIEm5WVYPmWQ=="
         }
       },
       "is_incremental": false,
@@ -2205,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.html",
-          "hash": "KdrlV2DKVmDecWNe7zqU0w=="
+          "hash": "DE/S05urBvYWEkqK/U0gJQ=="
         }
       },
       "is_incremental": false,
@@ -2217,7 +2193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.AutomationClient.html",
-          "hash": "fq/teVKJ5WRk05x+zIJ8ig=="
+          "hash": "GcXpFtCeRSuGUjwD32F8tw=="
         }
       },
       "is_incremental": false,
@@ -2229,7 +2205,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.ConnectionFailedException.html",
-          "hash": "y9MCJtstjhr9agVVeV2Lnw=="
+          "hash": "d0CSqOBCEkGgBp/f4nUwnA=="
         }
       },
       "is_incremental": false,
@@ -2241,7 +2217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.CursorPointChangedEventArgs.html",
-          "hash": "4novuS5tZZzsHoR6Q/8hQA=="
+          "hash": "VROXY0TIjN/HoofV8szfQQ=="
         }
       },
       "is_incremental": false,
@@ -2253,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate.html",
-          "hash": "KfbtyO7yZxWULRTY2cy+wg=="
+          "hash": "8T9JkT/+rFFAS4qePjc8Fg=="
         }
       },
       "is_incremental": false,
@@ -2265,7 +2241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate.html",
-          "hash": "BJ2VBa8Ig1DHC9CN2+w2+A=="
+          "hash": "rpDNJePCrqQbTlKPUV9b5w=="
         }
       },
       "is_incremental": false,
@@ -2277,7 +2253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate.html",
-          "hash": "aVX/LGqlzjhPXp1mfIiSaA=="
+          "hash": "Oh4ZfRvp7p8NPNMdeX0U1w=="
         }
       },
       "is_incremental": false,
@@ -2289,7 +2265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate.html",
-          "hash": "M7j8n2pXk+l4WMUQg8d1QQ=="
+          "hash": "b4w6Hg4y/lT1ccsIs+tKPQ=="
         }
       },
       "is_incremental": false,
@@ -2301,7 +2277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate.html",
-          "hash": "hTi8HPOTuexMeCn6DOZJJw=="
+          "hash": "YfF+HexkXdTF4+YTJqMssQ=="
         }
       },
       "is_incremental": false,
@@ -2313,7 +2289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate.html",
-          "hash": "+WUExNpg8u4b4CUo4XZzDQ=="
+          "hash": "ylvYIIkt5xZDmX0WrObV0g=="
         }
       },
       "is_incremental": false,
@@ -2325,7 +2301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate.html",
-          "hash": "T0ILNEziqu9bxRxneGRuJQ=="
+          "hash": "pqRgxZmdoJTsHkxS5ql8Ig=="
         }
       },
       "is_incremental": false,
@@ -2337,7 +2313,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate.html",
-          "hash": "QF8yWB6bzg0Oe3YlB2OeZQ=="
+          "hash": "iN1NXL9LrRODtnUYsajmWQ=="
         }
       },
       "is_incremental": false,
@@ -2349,7 +2325,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate.html",
-          "hash": "e2HqywGuRNGjc0QzKLvZcQ=="
+          "hash": "uDof5pdHTJoNZ9txGs5jrg=="
         }
       },
       "is_incremental": false,
@@ -2361,7 +2337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html",
-          "hash": "kL+VL8rpDOvS/EZoed6Lcw=="
+          "hash": "WPTbAQNKrzaiJos66Rrpxw=="
         }
       },
       "is_incremental": false,
@@ -2373,7 +2349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html",
-          "hash": "LG8/WBeJf1GrupnX6vyn6A=="
+          "hash": "TICbbdZxE/a79fIMCpA+LA=="
         }
       },
       "is_incremental": false,
@@ -2385,7 +2361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientNoCallbackBase-2.html",
-          "hash": "dnK1+2ZXonnqhTfeuXvPgw=="
+          "hash": "GNq5TyfjCOpb68rbs6z/aQ=="
         }
       },
       "is_incremental": false,
@@ -2397,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html",
-          "hash": "DIYwjrdNgiUjpM9ytQ954A=="
+          "hash": "gyb//RVxM4feNKuPugo4ZQ=="
         }
       },
       "is_incremental": false,
@@ -2409,7 +2385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.DataSourceServiceClient.html",
-          "hash": "edfas2X0LRDs5plsG62mcQ=="
+          "hash": "gVk59RjaVQRXXuo2BQtRNg=="
         }
       },
       "is_incremental": false,
@@ -2421,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.DiagnosticsServiceClient.html",
-          "hash": "QaPfJzTpu/PEez+1thK5qQ=="
+          "hash": "6Kha2+rQHHxyVJzw+CNnVg=="
         }
       },
       "is_incremental": false,
@@ -2433,7 +2409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.DialogProviderServiceClient.html",
-          "hash": "wtnmQuTuOZcN0TacnNmlsg=="
+          "hash": "Z3yfyUwH11Mk7rj6SA+qHw=="
         }
       },
       "is_incremental": false,
@@ -2445,7 +2421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html",
-          "hash": "/sfZikzh2Tt3ulK7EkiS3w=="
+          "hash": "yA3ZwkmQ0GdiPLSMdfCYRw=="
         }
       },
       "is_incremental": false,
@@ -2457,7 +2433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.html",
-          "hash": "uDrrZxk5NzUuX0PFq/ZBtQ=="
+          "hash": "dmkcQ0IIMUnIe/dV6UwSrQ=="
         }
       },
       "is_incremental": false,
@@ -2469,7 +2445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IApplicationCallbackServiceClient.html",
-          "hash": "C/s1TYDg5ZXO7Y2DXrVV+w=="
+          "hash": "78/tbVmhMGn+V3b3o9CUTQ=="
         }
       },
       "is_incremental": false,
@@ -2481,7 +2457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IApplicationServiceClient.html",
-          "hash": "aEi1+hwb8GIqSZQdCMxN7w=="
+          "hash": "ymoNaS/tMwdjeaTxdzsnMA=="
         }
       },
       "is_incremental": false,
@@ -2493,7 +2469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IDataSourceServiceClient.html",
-          "hash": "eWg4RpZ1VSeAs+cVKXLqUg=="
+          "hash": "o2V21aSnCXHHFQYzgqyhTA=="
         }
       },
       "is_incremental": false,
@@ -2505,7 +2481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IDialogProviderServiceClient.html",
-          "hash": "KTWx8c1f++yokpNmlercHA=="
+          "hash": "LVeTttjk/cYZU5uS1y0wKQ=="
         }
       },
       "is_incremental": false,
@@ -2517,7 +2493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html",
-          "hash": "N1WPizuB96s527tXPUQgew=="
+          "hash": "B/ZfcWDDvPUZwt78zGEnxg=="
         }
       },
       "is_incremental": false,
@@ -2529,7 +2505,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.INumericDisplayServiceClient.html",
-          "hash": "ByggJdlt8avPQW/v1OU2ew=="
+          "hash": "m5+saJywp6FEOdaz75O07A=="
         }
       },
       "is_incremental": false,
@@ -2541,7 +2517,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IPageServiceClient.html",
-          "hash": "sRJr0mOji91m3wE3Xl+INg=="
+          "hash": "o+RG6gGoh5KCzRfAbvLKZA=="
         }
       },
       "is_incremental": false,
@@ -2553,7 +2529,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IParameterDataAccessServiceClient.html",
-          "hash": "p0ts7zoKXM+132v+1YRhfQ=="
+          "hash": "rr8/LpXc95fBudFa2ffVqw=="
         }
       },
       "is_incremental": false,
@@ -2565,7 +2541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IRecorderServiceClient.html",
-          "hash": "4exbnaY+oZUOlKhINcJEug=="
+          "hash": "PF9AfjWhJQZS/WpIhdWOUg=="
         }
       },
       "is_incremental": false,
@@ -2577,7 +2553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html",
-          "hash": "bIJktMp8CHFw6kmZBpKBqg=="
+          "hash": "+XwnxqvKSKt3hcqNTkqNcg=="
         }
       },
       "is_incremental": false,
@@ -2589,7 +2565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISetServiceClient.html",
-          "hash": "f5ZruMhhhZKzpVjQytmagg=="
+          "hash": "rvJwNuKmiEFdLcTHxvCabA=="
         }
       },
       "is_incremental": false,
@@ -2601,7 +2577,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ISummaryDisplayServiceClient.html",
-          "hash": "AtX/5DYclvQsgTzGwkT0XA=="
+          "hash": "U/bH75wt48LXl99FcQ3XuQ=="
         }
       },
       "is_incremental": false,
@@ -2613,7 +2589,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseCallbackServiceClient.html",
-          "hash": "Xi/kmcsSC3UXWiw8PELgUQ=="
+          "hash": "JarvL78IABdDeWLevF49VA=="
         }
       },
       "is_incremental": false,
@@ -2625,7 +2601,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.html",
-          "hash": "5FXpbF4QN4KTDH6LJFYkTA=="
+          "hash": "qdhbC01Debkc4Fnou4T8Vg=="
         }
       },
       "is_incremental": false,
@@ -2637,7 +2613,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IWaveformDisplayServiceClient.html",
-          "hash": "wD/qBNM6SJJ2aLlXsp9BEw=="
+          "hash": "hZlbz/dej1wyoa5jJTaruQ=="
         }
       },
       "is_incremental": false,
@@ -2649,7 +2625,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IWorkbookServiceClient.html",
-          "hash": "Q+IbxMxKZEmmgTl/ON/7/w=="
+          "hash": "8lkAj4mmjkPFSDQnaY1CfA=="
         }
       },
       "is_incremental": false,
@@ -2661,7 +2637,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.html",
-          "hash": "Nmq3xuhcTbT3gXdBk3hrzA=="
+          "hash": "IUvEAd0NEHYeYoBWxEr7eA=="
         }
       },
       "is_incremental": false,
@@ -2673,7 +2649,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.NumericDisplayServiceClient.html",
-          "hash": "fNvjXa1fG9k42bJ0ks9qTg=="
+          "hash": "KKztc5WJDxaIgIRH8apG0w=="
         }
       },
       "is_incremental": false,
@@ -2685,7 +2661,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.PageServiceClient.html",
-          "hash": "hDF5ynqJxAsjiz3MYackuA=="
+          "hash": "wdtBYf+kdz1yEmXeF1pBXg=="
         }
       },
       "is_incremental": false,
@@ -2697,7 +2673,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.ParameterDataAccessServiceClient.html",
-          "hash": "oSWmiYWFRBD9i747YD0Y6Q=="
+          "hash": "A/SiLyK7N7Egq21wU30cPg=="
         }
       },
       "is_incremental": false,
@@ -2709,7 +2685,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.RecorderServiceClient.html",
-          "hash": "Z79stDC83BpBEJ9mLJTPiA=="
+          "hash": "wbLjRJ6ofxetYjVp+bpS9Q=="
         }
       },
       "is_incremental": false,
@@ -2721,7 +2697,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html",
-          "hash": "20zISH4U41veJyYQrFgEvg=="
+          "hash": "Z0FweN33AQbB4GTF64AQdw=="
         }
       },
       "is_incremental": false,
@@ -2733,7 +2709,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.SetServiceClient.html",
-          "hash": "7pHVPmU5Dud3ejmKhUKeYg=="
+          "hash": "N3OfqZAdpvN0tHpSXyAhNw=="
         }
       },
       "is_incremental": false,
@@ -2745,7 +2721,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.SummaryDisplayServiceClient.html",
-          "hash": "xp0efYi6shD0s/5fp9XbzA=="
+          "hash": "Gim+D0XqbW1oqsQ2lhmMPg=="
         }
       },
       "is_incremental": false,
@@ -2757,7 +2733,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate.html",
-          "hash": "dW2geQZm3ZMEdgOiWrTm6w=="
+          "hash": "RXRNgxAjeldaPjH75WN/Lg=="
         }
       },
       "is_incremental": false,
@@ -2769,7 +2745,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate.html",
-          "hash": "LX8NJGHWrah1FgS8Rrpefw=="
+          "hash": "nK8U+AQKa0qEt/u56nje3w=="
         }
       },
       "is_incremental": false,
@@ -2781,7 +2757,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html",
-          "hash": "adi/Ppx0zMuo8GxW5ewYlA=="
+          "hash": "153nn0ZlwBblINAUujAAFw=="
         }
       },
       "is_incremental": false,
@@ -2793,7 +2769,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html",
-          "hash": "qSeAgsiZbiwunPAiZdkBpg=="
+          "hash": "g0507olADC+sCSyMS9OAnA=="
         }
       },
       "is_incremental": false,
@@ -2805,7 +2781,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate.html",
-          "hash": "Ln+Hi3I8j9ZWtZNqYpvM+Q=="
+          "hash": "2Is9Ts/3yyVHBiCWBE/+tg=="
         }
       },
       "is_incremental": false,
@@ -2817,7 +2793,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate.html",
-          "hash": "lrVd60PSwvyrvM5/WOy6+w=="
+          "hash": "yjqOUFw+Xs7Xz5iCbPWIgQ=="
         }
       },
       "is_incremental": false,
@@ -2829,7 +2805,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html",
-          "hash": "UAd1zhj2DIlEN4MvS/h3hA=="
+          "hash": "UIBt0gCew1zXyW6/9nW3cA=="
         }
       },
       "is_incremental": false,
@@ -2841,7 +2817,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.TracerServiceClient.html",
-          "hash": "jG1PouxbaLvAD0ngIREiqA=="
+          "hash": "NBMnAkSCrmNnmeufukP6/A=="
         }
       },
       "is_incremental": false,
@@ -2853,7 +2829,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.UpdateLoopStatisticsServiceClient.html",
-          "hash": "Kjoz+MNZ0jfNRKzRcaGMfQ=="
+          "hash": "WU5szMl8FHaKeXWq9JWcKg=="
         }
       },
       "is_incremental": false,
@@ -2865,7 +2841,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.WaveformDisplayServiceClient.html",
-          "hash": "4UZ0fROiGIbf576TViTO1Q=="
+          "hash": "36LzOcTjfaq7LMDq0XP3+w=="
         }
       },
       "is_incremental": false,
@@ -2877,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.WorkbookServiceClient.html",
-          "hash": "9waI6bzEWuwSYPvxPeEiJA=="
+          "hash": "evcmHV9hZcAYnBPDnl466A=="
         }
       },
       "is_incremental": false,
@@ -2889,7 +2865,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.html",
-          "hash": "pkYFCX2fphL8O+a2JsCJaA=="
+          "hash": "dhhD3GPlBlh9HoOJ5dGoGg=="
         }
       },
       "is_incremental": false,
@@ -2901,7 +2877,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.TimeBaseChangedEventArgs.html",
-          "hash": "3T6FOa/wppe7l/ZmHL3WHg=="
+          "hash": "fL6+XAJt+5xuI4O65aDB6Q=="
         }
       },
       "is_incremental": false,
@@ -2913,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.html",
-          "hash": "56h8N8mWmTdJhHMjXCdOTw=="
+          "hash": "UQVRc+vUunxF/unRB/no5w=="
         }
       },
       "is_incremental": false,
@@ -2961,7 +2937,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.IDataRequestSignalFactory.html",
-          "hash": "XngFZQRHD8vBfHnERPMiuA=="
+          "hash": "O2QwVHaxqAqWq6LsVnpK2w=="
         }
       },
       "is_incremental": false,
@@ -2973,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.ILap.html",
-          "hash": "u8+2Hvmgv89dnOSo/Gicmw=="
+          "hash": "KVNh9MOumgfTlte4HWabfQ=="
         }
       },
       "is_incremental": false,
@@ -3021,7 +2997,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.PanningState.html",
-          "hash": "oNMD5ksP7hP/ytqzEYSTnw=="
+          "hash": "1VQkIBlsrIbskvrJOqBdTw=="
         }
       },
       "is_incremental": false,
@@ -3033,7 +3009,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.SampleDirection.html",
-          "hash": "weCtAChY4pJZLWJrxHbGPQ=="
+          "hash": "rI8fvh+ROYTXLdV7Bfs+lQ=="
         }
       },
       "is_incremental": false,
@@ -3045,7 +3021,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.SampleMode.html",
-          "hash": "2rMgX16g5PIQvMoHLl38Ig=="
+          "hash": "rjfqYHKsKK01XASn/cuOBA=="
         }
       },
       "is_incremental": false,
@@ -3189,7 +3165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.Signals.SignalIdentifiers.html",
-          "hash": "eKz9M0S+QdS7XZDvtAPXqA=="
+          "hash": "AuI+5hPp4ni98qDQPisUag=="
         }
       },
       "is_incremental": false,
@@ -3213,7 +3189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.StatisticLevel.html",
-          "hash": "Ilv6ZwDwG0rTJlGDy39DrQ=="
+          "hash": "BAm2NFnOnYaaHpRBs/fQGw=="
         }
       },
       "is_incremental": false,
@@ -3225,7 +3201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.StatisticOption.html",
-          "hash": "UQQuEpHNXY1J38Q4sy62NA=="
+          "hash": "UJ9iEmZ/oKsxoBiLF0DDrg=="
         }
       },
       "is_incremental": false,
@@ -3237,7 +3213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.TriggerSource.html",
-          "hash": "r7j0zMNttahMNToVZYBqRw=="
+          "hash": "hWkhxyoePYwYcUArssVDtw=="
         }
       },
       "is_incremental": false,
@@ -3249,7 +3225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Data.html",
-          "hash": "+IUVncU+mZVceTRU8jxb4g=="
+          "hash": "GKP15DPjmP9jtqaYrBiRcw=="
         }
       },
       "is_incremental": false,
@@ -3309,7 +3285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ParameterEventArgs.html",
-          "hash": "uZjRjpi+MBoI7ncNZmn2Zw=="
+          "hash": "VsuJKIeLSGHflNudN6E45Q=="
         }
       },
       "is_incremental": false,
@@ -3321,7 +3297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.html",
-          "hash": "g10c3Okknr+wS+W+jSaqMw=="
+          "hash": "E7LEp/fw6sVycuyAvLUZww=="
         }
       },
       "is_incremental": false,
@@ -3333,7 +3309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Parameters.html",
-          "hash": "KJASYRVwR7s7+UkGlmy0qg=="
+          "hash": "agzh9GTMTbbNW0zUGqekaw=="
         }
       },
       "is_incremental": false,
@@ -3345,7 +3321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.CompositeSessionEventArgs.html",
-          "hash": "JmWIIyaNszV3f5Z5lN4Cdw=="
+          "hash": "i83sMDT4OEP+XB2NJw9XCw=="
         }
       },
       "is_incremental": false,
@@ -3357,7 +3333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.CompositeSessionUnloadedEventArgs.html",
-          "hash": "71HDjfzQaApOGxxdtJAZTQ=="
+          "hash": "GPXDMDWahEm6R6s308CCEg=="
         }
       },
       "is_incremental": false,
@@ -3453,7 +3429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.SessionExtensions.html",
-          "hash": "3w4x9CU1r97wfMWXdgiRiA=="
+          "hash": "gZ80eCsjNwS9oFzicsr+Fw=="
         }
       },
       "is_incremental": false,
@@ -3465,7 +3441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.SessionState.html",
-          "hash": "iEPrnQOkvcFSydo/Tx0oSw=="
+          "hash": "TO9rKmSc+vz1AAHhU+8Hug=="
         }
       },
       "is_incremental": false,
@@ -3477,7 +3453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Platform.Sessions.html",
-          "hash": "SSggM+EJ6e25EB9X7QTbrg=="
+          "hash": "Lq3fmxLjFwRpwzyXbsqI7g=="
         }
       },
       "is_incremental": false,
@@ -3525,7 +3501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Presentation.Commands.DelegateCommand.html",
-          "hash": "u72RcJi18TxtM0a6OGjF5A=="
+          "hash": "kYQpzsUzANtkQ1dk6h7XOQ=="
         }
       },
       "is_incremental": false,
@@ -3549,7 +3525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Presentation.Displays.DisplayPluginViewModel.html",
-          "hash": "2qauoCtsMOMGtbVmC5HCvw=="
+          "hash": "hQWpZiEeTJ7IOM3r76YqzQ=="
         }
       },
       "is_incremental": false,
@@ -3561,7 +3537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Presentation.Displays.IDisplayPluginServiceContext.html",
-          "hash": "mUDl7gakT4Y3ei2UBrbMgQ=="
+          "hash": "mXnvl1OU1O5qcBMySvxq2g=="
         }
       },
       "is_incremental": false,
@@ -3585,7 +3561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPlugin-1.html",
-          "hash": "v8Akk5lNKrvEIU+vmTtcmw=="
+          "hash": "jlGvTPki3xNYNfKKEvxV8A=="
         }
       },
       "is_incremental": false,
@@ -3597,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPluginAttribute.html",
-          "hash": "N2ThQ44q7oPJEVHZIJc5DQ=="
+          "hash": "tzTwpyPMxLdE+4nbfvyvdQ=="
         }
       },
       "is_incremental": false,
@@ -3609,7 +3585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Presentation.Plugins.DisplayPluginSettingsAttribute.html",
-          "hash": "J6D45OMsIOi0MznZw+JqTQ=="
+          "hash": "5DLDuaDNZJJSbnNBUUsa+g=="
         }
       },
       "is_incremental": false,
@@ -3645,7 +3621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Client.Presentation.Services.IDisplayParameterService.html",
-          "hash": "7Ih54sECVclTFNT8Bd+Tlw=="
+          "hash": "IGEgTK3OGUalRwXQDCHfhA=="
         }
       },
       "is_incremental": false,
@@ -3681,7 +3657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.CompositeSessionContainerKey.html",
-          "hash": "OOm3tVBPXbCe6tj8/Hga4A=="
+          "hash": "AiWzbgUhCecg8BTKiESk4Q=="
         }
       },
       "is_incremental": false,
@@ -3693,7 +3669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.CompositeSessionKey.html",
-          "hash": "fGNv4TQFr0PKOFtH45p8Yw=="
+          "hash": "i3brIoqvcjlfYgoWggHJag=="
         }
       },
       "is_incremental": false,
@@ -3705,7 +3681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.DataResultMode.html",
-          "hash": "LymkDHKBkCgERRPvNR/77w=="
+          "hash": "Yv1R/5E2EoSdgTIvV7Wt8A=="
         }
       },
       "is_incremental": false,
@@ -3717,7 +3693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.DataStatusType.html",
-          "hash": "8SsjdKRq7Iw0BqIGREY8fw=="
+          "hash": "0ipgKwhE5h+wNaaZ+ToWEA=="
         }
       },
       "is_incremental": false,
@@ -3729,7 +3705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.ErrorStatusType.html",
-          "hash": "VUAVOULgSDG9oeiA5tlg7Q=="
+          "hash": "YlhKC9mEMbn5VNUqT/Oh4g=="
         }
       },
       "is_incremental": false,
@@ -3741,7 +3717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.Extensions.DateTimeExtensions.html",
-          "hash": "Oj3iilsbGfNEQbDahZI24w=="
+          "hash": "vvSHOjAt5ms4UljykntFqQ=="
         }
       },
       "is_incremental": false,
@@ -3765,7 +3741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.FileWatcher.html",
-          "hash": "qXzDoILHgR9r/mXibhEsYg=="
+          "hash": "wwFhA+pOSzNkC7pNpdi1SA=="
         }
       },
       "is_incremental": false,
@@ -3813,7 +3789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.SessionKey.html",
-          "hash": "GhVTP7ceI9MCAG6svJCuAg=="
+          "hash": "COeuu8h3Gi4818JPbz4Ckw=="
         }
       },
       "is_incremental": false,
@@ -3825,7 +3801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.StreamExtensions.html",
-          "hash": "84kT8uYLUq5awz5hxVIwrg=="
+          "hash": "BD+soJqeiaJ75zGfObkwtg=="
         }
       },
       "is_incremental": false,
@@ -3837,7 +3813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.TimestampValuesBase.html",
-          "hash": "xIiAx8F4amDE795IFwecvw=="
+          "hash": "eSo/rh7uXw6wxeKqLmEIbQ=="
         }
       },
       "is_incremental": false,
@@ -3849,7 +3825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.OCS.Core.html",
-          "hash": "GkGx31xyaCnt8iE6XeUcfA=="
+          "hash": "QDC/fm7Ixn/OURyclBvdEg=="
         }
       },
       "is_incremental": false,
@@ -3873,7 +3849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "s0w3g4MLzsGiS7H/bfKENw=="
+          "hash": "EzwR1gW2Y1KjMPNeddyZcg=="
         }
       },
       "is_incremental": false,
@@ -4019,7 +3995,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 321,
+          "total_file_count": 319,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

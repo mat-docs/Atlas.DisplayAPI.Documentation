@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum ConnectionState
+    <title>Class ConnectionState
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum ConnectionState
+    <meta name="title" content="Class ConnectionState
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -71,61 +71,184 @@
             <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState">
   
   
-  <h1 id="MAT_Atlas_Automation_Api_Enums_ConnectionState" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState" class="text-break">Enum ConnectionState
+  <h1 id="MAT_Atlas_Automation_Api_Enums_ConnectionState" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState" class="text-break">Class ConnectionState
   </h1>
   <div class="markdown level0 summary"><p>The status of the connection to an RTA service data source</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ConnectionState</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Api.Enums.html">MAT.Atlas.Automation.Api.Enums</a></h6>
   <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Api.dll</h6>
   <h5 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ComVisible(true)]
-[Guid(&quot;2A23381F-E7A4-4E5C-8AD0-B4E6FDC5760B&quot;)]
-public enum ConnectionState</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ConnectionState : Enum</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
+  <h4 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_AccessDeniedForbidden" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState.AccessDeniedForbidden">AccessDeniedForbidden</h4>
+  <div class="markdown level1 summary"><p>The service is available but returned 403 forbidden - likely requiring additional permissions to use the resource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ConnectionState AccessDeniedForbidden</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="MAT_Atlas_Automation_Api_Enums_ConnectionState_AccessDeniedForbidden">AccessDeniedForbidden</td>
-        <td><p>The service is available but returned 403 forbidden - likely requiring additional permissions to use the resource.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MAT_Atlas_Automation_Api_Enums_ConnectionState_AccessDeniedUnauthorized">AccessDeniedUnauthorized</td>
-        <td><p>The service is available but returned 401 unauthorized - likely requiring login.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MAT_Atlas_Automation_Api_Enums_ConnectionState_Checking">Checking</td>
-        <td><p>The status has not yet been established</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MAT_Atlas_Automation_Api_Enums_ConnectionState_ConnectedReadOnly">ConnectedReadOnly</td>
-        <td><p>The service is available and the user has read access.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MAT_Atlas_Automation_Api_Enums_ConnectionState_ConnectedReadWrite">ConnectedReadWrite</td>
-        <td><p>The service is available and the user has read and write access.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="MAT_Atlas_Automation_Api_Enums_ConnectionState_NotAvailable">NotAvailable</td>
-        <td><p>The service is not available. It either isn&apos;t running or the location isn&apos;t reachable.</p>
-</td>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_AccessDeniedUnauthorized" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState.AccessDeniedUnauthorized">AccessDeniedUnauthorized</h4>
+  <div class="markdown level1 summary"><p>The service is available but returned 401 unauthorized - likely requiring login.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ConnectionState AccessDeniedUnauthorized</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_Checking" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState.Checking">Checking</h4>
+  <div class="markdown level1 summary"><p>The status has not yet been established</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ConnectionState Checking</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_ConnectedReadOnly" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState.ConnectedReadOnly">ConnectedReadOnly</h4>
+  <div class="markdown level1 summary"><p>The service is available and the user has read access.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ConnectionState ConnectedReadOnly</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_ConnectedReadWrite" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState.ConnectedReadWrite">ConnectedReadWrite</h4>
+  <div class="markdown level1 summary"><p>The service is available and the user has read and write access.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ConnectionState ConnectedReadWrite</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_NotAvailable" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState.NotAvailable">NotAvailable</h4>
+  <div class="markdown level1 summary"><p>The service is not available. It either isn&apos;t running or the location isn&apos;t reachable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ConnectionState NotAvailable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Enums.ConnectionState.html">ConnectionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_Enums_ConnectionState_value__" data-uid="MAT.Atlas.Automation.Api.Enums.ConnectionState.value__">value__</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

@@ -997,6 +997,12 @@ references:
   commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.Trace
   fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Trace
   nameWithType: LogLevel.Trace
+- uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.value__
+  name: value__
+  href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_value__
+  commentId: F:MAT.Atlas.Api.Core.Diagnostics.LogLevel.value__
+  fullName: MAT.Atlas.Api.Core.Diagnostics.LogLevel.value__
+  nameWithType: LogLevel.value__
 - uid: MAT.Atlas.Api.Core.Diagnostics.LogLevel.Warn
   name: Warn
   href: api/MAT.Atlas.Api.Core.Diagnostics.LogLevel.html#MAT_Atlas_Api_Core_Diagnostics_LogLevel_Warn
@@ -2761,108 +2767,102 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.AutomationServiceAttribute.Address
   fullName: MAT.Atlas.Automation.Api.AutomationServiceAttribute.Address
   nameWithType: AutomationServiceAttribute.Address
-- uid: MAT.Atlas.Automation.Api.Binding
-  name: MAT.Atlas.Automation.Api.Binding
-  href: api/MAT.Atlas.Automation.Api.Binding.html
-  commentId: N:MAT.Atlas.Automation.Api.Binding
-  fullName: MAT.Atlas.Automation.Api.Binding
-  nameWithType: MAT.Atlas.Automation.Api.Binding
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior
-  name: CorsBehavior
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html
-  commentId: T:MAT.Atlas.Automation.Api.Binding.CorsBehavior
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior
-  nameWithType: CorsBehavior
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.#ctor
-  name: CorsBehavior()
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior__ctor
-  commentId: M:MAT.Atlas.Automation.Api.Binding.CorsBehavior.#ctor
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.CorsBehavior()
-  nameWithType: CorsBehavior.CorsBehavior()
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.#ctor*
-  name: CorsBehavior
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior__ctor_
-  commentId: Overload:MAT.Atlas.Automation.Api.Binding.CorsBehavior.#ctor
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.CorsBehavior
-  nameWithType: CorsBehavior.CorsBehavior
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Channels.BindingParameterCollection)
-  name: AddBindingParameters(ServiceEndpoint, BindingParameterCollection)
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_AddBindingParameters_System_ServiceModel_Description_ServiceEndpoint_System_ServiceModel_Channels_BindingParameterCollection_
-  commentId: M:MAT.Atlas.Automation.Api.Binding.CorsBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Channels.BindingParameterCollection)
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint, System.ServiceModel.Channels.BindingParameterCollection)
-  nameWithType: CorsBehavior.AddBindingParameters(ServiceEndpoint, BindingParameterCollection)
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.AddBindingParameters*
-  name: AddBindingParameters
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_AddBindingParameters_
-  commentId: Overload:MAT.Atlas.Automation.Api.Binding.CorsBehavior.AddBindingParameters
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.AddBindingParameters
-  nameWithType: CorsBehavior.AddBindingParameters
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)
-  name: ApplyClientBehavior(ServiceEndpoint, ClientRuntime)
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_ApplyClientBehavior_System_ServiceModel_Description_ServiceEndpoint_System_ServiceModel_Dispatcher_ClientRuntime_
-  commentId: M:MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint, System.ServiceModel.Dispatcher.ClientRuntime)
-  nameWithType: CorsBehavior.ApplyClientBehavior(ServiceEndpoint, ClientRuntime)
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyClientBehavior*
-  name: ApplyClientBehavior
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_ApplyClientBehavior_
-  commentId: Overload:MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyClientBehavior
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyClientBehavior
-  nameWithType: CorsBehavior.ApplyClientBehavior
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.EndpointDispatcher)
-  name: ApplyDispatchBehavior(ServiceEndpoint, EndpointDispatcher)
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_ApplyDispatchBehavior_System_ServiceModel_Description_ServiceEndpoint_System_ServiceModel_Dispatcher_EndpointDispatcher_
-  commentId: M:MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.EndpointDispatcher)
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceEndpoint, System.ServiceModel.Dispatcher.EndpointDispatcher)
-  nameWithType: CorsBehavior.ApplyDispatchBehavior(ServiceEndpoint, EndpointDispatcher)
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyDispatchBehavior*
-  name: ApplyDispatchBehavior
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_ApplyDispatchBehavior_
-  commentId: Overload:MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyDispatchBehavior
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.ApplyDispatchBehavior
-  nameWithType: CorsBehavior.ApplyDispatchBehavior
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.BehaviorType
-  name: BehaviorType
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_BehaviorType
-  commentId: P:MAT.Atlas.Automation.Api.Binding.CorsBehavior.BehaviorType
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.BehaviorType
-  nameWithType: CorsBehavior.BehaviorType
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.BehaviorType*
-  name: BehaviorType
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_BehaviorType_
-  commentId: Overload:MAT.Atlas.Automation.Api.Binding.CorsBehavior.BehaviorType
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.BehaviorType
-  nameWithType: CorsBehavior.BehaviorType
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.CreateBehavior
-  name: CreateBehavior()
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_CreateBehavior
-  commentId: M:MAT.Atlas.Automation.Api.Binding.CorsBehavior.CreateBehavior
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.CreateBehavior()
-  nameWithType: CorsBehavior.CreateBehavior()
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.CreateBehavior*
-  name: CreateBehavior
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_CreateBehavior_
-  commentId: Overload:MAT.Atlas.Automation.Api.Binding.CorsBehavior.CreateBehavior
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.CreateBehavior
-  nameWithType: CorsBehavior.CreateBehavior
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.Validate(System.ServiceModel.Description.ServiceEndpoint)
-  name: Validate(ServiceEndpoint)
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_Validate_System_ServiceModel_Description_ServiceEndpoint_
-  commentId: M:MAT.Atlas.Automation.Api.Binding.CorsBehavior.Validate(System.ServiceModel.Description.ServiceEndpoint)
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.Validate(System.ServiceModel.Description.ServiceEndpoint)
-  nameWithType: CorsBehavior.Validate(ServiceEndpoint)
-- uid: MAT.Atlas.Automation.Api.Binding.CorsBehavior.Validate*
-  name: Validate
-  href: api/MAT.Atlas.Automation.Api.Binding.CorsBehavior.html#MAT_Atlas_Automation_Api_Binding_CorsBehavior_Validate_
-  commentId: Overload:MAT.Atlas.Automation.Api.Binding.CorsBehavior.Validate
-  fullName: MAT.Atlas.Automation.Api.Binding.CorsBehavior.Validate
-  nameWithType: CorsBehavior.Validate
+- uid: MAT.Atlas.Automation.Api.AutomationSettings
+  name: AutomationSettings
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html
+  commentId: T:MAT.Atlas.Automation.Api.AutomationSettings
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings
+  nameWithType: AutomationSettings
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress(System.String,System.Int32,System.String)
+  name: GetEndPointAddress(String, Int32, String)
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_GetEndPointAddress_System_String_System_Int32_System_String_
+  commentId: M:MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress(System.String,System.Int32,System.String)
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress(System.String, System.Int32, System.String)
+  nameWithType: AutomationSettings.GetEndPointAddress(String, Int32, String)
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress*
+  name: GetEndPointAddress
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_GetEndPointAddress_
+  commentId: Overload:MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress
+  nameWithType: AutomationSettings.GetEndPointAddress
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.HttpPort
+  name: HttpPort
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_HttpPort
+  commentId: P:MAT.Atlas.Automation.Api.AutomationSettings.HttpPort
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.HttpPort
+  nameWithType: AutomationSettings.HttpPort
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.HttpPort*
+  name: HttpPort
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_HttpPort_
+  commentId: Overload:MAT.Atlas.Automation.Api.AutomationSettings.HttpPort
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.HttpPort
+  nameWithType: AutomationSettings.HttpPort
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.NetTcpBinding
+  name: NetTcpBinding
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_NetTcpBinding
+  commentId: F:MAT.Atlas.Automation.Api.AutomationSettings.NetTcpBinding
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.NetTcpBinding
+  nameWithType: AutomationSettings.NetTcpBinding
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort
+  name: NetTcpPort
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_NetTcpPort
+  commentId: P:MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort
+  nameWithType: AutomationSettings.NetTcpPort
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort*
+  name: NetTcpPort
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_NetTcpPort_
+  commentId: Overload:MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort
+  nameWithType: AutomationSettings.NetTcpPort
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.ServiceAddressBase
+  name: ServiceAddressBase
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_ServiceAddressBase
+  commentId: F:MAT.Atlas.Automation.Api.AutomationSettings.ServiceAddressBase
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.ServiceAddressBase
+  nameWithType: AutomationSettings.ServiceAddressBase
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.ServiceName
+  name: ServiceName
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_ServiceName
+  commentId: F:MAT.Atlas.Automation.Api.AutomationSettings.ServiceName
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.ServiceName
+  nameWithType: AutomationSettings.ServiceName
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.WebHttpBinding
+  name: WebHttpBinding
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_WebHttpBinding
+  commentId: F:MAT.Atlas.Automation.Api.AutomationSettings.WebHttpBinding
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.WebHttpBinding
+  nameWithType: AutomationSettings.WebHttpBinding
+- uid: MAT.Atlas.Automation.Api.AutomationSettings.WebHttpsBinding
+  name: WebHttpsBinding
+  href: api/MAT.Atlas.Automation.Api.AutomationSettings.html#MAT_Atlas_Automation_Api_AutomationSettings_WebHttpsBinding
+  commentId: F:MAT.Atlas.Automation.Api.AutomationSettings.WebHttpsBinding
+  fullName: MAT.Atlas.Automation.Api.AutomationSettings.WebHttpsBinding
+  nameWithType: AutomationSettings.WebHttpsBinding
 - uid: MAT.Atlas.Automation.Api.Constants
   name: MAT.Atlas.Automation.Api.Constants
   href: api/MAT.Atlas.Automation.Api.Constants.html
   commentId: N:MAT.Atlas.Automation.Api.Constants
   fullName: MAT.Atlas.Automation.Api.Constants
   nameWithType: MAT.Atlas.Automation.Api.Constants
+- uid: MAT.Atlas.Automation.Api.Constants.AutomationServicePorts
+  name: AutomationServicePorts
+  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.html
+  commentId: T:MAT.Atlas.Automation.Api.Constants.AutomationServicePorts
+  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServicePorts
+  nameWithType: AutomationServicePorts
+- uid: MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.DefaultHttpPort
+  name: DefaultHttpPort
+  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.html#MAT_Atlas_Automation_Api_Constants_AutomationServicePorts_DefaultHttpPort
+  commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.DefaultHttpPort
+  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.DefaultHttpPort
+  nameWithType: AutomationServicePorts.DefaultHttpPort
+- uid: MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.DefaultNetTcpPort
+  name: DefaultNetTcpPort
+  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.html#MAT_Atlas_Automation_Api_Constants_AutomationServicePorts_DefaultNetTcpPort
+  commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.DefaultNetTcpPort
+  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServicePorts.DefaultNetTcpPort
+  nameWithType: AutomationServicePorts.DefaultNetTcpPort
 - uid: MAT.Atlas.Automation.Api.Constants.AutomationServices
   name: AutomationServices
   href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html
@@ -2899,18 +2899,27 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.DisplayServiceAddress
   fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.DisplayServiceAddress
   nameWithType: AutomationServices.DisplayServiceAddress
+- uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress*
+  name: GetAddress
+  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_GetAddress_
+  commentId: Overload:MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress
+  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress
+  nameWithType: AutomationServices.GetAddress
+- uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress``1
+  name: GetAddress<TAutomationService>()
+  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_GetAddress__1
+  commentId: M:MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress``1
+  name.vb: GetAddress(Of TAutomationService)()
+  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress<TAutomationService>()
+  fullName.vb: MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress(Of TAutomationService)()
+  nameWithType: AutomationServices.GetAddress<TAutomationService>()
+  nameWithType.vb: AutomationServices.GetAddress(Of TAutomationService)()
 - uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.MetadataExchangeServiceAddress
   name: MetadataExchangeServiceAddress
   href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_MetadataExchangeServiceAddress
   commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.MetadataExchangeServiceAddress
   fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.MetadataExchangeServiceAddress
   nameWithType: AutomationServices.MetadataExchangeServiceAddress
-- uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.NetPipeBinding
-  name: NetPipeBinding
-  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_NetPipeBinding
-  commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.NetPipeBinding
-  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.NetPipeBinding
-  nameWithType: AutomationServices.NetPipeBinding
 - uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.NumericDisplayServiceAddress
   name: NumericDisplayServiceAddress
   href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_NumericDisplayServiceAddress
@@ -2935,18 +2944,6 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.RecorderServiceAddress
   fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.RecorderServiceAddress
   nameWithType: AutomationServices.RecorderServiceAddress
-- uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceAddressBase
-  name: ServiceAddressBase
-  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_ServiceAddressBase
-  commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceAddressBase
-  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceAddressBase
-  nameWithType: AutomationServices.ServiceAddressBase
-- uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceName
-  name: ServiceName
-  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_ServiceName
-  commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceName
-  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceName
-  nameWithType: AutomationServices.ServiceName
 - uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.SessionServiceAddress
   name: SessionServiceAddress
   href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_SessionServiceAddress
@@ -2989,12 +2986,6 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.WaveformDisplayServiceAddress
   fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.WaveformDisplayServiceAddress
   nameWithType: AutomationServices.WaveformDisplayServiceAddress
-- uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.WebHttpBinding
-  name: WebHttpBinding
-  href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_WebHttpBinding
-  commentId: F:MAT.Atlas.Automation.Api.Constants.AutomationServices.WebHttpBinding
-  fullName: MAT.Atlas.Automation.Api.Constants.AutomationServices.WebHttpBinding
-  nameWithType: AutomationServices.WebHttpBinding
 - uid: MAT.Atlas.Automation.Api.Constants.AutomationServices.WorkbookServiceAddress
   name: WorkbookServiceAddress
   href: api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html#MAT_Atlas_Automation_Api_Constants_AutomationServices_WorkbookServiceAddress
@@ -3625,6 +3616,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.CompareModeType.SingleLap
   fullName: MAT.Atlas.Automation.Api.Enums.CompareModeType.SingleLap
   nameWithType: CompareModeType.SingleLap
+- uid: MAT.Atlas.Automation.Api.Enums.CompareModeType.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.CompareModeType.html#MAT_Atlas_Automation_Api_Enums_CompareModeType_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.CompareModeType.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.CompareModeType.value__
+  nameWithType: CompareModeType.value__
 - uid: MAT.Atlas.Automation.Api.Enums.CompareModeType.WholeSession
   name: WholeSession
   href: api/MAT.Atlas.Automation.Api.Enums.CompareModeType.html#MAT_Atlas_Automation_Api_Enums_CompareModeType_WholeSession
@@ -3673,6 +3670,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.ConnectionState.NotAvailable
   fullName: MAT.Atlas.Automation.Api.Enums.ConnectionState.NotAvailable
   nameWithType: ConnectionState.NotAvailable
+- uid: MAT.Atlas.Automation.Api.Enums.ConnectionState.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.ConnectionState.html#MAT_Atlas_Automation_Api_Enums_ConnectionState_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.ConnectionState.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.ConnectionState.value__
+  nameWithType: ConnectionState.value__
 - uid: MAT.Atlas.Automation.Api.Enums.DataStatusType
   name: DataStatusType
   href: api/MAT.Atlas.Automation.Api.Enums.DataStatusType.html
@@ -3733,6 +3736,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.DataStatusType.Sample
   fullName: MAT.Atlas.Automation.Api.Enums.DataStatusType.Sample
   nameWithType: DataStatusType.Sample
+- uid: MAT.Atlas.Automation.Api.Enums.DataStatusType.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.DataStatusType.html#MAT_Atlas_Automation_Api_Enums_DataStatusType_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.DataStatusType.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.DataStatusType.value__
+  nameWithType: DataStatusType.value__
 - uid: MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState
   name: DiagnosticProfilingState
   href: api/MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.html
@@ -3763,6 +3772,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.SelfProfiling
   fullName: MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.SelfProfiling
   nameWithType: DiagnosticProfilingState.SelfProfiling
+- uid: MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.html#MAT_Atlas_Automation_Api_Enums_DiagnosticProfilingState_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.value__
+  nameWithType: DiagnosticProfilingState.value__
 - uid: MAT.Atlas.Automation.Api.Enums.EventPriority
   name: EventPriority
   href: api/MAT.Atlas.Automation.Api.Enums.EventPriority.html
@@ -3799,6 +3814,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.EventPriority.None
   fullName: MAT.Atlas.Automation.Api.Enums.EventPriority.None
   nameWithType: EventPriority.None
+- uid: MAT.Atlas.Automation.Api.Enums.EventPriority.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.EventPriority.html#MAT_Atlas_Automation_Api_Enums_EventPriority_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.EventPriority.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.EventPriority.value__
+  nameWithType: EventPriority.value__
 - uid: MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode
   name: ParameterYScaleMode
   href: api/MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.html
@@ -3829,6 +3850,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.Right
   fullName: MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.Right
   nameWithType: ParameterYScaleMode.Right
+- uid: MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.html#MAT_Atlas_Automation_Api_Enums_ParameterYScaleMode_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.ParameterYScaleMode.value__
+  nameWithType: ParameterYScaleMode.value__
 - uid: MAT.Atlas.Automation.Api.Enums.PersistenceLevel
   name: PersistenceLevel
   href: api/MAT.Atlas.Automation.Api.Enums.PersistenceLevel.html
@@ -3841,6 +3868,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.PersistenceLevel.Local
   fullName: MAT.Atlas.Automation.Api.Enums.PersistenceLevel.Local
   nameWithType: PersistenceLevel.Local
+- uid: MAT.Atlas.Automation.Api.Enums.PersistenceLevel.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.PersistenceLevel.html#MAT_Atlas_Automation_Api_Enums_PersistenceLevel_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.PersistenceLevel.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.PersistenceLevel.value__
+  nameWithType: PersistenceLevel.value__
 - uid: MAT.Atlas.Automation.Api.Enums.PersistenceLevel.Workbook
   name: Workbook
   href: api/MAT.Atlas.Automation.Api.Enums.PersistenceLevel.html#MAT_Atlas_Automation_Api_Enums_PersistenceLevel_Workbook
@@ -3883,6 +3916,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.RecorderState.Monitor
   fullName: MAT.Atlas.Automation.Api.Enums.RecorderState.Monitor
   nameWithType: RecorderState.Monitor
+- uid: MAT.Atlas.Automation.Api.Enums.RecorderState.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.RecorderState.html#MAT_Atlas_Automation_Api_Enums_RecorderState_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.RecorderState.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.RecorderState.value__
+  nameWithType: RecorderState.value__
 - uid: MAT.Atlas.Automation.Api.Enums.SampleMode
   name: SampleMode
   href: api/MAT.Atlas.Automation.Api.Enums.SampleMode.html
@@ -3925,6 +3964,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.SampleMode.MinimumToMaximum
   fullName: MAT.Atlas.Automation.Api.Enums.SampleMode.MinimumToMaximum
   nameWithType: SampleMode.MinimumToMaximum
+- uid: MAT.Atlas.Automation.Api.Enums.SampleMode.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.SampleMode.html#MAT_Atlas_Automation_Api_Enums_SampleMode_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.SampleMode.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.SampleMode.value__
+  nameWithType: SampleMode.value__
 - uid: MAT.Atlas.Automation.Api.Enums.SessionState
   name: SessionState
   href: api/MAT.Atlas.Automation.Api.Enums.SessionState.html
@@ -3979,6 +4024,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.SessionState.LiveNotInServer
   fullName: MAT.Atlas.Automation.Api.Enums.SessionState.LiveNotInServer
   nameWithType: SessionState.LiveNotInServer
+- uid: MAT.Atlas.Automation.Api.Enums.SessionState.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.SessionState.html#MAT_Atlas_Automation_Api_Enums_SessionState_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.SessionState.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.SessionState.value__
+  nameWithType: SessionState.value__
 - uid: MAT.Atlas.Automation.Api.Enums.StatisticOption
   name: StatisticOption
   href: api/MAT.Atlas.Automation.Api.Enums.StatisticOption.html
@@ -4075,6 +4126,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.StatisticOption.Start
   fullName: MAT.Atlas.Automation.Api.Enums.StatisticOption.Start
   nameWithType: StatisticOption.Start
+- uid: MAT.Atlas.Automation.Api.Enums.StatisticOption.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.StatisticOption.html#MAT_Atlas_Automation_Api_Enums_StatisticOption_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.StatisticOption.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.StatisticOption.value__
+  nameWithType: StatisticOption.value__
 - uid: MAT.Atlas.Automation.Api.Enums.TriggerSource
   name: TriggerSource
   href: api/MAT.Atlas.Automation.Api.Enums.TriggerSource.html
@@ -4117,6 +4174,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.TriggerSource.Unknown
   fullName: MAT.Atlas.Automation.Api.Enums.TriggerSource.Unknown
   nameWithType: TriggerSource.Unknown
+- uid: MAT.Atlas.Automation.Api.Enums.TriggerSource.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.TriggerSource.html#MAT_Atlas_Automation_Api_Enums_TriggerSource_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.TriggerSource.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.TriggerSource.value__
+  nameWithType: TriggerSource.value__
 - uid: MAT.Atlas.Automation.Api.Enums.UpdateableState
   name: UpdateableState
   href: api/MAT.Atlas.Automation.Api.Enums.UpdateableState.html
@@ -4147,6 +4210,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.UpdateableState.RunOnce
   fullName: MAT.Atlas.Automation.Api.Enums.UpdateableState.RunOnce
   nameWithType: UpdateableState.RunOnce
+- uid: MAT.Atlas.Automation.Api.Enums.UpdateableState.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.UpdateableState.html#MAT_Atlas_Automation_Api_Enums_UpdateableState_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.UpdateableState.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.UpdateableState.value__
+  nameWithType: UpdateableState.value__
 - uid: MAT.Atlas.Automation.Api.Enums.WorkbookState
   name: WorkbookState
   href: api/MAT.Atlas.Automation.Api.Enums.WorkbookState.html
@@ -4219,6 +4288,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.WorkbookState.Temp
   fullName: MAT.Atlas.Automation.Api.Enums.WorkbookState.Temp
   nameWithType: WorkbookState.Temp
+- uid: MAT.Atlas.Automation.Api.Enums.WorkbookState.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.WorkbookState.html#MAT_Atlas_Automation_Api_Enums_WorkbookState_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.WorkbookState.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.WorkbookState.value__
+  nameWithType: WorkbookState.value__
 - uid: MAT.Atlas.Automation.Api.Faults
   name: MAT.Atlas.Automation.Api.Faults
   href: api/MAT.Atlas.Automation.Api.Faults.html
@@ -6836,60 +6911,6 @@ references:
   commentId: N:MAT.Atlas.Automation.Api.Models
   fullName: MAT.Atlas.Automation.Api.Models
   nameWithType: MAT.Atlas.Automation.Api.Models
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting
-  name: BindingSetting
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html
-  commentId: T:MAT.Atlas.Automation.Api.Models.BindingSetting
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting
-  nameWithType: BindingSetting
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.#ctor
-  name: BindingSetting()
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting__ctor
-  commentId: M:MAT.Atlas.Automation.Api.Models.BindingSetting.#ctor
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.BindingSetting()
-  nameWithType: BindingSetting.BindingSetting()
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.#ctor*
-  name: BindingSetting
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting__ctor_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.BindingSetting.#ctor
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.BindingSetting
-  nameWithType: BindingSetting.BindingSetting
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.Address
-  name: Address
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting_Address
-  commentId: P:MAT.Atlas.Automation.Api.Models.BindingSetting.Address
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.Address
-  nameWithType: BindingSetting.Address
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.Address*
-  name: Address
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting_Address_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.BindingSetting.Address
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.Address
-  nameWithType: BindingSetting.Address
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.Binding
-  name: Binding
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting_Binding
-  commentId: P:MAT.Atlas.Automation.Api.Models.BindingSetting.Binding
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.Binding
-  nameWithType: BindingSetting.Binding
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.Binding*
-  name: Binding
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting_Binding_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.BindingSetting.Binding
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.Binding
-  nameWithType: BindingSetting.Binding
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.EndPointContracts
-  name: EndPointContracts
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting_EndPointContracts
-  commentId: P:MAT.Atlas.Automation.Api.Models.BindingSetting.EndPointContracts
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.EndPointContracts
-  nameWithType: BindingSetting.EndPointContracts
-- uid: MAT.Atlas.Automation.Api.Models.BindingSetting.EndPointContracts*
-  name: EndPointContracts
-  href: api/MAT.Atlas.Automation.Api.Models.BindingSetting.html#MAT_Atlas_Automation_Api_Models_BindingSetting_EndPointContracts_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.BindingSetting.EndPointContracts
-  fullName: MAT.Atlas.Automation.Api.Models.BindingSetting.EndPointContracts
-  nameWithType: BindingSetting.EndPointContracts
 - uid: MAT.Atlas.Automation.Api.Models.Color
   name: Color
   href: api/MAT.Atlas.Automation.Api.Models.Color.html
@@ -7430,48 +7451,6 @@ references:
   commentId: N:MAT.Atlas.Automation.Api.Models.Interfaces
   fullName: MAT.Atlas.Automation.Api.Models.Interfaces
   nameWithType: MAT.Atlas.Automation.Api.Models.Interfaces
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting
-  name: IBindingSetting
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html
-  commentId: T:MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting
-  nameWithType: IBindingSetting
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Address
-  name: Address
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html#MAT_Atlas_Automation_Api_Models_Interfaces_IBindingSetting_Address
-  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Address
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Address
-  nameWithType: IBindingSetting.Address
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Address*
-  name: Address
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html#MAT_Atlas_Automation_Api_Models_Interfaces_IBindingSetting_Address_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Address
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Address
-  nameWithType: IBindingSetting.Address
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Binding
-  name: Binding
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html#MAT_Atlas_Automation_Api_Models_Interfaces_IBindingSetting_Binding
-  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Binding
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Binding
-  nameWithType: IBindingSetting.Binding
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Binding*
-  name: Binding
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html#MAT_Atlas_Automation_Api_Models_Interfaces_IBindingSetting_Binding_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Binding
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.Binding
-  nameWithType: IBindingSetting.Binding
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.EndPointContracts
-  name: EndPointContracts
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html#MAT_Atlas_Automation_Api_Models_Interfaces_IBindingSetting_EndPointContracts
-  commentId: P:MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.EndPointContracts
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.EndPointContracts
-  nameWithType: IBindingSetting.EndPointContracts
-- uid: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.EndPointContracts*
-  name: EndPointContracts
-  href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.html#MAT_Atlas_Automation_Api_Models_Interfaces_IBindingSetting_EndPointContracts_
-  commentId: Overload:MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.EndPointContracts
-  fullName: MAT.Atlas.Automation.Api.Models.Interfaces.IBindingSetting.EndPointContracts
-  nameWithType: IBindingSetting.EndPointContracts
 - uid: MAT.Atlas.Automation.Api.Models.Interfaces.IColor
   name: IColor
   href: api/MAT.Atlas.Automation.Api.Models.Interfaces.IColor.html
@@ -13484,6 +13463,30 @@ references:
   commentId: T:MAT.Atlas.Automation.Client.AutomationClient
   fullName: MAT.Atlas.Automation.Client.AutomationClient
   nameWithType: AutomationClient
+- uid: MAT.Atlas.Automation.Client.AutomationClient.AbortChannel(MAT.Atlas.Automation.Api.IAutomationService)
+  name: AbortChannel(IAutomationService)
+  href: api/MAT.Atlas.Automation.Client.AutomationClient.html#MAT_Atlas_Automation_Client_AutomationClient_AbortChannel_MAT_Atlas_Automation_Api_IAutomationService_
+  commentId: M:MAT.Atlas.Automation.Client.AutomationClient.AbortChannel(MAT.Atlas.Automation.Api.IAutomationService)
+  fullName: MAT.Atlas.Automation.Client.AutomationClient.AbortChannel(MAT.Atlas.Automation.Api.IAutomationService)
+  nameWithType: AutomationClient.AbortChannel(IAutomationService)
+- uid: MAT.Atlas.Automation.Client.AutomationClient.AbortChannel*
+  name: AbortChannel
+  href: api/MAT.Atlas.Automation.Client.AutomationClient.html#MAT_Atlas_Automation_Client_AutomationClient_AbortChannel_
+  commentId: Overload:MAT.Atlas.Automation.Client.AutomationClient.AbortChannel
+  fullName: MAT.Atlas.Automation.Client.AutomationClient.AbortChannel
+  nameWithType: AutomationClient.AbortChannel
+- uid: MAT.Atlas.Automation.Client.AutomationClient.CloseChannel(MAT.Atlas.Automation.Api.IAutomationService)
+  name: CloseChannel(IAutomationService)
+  href: api/MAT.Atlas.Automation.Client.AutomationClient.html#MAT_Atlas_Automation_Client_AutomationClient_CloseChannel_MAT_Atlas_Automation_Api_IAutomationService_
+  commentId: M:MAT.Atlas.Automation.Client.AutomationClient.CloseChannel(MAT.Atlas.Automation.Api.IAutomationService)
+  fullName: MAT.Atlas.Automation.Client.AutomationClient.CloseChannel(MAT.Atlas.Automation.Api.IAutomationService)
+  nameWithType: AutomationClient.CloseChannel(IAutomationService)
+- uid: MAT.Atlas.Automation.Client.AutomationClient.CloseChannel*
+  name: CloseChannel
+  href: api/MAT.Atlas.Automation.Client.AutomationClient.html#MAT_Atlas_Automation_Client_AutomationClient_CloseChannel_
+  commentId: Overload:MAT.Atlas.Automation.Client.AutomationClient.CloseChannel
+  fullName: MAT.Atlas.Automation.Client.AutomationClient.CloseChannel
+  nameWithType: AutomationClient.CloseChannel
 - uid: MAT.Atlas.Automation.Client.AutomationClient.Connect*
   name: Connect
   href: api/MAT.Atlas.Automation.Client.AutomationClient.html#MAT_Atlas_Automation_Client_AutomationClient_Connect_
@@ -13604,6 +13607,114 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.#ctor
   fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.ApplicationServiceClient
   nameWithType: ApplicationServiceClient.ApplicationServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnClientConnected(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate)
+  name: add_OnClientConnected(ApplicationServiceClient.OnClientConnectedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnClientConnected_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnClientConnectedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnClientConnected(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnClientConnected(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate)
+  nameWithType: ApplicationServiceClient.add_OnClientConnected(ApplicationServiceClient.OnClientConnectedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnClientConnected*
+  name: add_OnClientConnected
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnClientConnected_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnClientConnected
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnClientConnected
+  nameWithType: ApplicationServiceClient.add_OnClientConnected
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnExit(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate)
+  name: add_OnExit(ApplicationServiceClient.OnExitDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnExit_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnExitDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnExit(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnExit(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate)
+  nameWithType: ApplicationServiceClient.add_OnExit(ApplicationServiceClient.OnExitDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnExit*
+  name: add_OnExit
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnExit_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnExit
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnExit
+  nameWithType: ApplicationServiceClient.add_OnExit
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnMessageReceived(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate)
+  name: add_OnMessageReceived(ApplicationServiceClient.OnMessageReceivedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnMessageReceived_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnMessageReceivedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnMessageReceived(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnMessageReceived(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate)
+  nameWithType: ApplicationServiceClient.add_OnMessageReceived(ApplicationServiceClient.OnMessageReceivedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnMessageReceived*
+  name: add_OnMessageReceived
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnMessageReceived_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnMessageReceived
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnMessageReceived
+  nameWithType: ApplicationServiceClient.add_OnMessageReceived
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewLap(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate)
+  name: add_OnNewLap(ApplicationServiceClient.OnNewLapDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnNewLap_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnNewLapDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewLap(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewLap(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate)
+  nameWithType: ApplicationServiceClient.add_OnNewLap(ApplicationServiceClient.OnNewLapDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewLap*
+  name: add_OnNewLap
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnNewLap_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewLap
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewLap
+  nameWithType: ApplicationServiceClient.add_OnNewLap
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewSessionEvent(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate)
+  name: add_OnNewSessionEvent(ApplicationServiceClient.OnNewSessionEventDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnNewSessionEvent_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnNewSessionEventDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewSessionEvent(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewSessionEvent(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate)
+  nameWithType: ApplicationServiceClient.add_OnNewSessionEvent(ApplicationServiceClient.OnNewSessionEventDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewSessionEvent*
+  name: add_OnNewSessionEvent
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnNewSessionEvent_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewSessionEvent
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnNewSessionEvent
+  nameWithType: ApplicationServiceClient.add_OnNewSessionEvent
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionLoaded(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate)
+  name: add_OnSessionLoaded(ApplicationServiceClient.OnSessionLoadedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnSessionLoaded_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnSessionLoadedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionLoaded(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionLoaded(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate)
+  nameWithType: ApplicationServiceClient.add_OnSessionLoaded(ApplicationServiceClient.OnSessionLoadedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionLoaded*
+  name: add_OnSessionLoaded
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnSessionLoaded_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionLoaded
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionLoaded
+  nameWithType: ApplicationServiceClient.add_OnSessionLoaded
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionRemoved(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate)
+  name: add_OnSessionRemoved(ApplicationServiceClient.OnSessionRemovedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnSessionRemoved_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnSessionRemovedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionRemoved(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionRemoved(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate)
+  nameWithType: ApplicationServiceClient.add_OnSessionRemoved(ApplicationServiceClient.OnSessionRemovedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionRemoved*
+  name: add_OnSessionRemoved
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnSessionRemoved_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionRemoved
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnSessionRemoved
+  nameWithType: ApplicationServiceClient.add_OnSessionRemoved
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStarted(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate)
+  name: add_OnTelemetryStarted(ApplicationServiceClient.OnTelemetryStartedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnTelemetryStarted_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnTelemetryStartedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStarted(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStarted(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate)
+  nameWithType: ApplicationServiceClient.add_OnTelemetryStarted(ApplicationServiceClient.OnTelemetryStartedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStarted*
+  name: add_OnTelemetryStarted
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnTelemetryStarted_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStarted
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStarted
+  nameWithType: ApplicationServiceClient.add_OnTelemetryStarted
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStopped(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  name: add_OnTelemetryStopped(ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnTelemetryStopped_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnTelemetryStoppedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStopped(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStopped(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  nameWithType: ApplicationServiceClient.add_OnTelemetryStopped(ApplicationServiceClient.OnTelemetryStoppedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStopped*
+  name: add_OnTelemetryStopped
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_add_OnTelemetryStopped_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStopped
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.add_OnTelemetryStopped
+  nameWithType: ApplicationServiceClient.add_OnTelemetryStopped
 - uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.Connect(System.String)
   name: Connect(String)
   href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_Connect_System_String_
@@ -14258,6 +14369,114 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate.Invoke
   fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate.Invoke
   nameWithType: ApplicationServiceClient.OnTelemetryStoppedDelegate.Invoke
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnClientConnected(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate)
+  name: remove_OnClientConnected(ApplicationServiceClient.OnClientConnectedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnClientConnected_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnClientConnectedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnClientConnected(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnClientConnected(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnClientConnectedDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnClientConnected(ApplicationServiceClient.OnClientConnectedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnClientConnected*
+  name: remove_OnClientConnected
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnClientConnected_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnClientConnected
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnClientConnected
+  nameWithType: ApplicationServiceClient.remove_OnClientConnected
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnExit(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate)
+  name: remove_OnExit(ApplicationServiceClient.OnExitDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnExit_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnExitDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnExit(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnExit(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnExitDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnExit(ApplicationServiceClient.OnExitDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnExit*
+  name: remove_OnExit
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnExit_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnExit
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnExit
+  nameWithType: ApplicationServiceClient.remove_OnExit
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnMessageReceived(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate)
+  name: remove_OnMessageReceived(ApplicationServiceClient.OnMessageReceivedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnMessageReceived_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnMessageReceivedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnMessageReceived(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnMessageReceived(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnMessageReceivedDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnMessageReceived(ApplicationServiceClient.OnMessageReceivedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnMessageReceived*
+  name: remove_OnMessageReceived
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnMessageReceived_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnMessageReceived
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnMessageReceived
+  nameWithType: ApplicationServiceClient.remove_OnMessageReceived
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewLap(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate)
+  name: remove_OnNewLap(ApplicationServiceClient.OnNewLapDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnNewLap_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnNewLapDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewLap(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewLap(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewLapDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnNewLap(ApplicationServiceClient.OnNewLapDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewLap*
+  name: remove_OnNewLap
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnNewLap_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewLap
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewLap
+  nameWithType: ApplicationServiceClient.remove_OnNewLap
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewSessionEvent(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate)
+  name: remove_OnNewSessionEvent(ApplicationServiceClient.OnNewSessionEventDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnNewSessionEvent_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnNewSessionEventDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewSessionEvent(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewSessionEvent(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnNewSessionEventDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnNewSessionEvent(ApplicationServiceClient.OnNewSessionEventDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewSessionEvent*
+  name: remove_OnNewSessionEvent
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnNewSessionEvent_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewSessionEvent
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnNewSessionEvent
+  nameWithType: ApplicationServiceClient.remove_OnNewSessionEvent
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionLoaded(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate)
+  name: remove_OnSessionLoaded(ApplicationServiceClient.OnSessionLoadedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnSessionLoaded_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnSessionLoadedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionLoaded(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionLoaded(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionLoadedDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnSessionLoaded(ApplicationServiceClient.OnSessionLoadedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionLoaded*
+  name: remove_OnSessionLoaded
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnSessionLoaded_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionLoaded
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionLoaded
+  nameWithType: ApplicationServiceClient.remove_OnSessionLoaded
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionRemoved(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate)
+  name: remove_OnSessionRemoved(ApplicationServiceClient.OnSessionRemovedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnSessionRemoved_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnSessionRemovedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionRemoved(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionRemoved(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnSessionRemovedDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnSessionRemoved(ApplicationServiceClient.OnSessionRemovedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionRemoved*
+  name: remove_OnSessionRemoved
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnSessionRemoved_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionRemoved
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnSessionRemoved
+  nameWithType: ApplicationServiceClient.remove_OnSessionRemoved
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStarted(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate)
+  name: remove_OnTelemetryStarted(ApplicationServiceClient.OnTelemetryStartedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnTelemetryStarted_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnTelemetryStartedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStarted(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStarted(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStartedDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnTelemetryStarted(ApplicationServiceClient.OnTelemetryStartedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStarted*
+  name: remove_OnTelemetryStarted
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnTelemetryStarted_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStarted
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStarted
+  nameWithType: ApplicationServiceClient.remove_OnTelemetryStarted
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStopped(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  name: remove_OnTelemetryStopped(ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnTelemetryStopped_MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_OnTelemetryStoppedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStopped(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStopped(MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.OnTelemetryStoppedDelegate)
+  nameWithType: ApplicationServiceClient.remove_OnTelemetryStopped(ApplicationServiceClient.OnTelemetryStoppedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStopped*
+  name: remove_OnTelemetryStopped
+  href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_remove_OnTelemetryStopped_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStopped
+  fullName: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.remove_OnTelemetryStopped
+  nameWithType: ApplicationServiceClient.remove_OnTelemetryStopped
 - uid: MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.RemoveSession(MAT.Atlas.Automation.Api.Models.SessionId)
   name: RemoveSession(SessionId)
   href: api/MAT.Atlas.Automation.Client.Services.ApplicationServiceClient.html#MAT_Atlas_Automation_Client_Services_ApplicationServiceClient_RemoveSession_MAT_Atlas_Automation_Api_Models_SessionId_
@@ -14349,6 +14568,46 @@ references:
   fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).Call(Of TResult)(System.Func(Of TAutomationService, TResult), System.Action(Of TResult), System.Action(Of System.Exception))
   nameWithType: AutomationServiceClientBase<TAutomationService>.Call<TResult>(Func<TAutomationService, TResult>, Action<TResult>, Action<Exception>)
   nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).Call(Of TResult)(Func(Of TAutomationService, TResult), Action(Of TResult), Action(Of Exception))
+- uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose
+  name: Dispose()
+  href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose
+  commentId: M:MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose
+  fullName: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase<TAutomationService>.Dispose()
+  fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).Dispose()
+  nameWithType: AutomationServiceClientBase<TAutomationService>.Dispose()
+  nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).Dispose()
+- uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose_System_Boolean_
+  commentId: M:MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose(System.Boolean)
+  fullName: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase<TAutomationService>.Dispose(System.Boolean)
+  fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).Dispose(System.Boolean)
+  nameWithType: AutomationServiceClientBase<TAutomationService>.Dispose(Boolean)
+  nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).Dispose(Boolean)
+- uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose*
+  name: Dispose
+  href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose
+  fullName: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase<TAutomationService>.Dispose
+  fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).Dispose
+  nameWithType: AutomationServiceClientBase<TAutomationService>.Dispose
+  nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).Dispose
+- uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Finalize
+  name: Finalize()
+  href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Finalize
+  commentId: M:MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Finalize
+  fullName: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase<TAutomationService>.Finalize()
+  fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).Finalize()
+  nameWithType: AutomationServiceClientBase<TAutomationService>.Finalize()
+  nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).Finalize()
+- uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Finalize*
+  name: Finalize
+  href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Finalize_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Finalize
+  fullName: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase<TAutomationService>.Finalize
+  fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).Finalize
+  nameWithType: AutomationServiceClientBase<TAutomationService>.Finalize
+  nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).Finalize
 - uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.GetAutomationService
   name: GetAutomationService()
   href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_GetAutomationService
@@ -14397,6 +14656,22 @@ references:
   fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).OnDisposeManagedResources
   nameWithType: AutomationServiceClientBase<TAutomationService>.OnDisposeManagedResources
   nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).OnDisposeManagedResources
+- uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeUnmanagedResources
+  name: OnDisposeUnmanagedResources()
+  href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_OnDisposeUnmanagedResources
+  commentId: M:MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeUnmanagedResources
+  fullName: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase<TAutomationService>.OnDisposeUnmanagedResources()
+  fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).OnDisposeUnmanagedResources()
+  nameWithType: AutomationServiceClientBase<TAutomationService>.OnDisposeUnmanagedResources()
+  nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).OnDisposeUnmanagedResources()
+- uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeUnmanagedResources*
+  name: OnDisposeUnmanagedResources
+  href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_OnDisposeUnmanagedResources_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeUnmanagedResources
+  fullName: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase<TAutomationService>.OnDisposeUnmanagedResources
+  fullName.vb: MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase(Of TAutomationService).OnDisposeUnmanagedResources
+  nameWithType: AutomationServiceClientBase<TAutomationService>.OnDisposeUnmanagedResources
+  nameWithType.vb: AutomationServiceClientBase(Of TAutomationService).OnDisposeUnmanagedResources
 - uid: MAT.Atlas.Automation.Client.Services.AutomationServiceClientNoCallbackBase`2
   name: AutomationServiceClientNoCallbackBase<TAutomationClient, TAutomationService>
   href: api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientNoCallbackBase-2.html
@@ -17842,6 +18117,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.#ctor
   fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.TimeBaseServiceClient
   nameWithType: TimeBaseServiceClient.TimeBaseServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  name: add_OnCursorPointChanged(TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_add_OnCursorPointChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_OnCursorPointChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  nameWithType: TimeBaseServiceClient.add_OnCursorPointChanged(TimeBaseServiceClient.OnCursorPointChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnCursorPointChanged*
+  name: add_OnCursorPointChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_add_OnCursorPointChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnCursorPointChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnCursorPointChanged
+  nameWithType: TimeBaseServiceClient.add_OnCursorPointChanged
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  name: add_OnTimeBaseChanged(TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_add_OnTimeBaseChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_OnTimeBaseChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  nameWithType: TimeBaseServiceClient.add_OnTimeBaseChanged(TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnTimeBaseChanged*
+  name: add_OnTimeBaseChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_add_OnTimeBaseChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnTimeBaseChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.add_OnTimeBaseChanged
+  nameWithType: TimeBaseServiceClient.add_OnTimeBaseChanged
 - uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChanged
   name: OnCursorPointChanged
   href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_OnCursorPointChanged
@@ -17986,6 +18285,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.RaiseTimeBaseChanged
   fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.RaiseTimeBaseChanged
   nameWithType: TimeBaseServiceClient.RaiseTimeBaseChanged
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  name: remove_OnCursorPointChanged(TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_remove_OnCursorPointChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_OnCursorPointChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnCursorPointChangedDelegate)
+  nameWithType: TimeBaseServiceClient.remove_OnCursorPointChanged(TimeBaseServiceClient.OnCursorPointChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnCursorPointChanged*
+  name: remove_OnCursorPointChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_remove_OnCursorPointChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnCursorPointChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnCursorPointChanged
+  nameWithType: TimeBaseServiceClient.remove_OnCursorPointChanged
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  name: remove_OnTimeBaseChanged(TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_remove_OnTimeBaseChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_OnTimeBaseChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+  nameWithType: TimeBaseServiceClient.remove_OnTimeBaseChanged(TimeBaseServiceClient.OnTimeBaseChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnTimeBaseChanged*
+  name: remove_OnTimeBaseChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClient_remove_OnTimeBaseChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnTimeBaseChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClient.remove_OnTimeBaseChanged
+  nameWithType: TimeBaseServiceClient.remove_OnTimeBaseChanged
 - uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase
   name: TimeBaseServiceClientBase
   href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientBase.html
@@ -18220,6 +18543,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.#ctor
   fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.TimeBaseServiceClientVba
   nameWithType: TimeBaseServiceClientVba.TimeBaseServiceClientVba
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  name: add_OnCursorPointChanged(TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_add_OnCursorPointChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_OnCursorPointChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  nameWithType: TimeBaseServiceClientVba.add_OnCursorPointChanged(TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnCursorPointChanged*
+  name: add_OnCursorPointChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_add_OnCursorPointChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnCursorPointChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnCursorPointChanged
+  nameWithType: TimeBaseServiceClientVba.add_OnCursorPointChanged
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  name: add_OnTimeBaseChanged(TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_add_OnTimeBaseChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_OnTimeBaseChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  nameWithType: TimeBaseServiceClientVba.add_OnTimeBaseChanged(TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnTimeBaseChanged*
+  name: add_OnTimeBaseChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_add_OnTimeBaseChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnTimeBaseChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.add_OnTimeBaseChanged
+  nameWithType: TimeBaseServiceClientVba.add_OnTimeBaseChanged
 - uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChanged
   name: OnCursorPointChanged
   href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_OnCursorPointChanged
@@ -18364,6 +18711,30 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.RaiseTimeBaseChanged
   fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.RaiseTimeBaseChanged
   nameWithType: TimeBaseServiceClientVba.RaiseTimeBaseChanged
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  name: remove_OnCursorPointChanged(TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_remove_OnCursorPointChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_OnCursorPointChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnCursorPointChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+  nameWithType: TimeBaseServiceClientVba.remove_OnCursorPointChanged(TimeBaseServiceClientVba.OnCursorPointChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnCursorPointChanged*
+  name: remove_OnCursorPointChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_remove_OnCursorPointChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnCursorPointChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnCursorPointChanged
+  nameWithType: TimeBaseServiceClientVba.remove_OnCursorPointChanged
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  name: remove_OnTimeBaseChanged(TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_remove_OnTimeBaseChanged_MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_OnTimeBaseChangedDelegate_
+  commentId: M:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnTimeBaseChanged(MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+  nameWithType: TimeBaseServiceClientVba.remove_OnTimeBaseChanged(TimeBaseServiceClientVba.OnTimeBaseChangedDelegate)
+- uid: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnTimeBaseChanged*
+  name: remove_OnTimeBaseChanged
+  href: api/MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.html#MAT_Atlas_Automation_Client_Services_TimeBaseServiceClientVba_remove_OnTimeBaseChanged_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnTimeBaseChanged
+  fullName: MAT.Atlas.Automation.Client.Services.TimeBaseServiceClientVba.remove_OnTimeBaseChanged
+  nameWithType: TimeBaseServiceClientVba.remove_OnTimeBaseChanged
 - uid: MAT.Atlas.Automation.Client.Services.TracerServiceClient
   name: TracerServiceClient
   href: api/MAT.Atlas.Automation.Client.Services.TracerServiceClient.html
@@ -19246,6 +19617,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Data.PanningState.Seeking
   fullName: MAT.Atlas.Client.Platform.Data.PanningState.Seeking
   nameWithType: PanningState.Seeking
+- uid: MAT.Atlas.Client.Platform.Data.PanningState.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Data.PanningState.html#MAT_Atlas_Client_Platform_Data_PanningState_value__
+  commentId: F:MAT.Atlas.Client.Platform.Data.PanningState.value__
+  fullName: MAT.Atlas.Client.Platform.Data.PanningState.value__
+  nameWithType: PanningState.value__
 - uid: MAT.Atlas.Client.Platform.Data.SampleDirection
   name: SampleDirection
   href: api/MAT.Atlas.Client.Platform.Data.SampleDirection.html
@@ -19264,6 +19641,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Data.SampleDirection.Previous
   fullName: MAT.Atlas.Client.Platform.Data.SampleDirection.Previous
   nameWithType: SampleDirection.Previous
+- uid: MAT.Atlas.Client.Platform.Data.SampleDirection.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Data.SampleDirection.html#MAT_Atlas_Client_Platform_Data_SampleDirection_value__
+  commentId: F:MAT.Atlas.Client.Platform.Data.SampleDirection.value__
+  fullName: MAT.Atlas.Client.Platform.Data.SampleDirection.value__
+  nameWithType: SampleDirection.value__
 - uid: MAT.Atlas.Client.Platform.Data.SampleMode
   name: SampleMode
   href: api/MAT.Atlas.Client.Platform.Data.SampleMode.html
@@ -19306,6 +19689,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Data.SampleMode.MinimumToMaximum
   fullName: MAT.Atlas.Client.Platform.Data.SampleMode.MinimumToMaximum
   nameWithType: SampleMode.MinimumToMaximum
+- uid: MAT.Atlas.Client.Platform.Data.SampleMode.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Data.SampleMode.html#MAT_Atlas_Client_Platform_Data_SampleMode_value__
+  commentId: F:MAT.Atlas.Client.Platform.Data.SampleMode.value__
+  fullName: MAT.Atlas.Client.Platform.Data.SampleMode.value__
+  nameWithType: SampleMode.value__
 - uid: MAT.Atlas.Client.Platform.Data.Signals
   name: MAT.Atlas.Client.Platform.Data.Signals
   href: api/MAT.Atlas.Client.Platform.Data.Signals.html
@@ -19756,6 +20145,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Data.StatisticLevel.Session
   fullName: MAT.Atlas.Client.Platform.Data.StatisticLevel.Session
   nameWithType: StatisticLevel.Session
+- uid: MAT.Atlas.Client.Platform.Data.StatisticLevel.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Data.StatisticLevel.html#MAT_Atlas_Client_Platform_Data_StatisticLevel_value__
+  commentId: F:MAT.Atlas.Client.Platform.Data.StatisticLevel.value__
+  fullName: MAT.Atlas.Client.Platform.Data.StatisticLevel.value__
+  nameWithType: StatisticLevel.value__
 - uid: MAT.Atlas.Client.Platform.Data.StatisticOption
   name: StatisticOption
   href: api/MAT.Atlas.Client.Platform.Data.StatisticOption.html
@@ -19852,6 +20247,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Data.StatisticOption.Start
   fullName: MAT.Atlas.Client.Platform.Data.StatisticOption.Start
   nameWithType: StatisticOption.Start
+- uid: MAT.Atlas.Client.Platform.Data.StatisticOption.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Data.StatisticOption.html#MAT_Atlas_Client_Platform_Data_StatisticOption_value__
+  commentId: F:MAT.Atlas.Client.Platform.Data.StatisticOption.value__
+  fullName: MAT.Atlas.Client.Platform.Data.StatisticOption.value__
+  nameWithType: StatisticOption.value__
 - uid: MAT.Atlas.Client.Platform.Data.TriggerSource
   name: TriggerSource
   href: api/MAT.Atlas.Client.Platform.Data.TriggerSource.html
@@ -19894,6 +20295,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Data.TriggerSource.Unknown
   fullName: MAT.Atlas.Client.Platform.Data.TriggerSource.Unknown
   nameWithType: TriggerSource.Unknown
+- uid: MAT.Atlas.Client.Platform.Data.TriggerSource.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Data.TriggerSource.html#MAT_Atlas_Client_Platform_Data_TriggerSource_value__
+  commentId: F:MAT.Atlas.Client.Platform.Data.TriggerSource.value__
+  fullName: MAT.Atlas.Client.Platform.Data.TriggerSource.value__
+  nameWithType: TriggerSource.value__
 - uid: MAT.Atlas.Client.Platform.Parameters
   name: MAT.Atlas.Client.Platform.Parameters
   href: api/MAT.Atlas.Client.Platform.Parameters.html
@@ -20464,6 +20871,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.SampleMode
   fullName: MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.SampleMode
   nameWithType: ParameterStateFlags.SampleMode
+- uid: MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.html#MAT_Atlas_Client_Platform_Parameters_ParameterStateFlags_value__
+  commentId: F:MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.value__
+  fullName: MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.value__
+  nameWithType: ParameterStateFlags.value__
 - uid: MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.Visible
   name: Visible
   href: api/MAT.Atlas.Client.Platform.Parameters.ParameterStateFlags.html#MAT_Atlas_Client_Platform_Parameters_ParameterStateFlags_Visible
@@ -21100,6 +21513,12 @@ references:
   commentId: F:MAT.Atlas.Client.Platform.Sessions.SessionState.LiveNotInServer
   fullName: MAT.Atlas.Client.Platform.Sessions.SessionState.LiveNotInServer
   nameWithType: SessionState.LiveNotInServer
+- uid: MAT.Atlas.Client.Platform.Sessions.SessionState.value__
+  name: value__
+  href: api/MAT.Atlas.Client.Platform.Sessions.SessionState.html#MAT_Atlas_Client_Platform_Sessions_SessionState_value__
+  commentId: F:MAT.Atlas.Client.Platform.Sessions.SessionState.value__
+  fullName: MAT.Atlas.Client.Platform.Sessions.SessionState.value__
+  nameWithType: SessionState.value__
 - uid: MAT.Atlas.Client.Presentation
   name: MAT.Atlas.Client.Presentation
   href: api/MAT.Atlas.Client.Presentation.html
@@ -22352,6 +22771,12 @@ references:
   commentId: F:MAT.OCS.Core.DataResultMode.Value
   fullName: MAT.OCS.Core.DataResultMode.Value
   nameWithType: DataResultMode.Value
+- uid: MAT.OCS.Core.DataResultMode.value__
+  name: value__
+  href: api/MAT.OCS.Core.DataResultMode.html#MAT_OCS_Core_DataResultMode_value__
+  commentId: F:MAT.OCS.Core.DataResultMode.value__
+  fullName: MAT.OCS.Core.DataResultMode.value__
+  nameWithType: DataResultMode.value__
 - uid: MAT.OCS.Core.DataStatusType
   name: DataStatusType
   href: api/MAT.OCS.Core.DataStatusType.html
@@ -22412,6 +22837,12 @@ references:
   commentId: F:MAT.OCS.Core.DataStatusType.Sample
   fullName: MAT.OCS.Core.DataStatusType.Sample
   nameWithType: DataStatusType.Sample
+- uid: MAT.OCS.Core.DataStatusType.value__
+  name: value__
+  href: api/MAT.OCS.Core.DataStatusType.html#MAT_OCS_Core_DataStatusType_value__
+  commentId: F:MAT.OCS.Core.DataStatusType.value__
+  fullName: MAT.OCS.Core.DataStatusType.value__
+  nameWithType: DataStatusType.value__
 - uid: MAT.OCS.Core.ErrorStatusType
   name: ErrorStatusType
   href: api/MAT.OCS.Core.ErrorStatusType.html
@@ -22436,6 +22867,12 @@ references:
   commentId: F:MAT.OCS.Core.ErrorStatusType.Unknown
   fullName: MAT.OCS.Core.ErrorStatusType.Unknown
   nameWithType: ErrorStatusType.Unknown
+- uid: MAT.OCS.Core.ErrorStatusType.value__
+  name: value__
+  href: api/MAT.OCS.Core.ErrorStatusType.html#MAT_OCS_Core_ErrorStatusType_value__
+  commentId: F:MAT.OCS.Core.ErrorStatusType.value__
+  fullName: MAT.OCS.Core.ErrorStatusType.value__
+  nameWithType: ErrorStatusType.value__
 - uid: MAT.OCS.Core.Extensions
   name: MAT.OCS.Core.Extensions
   href: api/MAT.OCS.Core.Extensions.html

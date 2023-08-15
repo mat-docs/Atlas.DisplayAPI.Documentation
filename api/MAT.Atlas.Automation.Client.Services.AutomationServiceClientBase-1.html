@@ -73,42 +73,25 @@
   
   <h1 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1" class="text-break">Class AutomationServiceClientBase&lt;TAutomationService&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Automation service client base class.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html">DisposableBase</a></div>
-    <div class="level2"><span class="xref">AutomationServiceClientBase&lt;TAutomationService&gt;</span></div>
-      <div class="level3"><a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientNoCallbackBase-2.html">AutomationServiceClientNoCallbackBase&lt;TAutomationClient, TAutomationService&gt;</a></div>
-      <div class="level3"><a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html">AutomationServiceClientWithCallbackBase&lt;TAutomationService, TAutomationCallbackService&gt;</a></div>
+    <div class="level1"><span class="xref">AutomationServiceClientBase&lt;TAutomationService&gt;</span></div>
+      <div class="level2"><a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientNoCallbackBase-2.html">AutomationServiceClientNoCallbackBase&lt;TAutomationClient, TAutomationService&gt;</a></div>
+      <div class="level2"><a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html">AutomationServiceClientWithCallbackBase&lt;TAutomationService, TAutomationCallbackService&gt;</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.html">IAutomationServiceMethodHandlers</a>&lt;TAutomationService&gt;</div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_Dispose">DisposableBase.Dispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_Dispose_System_Boolean_">DisposableBase.Dispose(Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_OnDisposeUnmanagedResources">DisposableBase.OnDisposeUnmanagedResources()</a>
-    </div>
-    <div>
-      <a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_IsDisposed">DisposableBase.IsDisposed</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.html">MAT.Atlas.Automation.Client.Services</a></h6>
   <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
   <h5 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class AutomationServiceClientBase&lt;TAutomationService&gt; : DisposableBase, IAutomationServiceMethodHandlers&lt;TAutomationService&gt;, IDisposable where TAutomationService : class</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AutomationServiceClientBase&lt;TAutomationService&gt; : Object, IAutomationServiceMethodHandlers&lt;TAutomationService&gt;, IDisposable where TAutomationService : class</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,8 +104,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">TAutomationService</span></td>
-        <td><p>Automation service interface.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -140,8 +122,7 @@
   </h3>
   <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_AutomationService_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.AutomationService*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_AutomationService" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.AutomationService">AutomationService</h4>
-  <div class="markdown level1 summary"><p>Instance of the automation service.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -166,8 +147,7 @@
   </h3>
   <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Call_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Call*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Call_System_Action__0__System_Action_System_Action_System_Exception__" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Call(System.Action{`0},System.Action,System.Action{System.Exception})">Call(Action&lt;TAutomationService&gt;, Action, Action&lt;Exception&gt;)</h4>
-  <div class="markdown level1 summary"><p>Call automation service.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -186,27 +166,23 @@
       <tr>
         <td><span class="xref">System.Action</span>&lt;TAutomationService&gt;</td>
         <td><span class="parametername">operation</span></td>
-        <td><p>Handler that calls the automation service.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">onSuccess</span></td>
-        <td><p>Optional handler called on success.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
         <td><span class="parametername">onException</span></td>
-        <td><p>Optional handler called on failure (otherwise an exception is thrown).</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Call_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Call*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Call__1_System_Func__0___0__System_Action___0__System_Action_System_Exception__" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Call``1(System.Func{`0,``0},System.Action{``0},System.Action{System.Exception})">Call&lt;TResult&gt;(Func&lt;TAutomationService, TResult&gt;, Action&lt;TResult&gt;, Action&lt;Exception&gt;)</h4>
-  <div class="markdown level1 summary"><p>Call automation service and return a result.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -225,20 +201,17 @@
       <tr>
         <td><span class="xref">System.Func</span>&lt;TAutomationService, TResult&gt;</td>
         <td><span class="parametername">operation</span></td>
-        <td><p>Handler that calls the automation service and returns a result.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;TResult&gt;</td>
         <td><span class="parametername">onSuccess</span></td>
-        <td><p>Optional handler called on success.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Exception</span>&gt;</td>
         <td><span class="parametername">onException</span></td>
-        <td><p>Optional handler called on failure (otherwise an exception is thrown).</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -253,8 +226,7 @@
     <tbody>
       <tr>
         <td><span class="xref">TResult</span></td>
-        <td><p>Result.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -269,15 +241,54 @@
     <tbody>
       <tr>
         <td><span class="parametername">TResult</span></td>
-        <td><p>Result type.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose_System_Boolean_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Finalize_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Finalize*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Finalize" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Finalize()</code></pre>
+  </div>
   <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_GetAutomationService_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.GetAutomationService*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_GetAutomationService" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.GetAutomationService">GetAutomationService()</h4>
-  <div class="markdown level1 summary"><p>Get an instance of the automation service.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -294,15 +305,13 @@
     <tbody>
       <tr>
         <td><span class="xref">TAutomationService</span></td>
-        <td><p>Automation service interface.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_IsConnected_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.IsConnected*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_IsConnected" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.IsConnected">IsConnected()</h4>
-  <div class="markdown level1 summary"><p>Whether this client is connected to a service.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -319,22 +328,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if connected.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_OnDisposeManagedResources_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeManagedResources*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_OnDisposeManagedResources" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeManagedResources">OnDisposeManagedResources()</h4>
-  <div class="markdown level1 summary"><p>Called to free managed resources.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnDisposeManagedResources()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisposeManagedResources()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="MAT.Atlas.Api.Core.System.DisposableBase.html#MAT_Atlas_Api_Core_System_DisposableBase_OnDisposeManagedResources">DisposableBase.OnDisposeManagedResources()</a></div>
+  <a id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_OnDisposeUnmanagedResources_" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeUnmanagedResources*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_OnDisposeUnmanagedResources" data-uid="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase`1.OnDisposeUnmanagedResources">OnDisposeUnmanagedResources()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisposeUnmanagedResources()</code></pre>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.html">IAutomationServiceMethodHandlers&lt;TAutomationService&gt;</a>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;
+    <title>Class TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;
+    <meta name="title" content="Class TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -71,29 +71,21 @@
             <article class="content wrap" id="_content" data-uid="MAT.Atlas.Api.Core.TypeWrapperCollection`3">
   
   
-  <h1 id="MAT_Atlas_Api_Core_TypeWrapperCollection_3" data-uid="MAT.Atlas.Api.Core.TypeWrapperCollection`3" class="text-break">Struct TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;
+  <h1 id="MAT_Atlas_Api_Core_TypeWrapperCollection_3" data-uid="MAT.Atlas.Api.Core.TypeWrapperCollection`3" class="text-break">Class TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;
   </h1>
   <div class="markdown level0 summary"><p>A collection of wrappers.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.ValueType.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.ToString()</span>
-    </div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Api.Core.html">MAT.Atlas.Api.Core</a></h6>
   <h6><strong>Assembly</strong>: MAT.Atlas.Api.Core.dll</h6>
   <h5 id="MAT_Atlas_Api_Core_TypeWrapperCollection_3_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt;
-    where TWrapper : TypeWrapperBase&lt;TWrapper, TWrapped, TOriginal&gt;, TWrapped, new()
+    <pre><code class="lang-csharp hljs">public sealed class TypeWrapperCollection&lt;TWrapper, TWrapped, TOriginal&gt; : ValueType where TWrapper : TypeWrapperBase&lt;TWrapper, TWrapped, TOriginal&gt;, TWrapped, new()
     where TOriginal : class</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>

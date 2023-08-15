@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NumericDisplayParameter
+    <title>Class AutomationSettings
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NumericDisplayParameter
+    <meta name="title" content="Class AutomationSettings
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -68,48 +68,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Api.AutomationSettings">
   
   
-  <h1 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter" class="text-break">Class NumericDisplayParameter
+  <h1 id="MAT_Atlas_Automation_Api_AutomationSettings" data-uid="MAT.Atlas.Automation.Api.AutomationSettings" class="text-break">Class AutomationSettings
   </h1>
-  <div class="markdown level0 summary"><p>Represents a parameter associated with a numeric display.</p>
+  <div class="markdown level0 summary"><p>Configuration specific to automation (not necessarily constants)</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">NumericDisplayParameter</span></div>
+    <div class="level1"><span class="xref">AutomationSettings</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="MAT.Atlas.Automation.Api.Models.Interfaces.INumericDisplayParameter.html">INumericDisplayParameter</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Api.Models.html">MAT.Atlas.Automation.Api.Models</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Api.html">MAT.Atlas.Automation.Api</a></h6>
   <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Api.dll</h6>
-  <h5 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_syntax">Syntax</h5>
+  <h5 id="MAT_Atlas_Automation_Api_AutomationSettings_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NumericDisplayParameter : Object, INumericDisplayParameter</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <a id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter__ctor_" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.#ctor*"></a>
-  <h4 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter__ctor" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.#ctor">NumericDisplayParameter()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NumericDisplayParameter()</code></pre>
+    <pre><code class="lang-csharp hljs">public static class AutomationSettings : Object</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
-  <h4 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_Empty" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.Empty">Empty</h4>
-  <div class="markdown level1 summary"><p>Empty numeric display parameter.</p>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_NetTcpBinding" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.NetTcpBinding">NetTcpBinding</h4>
+  <div class="markdown level1 summary"><p>Automation service tcp transport.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly NumericDisplayParameter Empty</code></pre>
+    <pre><code class="lang-csharp hljs">public const string NetTcpBinding = &quot;net.tcp://&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,71 +107,195 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.html">NumericDisplayParameter</a></td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_ServiceAddressBase" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.ServiceAddressBase">ServiceAddressBase</h4>
+  <div class="markdown level1 summary"><p>Automation service host name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ServiceAddressBase = &quot;localhost&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_ServiceName" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.ServiceName">ServiceName</h4>
+  <div class="markdown level1 summary"><p>Automation service name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ServiceName = &quot;Atlas10Automation&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_WebHttpBinding" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.WebHttpBinding">WebHttpBinding</h4>
+  <div class="markdown level1 summary"><p>Automation service web transport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string WebHttpBinding = &quot;http://&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_WebHttpsBinding" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.WebHttpsBinding">WebHttpsBinding</h4>
+  <div class="markdown level1 summary"><p>Automation service secure web transport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string WebHttpsBinding = &quot;https://&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  <a id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_FormattedValue_" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.FormattedValue*"></a>
-  <h4 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_FormattedValue" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.FormattedValue">FormattedValue</h4>
-  <div class="markdown level1 summary"><p>The formatted value of the parameter.</p>
+  <a id="MAT_Atlas_Automation_Api_AutomationSettings_HttpPort_" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.HttpPort*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_HttpPort" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.HttpPort">HttpPort</h4>
+  <div class="markdown level1 summary"><p>Automation service http port.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string FormattedValue { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static int HttpPort { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Api_AutomationSettings_NetTcpPort_" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_NetTcpPort" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.NetTcpPort">NetTcpPort</h4>
+  <div class="markdown level1 summary"><p>Automation service tcp port.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int NetTcpPort { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MAT_Atlas_Automation_Api_AutomationSettings_GetEndPointAddress_" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_AutomationSettings_GetEndPointAddress_System_String_System_Int32_System_String_" data-uid="MAT.Atlas.Automation.Api.AutomationSettings.GetEndPointAddress(System.String,System.Int32,System.String)">GetEndPointAddress(String, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Get uri of an endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri GetEndPointAddress(string binding, int port, string serviceAddress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="parametername">binding</span></td>
+        <td><p>Binding scheme.</p>
+</td>
       </tr>
-    </tbody>
-  </table>
-  <a id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_Identifier_" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.Identifier*"></a>
-  <h4 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_Identifier" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.Identifier">Identifier</h4>
-  <div class="markdown level1 summary"><p>The identifier of the parameter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Identifier { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Port.</p>
+</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="parametername">serviceAddress</span></td>
+        <td><p>Service address.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_InstanceIdentifier_" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.InstanceIdentifier*"></a>
-  <h4 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_InstanceIdentifier" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.InstanceIdentifier">InstanceIdentifier</h4>
-  <div class="markdown level1 summary"><p>The instance identifier of the parameter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObjectId InstanceIdentifier { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -195,63 +305,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
-        <td></td>
+        <td><span class="xref">System.Uri</span></td>
+        <td><p>Uri of an endpoint.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_Units_" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.Units*"></a>
-  <h4 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_Units" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.Units">Units</h4>
-  <div class="markdown level1 summary"><p>The units of the parameter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Units { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_Value_" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.Value*"></a>
-  <h4 id="MAT_Atlas_Automation_Api_Models_NumericDisplayParameter_Value" data-uid="MAT.Atlas.Automation.Api.Models.NumericDisplayParameter.Value">Value</h4>
-  <div class="markdown level1 summary"><p>The value of the parameter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Value { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="MAT.Atlas.Automation.Api.Models.Interfaces.INumericDisplayParameter.html">INumericDisplayParameter</a>
-  </div>
 </article>
           </div>
           

@@ -85,7 +85,7 @@
   <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Api.dll</h6>
   <h5 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class AutomationServices</code></pre>
+    <pre><code class="lang-csharp hljs">public static class AutomationServices : Object</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -227,29 +227,6 @@
       </tr>
     </tbody>
   </table>
-  <h4 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_NetPipeBinding" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.NetPipeBinding">NetPipeBinding</h4>
-  <div class="markdown level1 summary"><p>Automation service transport and host name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string NetPipeBinding = &quot;net.pipe://&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h4 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_NumericDisplayServiceAddress" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.NumericDisplayServiceAddress">NumericDisplayServiceAddress</h4>
   <div class="markdown level1 summary"><p>Address of numeric display service.</p>
 </div>
@@ -326,52 +303,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public const string RecorderServiceAddress = &quot;Recorder&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_ServiceAddressBase" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceAddressBase">ServiceAddressBase</h4>
-  <div class="markdown level1 summary"><p>Automation service transport and host name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string ServiceAddressBase = &quot;localhost&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_ServiceName" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.ServiceName">ServiceName</h4>
-  <div class="markdown level1 summary"><p>Automation service name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string ServiceName = &quot;Atlas10Automation&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -549,29 +480,6 @@
       </tr>
     </tbody>
   </table>
-  <h4 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_WebHttpBinding" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.WebHttpBinding">WebHttpBinding</h4>
-  <div class="markdown level1 summary"><p>Automation service transport and host name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string WebHttpBinding = &quot;http://&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h4 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_WorkbookServiceAddress" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.WorkbookServiceAddress">WorkbookServiceAddress</h4>
   <div class="markdown level1 summary"><p>Address of workbook service.</p>
 </div>
@@ -592,6 +500,49 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MAT_Atlas_Automation_Api_Constants_AutomationServices_GetAddress_" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_Constants_AutomationServices_GetAddress__1" data-uid="MAT.Atlas.Automation.Api.Constants.AutomationServices.GetAddress``1">GetAddress&lt;TAutomationService&gt;()</h4>
+  <div class="markdown level1 summary"><p>Get the address of an automation service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAddress&lt;TAutomationService&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Address of an automation service.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TAutomationService</span></td>
+        <td><p>Automation service interface.</p>
+</td>
       </tr>
     </tbody>
   </table>

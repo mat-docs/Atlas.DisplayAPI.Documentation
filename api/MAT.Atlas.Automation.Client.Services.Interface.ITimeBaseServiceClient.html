@@ -73,23 +73,19 @@
   
   <h1 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient" class="text-break">Interface ITimeBaseServiceClient
   </h1>
-  <div class="markdown level0 summary"><p>Timebase service client.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.html">MAT.Atlas.Automation.Client.Services.Interface</a></h6>
   <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
   <h5 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ComVisible(true)]
-[Guid(&quot;FC69FE19-3552-41FF-939F-3593E361EDFB&quot;)]
-public interface ITimeBaseServiceClient</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITimeBaseServiceClient</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_GetTimeBase_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.GetTimeBase*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_GetTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.GetTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId)">GetTimeBase(ObjectId)</h4>
-  <div class="markdown level1 summary"><p>Get the properties of a timebase.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -108,8 +104,7 @@ public interface ITimeBaseServiceClient</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -124,20 +119,17 @@ public interface ITimeBaseServiceClient</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TimeBase.html">TimeBase</a></td>
-        <td><p>Timebase properties.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursor_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursor*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursor_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursor(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int64)">SetCursor(ObjectId, Int64)</h4>
-  <div class="markdown level1 summary"><p>Set time stamp of cursor.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ComVisible(false)]
-void SetCursor(ObjectId timeBaseId, long time)</code></pre>
+    <pre><code class="lang-csharp hljs">void SetCursor(ObjectId timeBaseId, long time)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,21 +144,18 @@ void SetCursor(ObjectId timeBaseId, long time)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">time</span></td>
-        <td><p>Time stamp of cursor (nanoseconds).</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistance_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistance_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistance(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)">SetCursorToDistance(ObjectId, Double)</h4>
-  <div class="markdown level1 summary"><p>Set cursor to distance (absolute).</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -185,21 +174,18 @@ void SetCursor(ObjectId timeBaseId, long time)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">distance</span></td>
-        <td><p>Distance of cursor into session (absolute).</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistanceIntoLap_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorToDistanceIntoLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_System_Int16_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorToDistanceIntoLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Int16)">SetCursorToDistanceIntoLap(ObjectId, Double, Int16)</h4>
-  <div class="markdown level1 summary"><p>Set cursor to distance into lap.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -218,27 +204,23 @@ void SetCursor(ObjectId timeBaseId, long time)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">distance</span></td>
-        <td><p>Distance of cursor into lap.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">lapNumber</span></td>
-        <td><p>Lap number.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetCursorVba_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetCursorVba(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double)">SetCursorVba(ObjectId, Double)</h4>
-  <div class="markdown level1 summary"><p>Set time stamp of cursor.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -257,8 +239,7 @@ void SetCursor(ObjectId timeBaseId, long time)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Double</span></td>
@@ -269,13 +250,11 @@ void SetCursor(ObjectId timeBaseId, long time)</code></pre>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBase_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBase*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBase_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int64_System_Int64_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBase(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int64,System.Int64)">SetTimeBase(ObjectId, Int64, Int64)</h4>
-  <div class="markdown level1 summary"><p>Set time range of timebase.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ComVisible(false)]
-void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
+    <pre><code class="lang-csharp hljs">void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -290,27 +269,23 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">startTime</span></td>
-        <td><p>Start of time range (nanoseconds).</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">endTime</span></td>
-        <td><p>End of time range (nanoseconds).</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLap_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLap*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLap_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int16_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLap(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int16)">SetTimeBaseByLap(ObjectId, Int16)</h4>
-  <div class="markdown level1 summary"><p>Set timebase from a lap.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -329,21 +304,18 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">lapNumber</span></td>
-        <td><p>Number of lap.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLaps_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLaps*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseByLaps_MAT_Atlas_Automation_Api_Models_ObjectId_System_Int16_System_Int16_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseByLaps(MAT.Atlas.Automation.Api.Models.ObjectId,System.Int16,System.Int16)">SetTimeBaseByLaps(ObjectId, Int16, Int16)</h4>
-  <div class="markdown level1 summary"><p>Set timebase from a range of laps.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -362,27 +334,23 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">lapNumberStart</span></td>
-        <td><p>Number of start lap.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">lapNumberEnd</span></td>
-        <td><p>Number of end lap.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseFastestLap_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseFastestLap*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseFastestLap_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseFastestLap(MAT.Atlas.Automation.Api.Models.ObjectId)">SetTimeBaseFastestLap(ObjectId)</h4>
-  <div class="markdown level1 summary"><p>Set timebase from fastest lap.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -401,15 +369,13 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseVba_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseVba*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SetTimeBaseVba_MAT_Atlas_Automation_Api_Models_ObjectId_System_Double_System_Double_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SetTimeBaseVba(MAT.Atlas.Automation.Api.Models.ObjectId,System.Double,System.Double)">SetTimeBaseVba(ObjectId, Double, Double)</h4>
-  <div class="markdown level1 summary"><p>Set time range of timebase for VBA.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -428,8 +394,7 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Double</span></td>
@@ -445,8 +410,7 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SubscribeTimeBaseChanged_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SubscribeTimeBaseChanged*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_SubscribeTimeBaseChanged_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.SubscribeTimeBaseChanged(MAT.Atlas.Automation.Api.Models.ObjectId)">SubscribeTimeBaseChanged(ObjectId)</h4>
-  <div class="markdown level1 summary"><p>Start monitoring a timebase for changes.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -465,15 +429,13 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_UnsubscribeTimeBaseChanged_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.UnsubscribeTimeBaseChanged*"></a>
   <h4 id="MAT_Atlas_Automation_Client_Services_Interface_ITimeBaseServiceClient_UnsubscribeTimeBaseChanged_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Client.Services.Interface.ITimeBaseServiceClient.UnsubscribeTimeBaseChanged(MAT.Atlas.Automation.Api.Models.ObjectId)">UnsubscribeTimeBaseChanged(ObjectId)</h4>
-  <div class="markdown level1 summary"><p>Stop monitoring a timebase for changes.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -492,8 +454,7 @@ void SetTimeBase(ObjectId timeBaseId, long startTime, long endTime)</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">timeBaseId</span></td>
-        <td><p>Unique identifier of a timebase.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
