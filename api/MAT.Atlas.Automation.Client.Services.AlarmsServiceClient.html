@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AlarmsServiceClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AlarmsServiceClient
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient">
+  
+  
+  <h1 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient" class="text-break">Class AlarmsServiceClient
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html">AutomationServiceClientBase</a>&lt;<a class="xref" href="MAT.Atlas.Automation.Api.IAlarmsService.html">IAlarmsService</a>&gt;</div>
+    <div class="level2"><a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html">AutomationServiceClientWithCallbackBase</a>&lt;<a class="xref" href="MAT.Atlas.Automation.Api.IAlarmsService.html">IAlarmsService</a>, <a class="xref" href="MAT.Atlas.Automation.Api.IAlarmsCallbackService.html">IAlarmsCallbackService</a>&gt;</div>
+    <div class="level3"><span class="xref">AlarmsServiceClient</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.html">IAutomationServiceMethodHandlers</a>&lt;<a class="xref" href="MAT.Atlas.Automation.Api.IAlarmsService.html">IAlarmsService</a>&gt;</div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IAlarmsServiceClient.html">IAlarmsServiceClient</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientWithCallbackBase_2_GetAutomationCallbackService">AutomationServiceClientWithCallbackBase&lt;IAlarmsService, IAlarmsCallbackService&gt;.GetAutomationCallbackService()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientWithCallbackBase_2_GetAutomationService">AutomationServiceClientWithCallbackBase&lt;IAlarmsService, IAlarmsCallbackService&gt;.GetAutomationService()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Call_System_Action__0__System_Action_System_Action_System_Exception__">AutomationServiceClientBase&lt;IAlarmsService&gt;.Call(Action&lt;IAlarmsService&gt;, Action, Action&lt;Exception&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Call__1_System_Func__0___0__System_Action___0__System_Action_System_Exception__">AutomationServiceClientBase&lt;IAlarmsService&gt;.Call&lt;TResult&gt;(Func&lt;IAlarmsService, TResult&gt;, Action&lt;TResult&gt;, Action&lt;Exception&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose">AutomationServiceClientBase&lt;IAlarmsService&gt;.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_IsConnected">AutomationServiceClientBase&lt;IAlarmsService&gt;.IsConnected()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Dispose_System_Boolean_">AutomationServiceClientBase&lt;IAlarmsService&gt;.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_GetAutomationService">AutomationServiceClientBase&lt;IAlarmsService&gt;.GetAutomationService()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_OnDisposeUnmanagedResources">AutomationServiceClientBase&lt;IAlarmsService&gt;.OnDisposeUnmanagedResources()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_Finalize">AutomationServiceClientBase&lt;IAlarmsService&gt;.Finalize()</a>
+    </div>
+    <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase-1.html#MAT_Atlas_Automation_Client_Services_AutomationServiceClientBase_1_AutomationService">AutomationServiceClientBase&lt;IAlarmsService&gt;.AutomationService</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MAT.Atlas.Automation.Client.Services.html">MAT.Atlas.Automation.Client.Services</a></h6>
+  <h6><strong>Assembly</strong>: MAT.Atlas.Automation.Client.dll</h6>
+  <h5 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class AlarmsServiceClient : AutomationServiceClientWithCallbackBase&lt;IAlarmsService, IAlarmsCallbackService&gt;, IAutomationServiceMethodHandlers&lt;IAlarmsService&gt;, IDisposable, IAlarmsServiceClient</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient__ctor_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.#ctor*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient__ctor" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.#ctor">AlarmsServiceClient()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AlarmsServiceClient()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_add_OnAlarmTriggered_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.add_OnAlarmTriggered*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_add_OnAlarmTriggered_MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_OnAlarmTriggeredDelegate_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.add_OnAlarmTriggered(MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggeredDelegate)">add_OnAlarmTriggered(AlarmsServiceClient.OnAlarmTriggeredDelegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void add_OnAlarmTriggered(AlarmsServiceClient.OnAlarmTriggeredDelegate value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggeredDelegate.html">AlarmsServiceClient.OnAlarmTriggeredDelegate</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_GetAlarms_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.GetAlarms*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_GetAlarms" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.GetAlarms">GetAlarms()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Alarm[] GetAlarms()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Alarm.html">Alarm</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_GetAutomationCallbackService_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.GetAutomationCallbackService*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_GetAutomationCallbackService" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.GetAutomationCallbackService">GetAutomationCallbackService()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IAlarmsCallbackService GetAutomationCallbackService()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.IAlarmsCallbackService.html">IAlarmsCallbackService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase&lt;MAT.Atlas.Automation.Api.IAlarmsService, MAT.Atlas.Automation.Api.IAlarmsCallbackService&gt;.GetAutomationCallbackService()</span></div>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_GetTriggeredAlarms_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.GetTriggeredAlarms*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_GetTriggeredAlarms" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.GetTriggeredAlarms">GetTriggeredAlarms()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TriggeredAlarm[] GetTriggeredAlarms()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TriggeredAlarm.html">TriggeredAlarm</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_OnDisposeManagedResources_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnDisposeManagedResources*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_OnDisposeManagedResources" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnDisposeManagedResources">OnDisposeManagedResources()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDisposeManagedResources()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">MAT.Atlas.Automation.Client.Services.AutomationServiceClientBase&lt;MAT.Atlas.Automation.Api.IAlarmsService&gt;.OnDisposeManagedResources()</span></div>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_RaiseAlarmTriggered_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.RaiseAlarmTriggered*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_RaiseAlarmTriggered_MAT_Atlas_Automation_Api_Models_TriggeredAlarm_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.RaiseAlarmTriggered(MAT.Atlas.Automation.Api.Models.TriggeredAlarm)">RaiseAlarmTriggered(TriggeredAlarm)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RaiseAlarmTriggered(TriggeredAlarm alarm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TriggeredAlarm.html">TriggeredAlarm</a></td>
+        <td><span class="parametername">alarm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_remove_OnAlarmTriggered_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.remove_OnAlarmTriggered*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_remove_OnAlarmTriggered_MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_OnAlarmTriggeredDelegate_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.remove_OnAlarmTriggered(MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggeredDelegate)">remove_OnAlarmTriggered(AlarmsServiceClient.OnAlarmTriggeredDelegate)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void remove_OnAlarmTriggered(AlarmsServiceClient.OnAlarmTriggeredDelegate value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggeredDelegate.html">AlarmsServiceClient.OnAlarmTriggeredDelegate</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_SubscribeAlarmsChanged_" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.SubscribeAlarmsChanged*"></a>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_SubscribeAlarmsChanged" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.SubscribeAlarmsChanged">SubscribeAlarmsChanged()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubscribeAlarmsChanged()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="MAT_Atlas_Automation_Client_Services_AlarmsServiceClient_OnAlarmTriggered" data-uid="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggered">OnAlarmTriggered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AlarmsServiceClient.OnAlarmTriggeredDelegate OnAlarmTriggered</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggeredDelegate.html">AlarmsServiceClient.OnAlarmTriggeredDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.html">IAutomationServiceMethodHandlers&lt;TAutomationService&gt;</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="MAT.Atlas.Automation.Client.Services.Interface.IAlarmsServiceClient.html">IAlarmsServiceClient</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

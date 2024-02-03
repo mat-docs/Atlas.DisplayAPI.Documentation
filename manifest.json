@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.AutomationSettings.html",
-          "hash": "MBg42ZB/u8FRGu3OwknkuA=="
+          "hash": "6FYRZOVAeGKMOcCGECRylQ=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Constants.AutomationServices.html",
-          "hash": "MNe/IZ741vjHEiHLGLSNlQ=="
+          "hash": "LQrTiBoBCvAmIqfldS4RaA=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html",
-          "hash": "OZYqMmFJTYRg8WHNwaXXFQ=="
+          "hash": "f+a1shFClufXJjDE8axKVw=="
         }
       },
       "is_incremental": false,
@@ -586,6 +586,66 @@
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Constants.html",
           "hash": "YHlxzXTF+IL8pJMBki3Azw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmAudioWarningType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmAudioWarningType.html",
+          "hash": "ogwpIsvpQVxkYqFfXOpfgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmConditionType.html",
+          "hash": "/WFHUivXx+3kRIuKw4AQhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmLogicOperatorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmLogicOperatorType.html",
+          "hash": "9IjCk1ggm3H33WeclbrWBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmOperatorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmOperatorType.html",
+          "hash": "PTSQGYLUS03kptHVjgdTYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmPriorityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.AlarmPriorityType.html",
+          "hash": "Lxq5MxYtXLsD8p0KovVQCg=="
         }
       },
       "is_incremental": false,
@@ -765,7 +825,31 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.html",
-          "hash": "wbVCIRz7MmgkvGDw6AN4dA=="
+          "hash": "bxkPMaUwwjBD0y+VDWWZWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.EventArgs.IAlarmTriggeredEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.EventArgs.IAlarmTriggeredEventArgs.html",
+          "hash": "VyXBkutIJaVSUwb9uFzRJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.EventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.EventArgs.html",
+          "hash": "EjbrCyFpg4NGZmo1fkPFow=="
         }
       },
       "is_incremental": false,
@@ -778,6 +862,18 @@
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.AddDisplayParameterFailedFault.html",
           "hash": "ktI307GmywKwWUyfEmf/Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Faults.AlarmsServiceFault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Faults.AlarmsServiceFault.html",
+          "hash": "PuvieamO3ed3r+JNMRQC/A=="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1137,43 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Faults.html",
-          "hash": "MD1cKHKeKvOeJZcxfextKg=="
+          "hash": "ZV7G/3bJWBIXSEjUgG02Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IAlarmsAutomationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IAlarmsAutomationServices.html",
+          "hash": "pFDENf3wGC4K+9PsesX/0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IAlarmsCallbackService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IAlarmsCallbackService.html",
+          "hash": "qoCzpUIAOLJj6g7zexB0AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IAlarmsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IAlarmsService.html",
+          "hash": "AjHuCxC/HWvr1ZMHWqyzFA=="
         }
       },
       "is_incremental": false,
@@ -1102,6 +1234,30 @@
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.IAutomationServiceProvider-1.html",
           "hash": "NcXUYCh9ZkhqhQ/NIFSC7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IAutomationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IAutomationServices.html",
+          "hash": "vSl4o7SNWlSCGJK4bQJIvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.IAutomationServicesRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.IAutomationServicesRegistry.html",
+          "hash": "qo3RQbQJDBCuik/+sAvMAg=="
         }
       },
       "is_incremental": false,
@@ -1325,6 +1481,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Alarm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Alarm.html",
+          "hash": "WRHewlV0NuwMob7yZwgYhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.AlarmConditionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.AlarmConditionBase.html",
+          "hash": "67nOPTI4FRiQbTa8WcnGHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.AlarmEventCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.AlarmEventCondition.html",
+          "hash": "m74N7eqrWVRBhxsTx3PUCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.AlarmParameterCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.AlarmParameterCondition.html",
+          "hash": "DlzW8JVzf5UyCJrire9qSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Color.yml",
       "output": {
         ".html": {
@@ -1390,6 +1594,42 @@
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.DisplayParameter.html",
           "hash": "354cXv2qgDi70lYfpbmNkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IAlarm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IAlarm.html",
+          "hash": "IFZrjccWe6GTvWND1bosNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IAlarmEventCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IAlarmEventCondition.html",
+          "hash": "UnXejVa6Yn7H7HBQ5w+bJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IAlarmParameterCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IAlarmParameterCondition.html",
+          "hash": "VuH4qcCH2uBT7dbc+XnZug=="
         }
       },
       "is_incremental": false,
@@ -1709,6 +1949,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITriggeredAlarm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.ITriggeredAlarm.html",
+          "hash": "DSMWI2yu5Ik5ik9fDEsscw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IValue.yml",
       "output": {
         ".html": {
@@ -1749,7 +2001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.html",
-          "hash": "/1UMTV4yzmZUqJOtnOaBMQ=="
+          "hash": "WbT+liIJfkGZ/fGtnz9hGg=="
         }
       },
       "is_incremental": false,
@@ -1773,7 +2025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.ModelBase.html",
-          "hash": "aLUkpAmyn0I9BS7pqyLocQ=="
+          "hash": "hY7nu5+MSubsxwnhMQxyVg=="
         }
       },
       "is_incremental": false,
@@ -2069,6 +2321,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.TriggeredAlarm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Models.TriggeredAlarm.html",
+          "hash": "sxwnLMDvEVpoGSdgmArV3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MAT.Atlas.Automation.Api.Models.UpdateLoopStatistics.yml",
       "output": {
         ".html": {
@@ -2133,7 +2397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.html",
-          "hash": "1ts5cNBtDVRIEm5WVYPmWQ=="
+          "hash": "Lns/sm2aFgpOzE/Taw0EdQ=="
         }
       },
       "is_incremental": false,
@@ -2181,7 +2445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.html",
-          "hash": "DE/S05urBvYWEkqK/U0gJQ=="
+          "hash": "t4R9LzX9h7vB9fxoRx8VlQ=="
         }
       },
       "is_incremental": false,
@@ -2218,6 +2482,30 @@
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.CursorPointChangedEventArgs.html",
           "hash": "VROXY0TIjN/HoofV8szfQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggeredDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.OnAlarmTriggeredDelegate.html",
+          "hash": "ndpEEj3WUu17BArijOh4RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.AlarmsServiceClient.html",
+          "hash": "u6d0g8Vxb+TOKyE22aqAQQ=="
         }
       },
       "is_incremental": false,
@@ -2373,7 +2661,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.AutomationServiceClientWithCallbackBase-2.html",
-          "hash": "gyb//RVxM4feNKuPugo4ZQ=="
+          "hash": "8Nkqgi+a8/hC03ibYJ2JJQ=="
         }
       },
       "is_incremental": false,
@@ -2434,6 +2722,30 @@
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.IAutomationServiceMethodHandlers-1.html",
           "hash": "dmkcQ0IIMUnIe/dV6UwSrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IAlarmsCallbackServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IAlarmsCallbackServiceClient.html",
+          "hash": "xpOw6ugfzxeprfqEZMVnfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IAlarmsServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.IAlarmsServiceClient.html",
+          "hash": "JVlxxcvp5VP2YyrOPbeQBg=="
         }
       },
       "is_incremental": false,
@@ -2637,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.Interface.html",
-          "hash": "IUvEAd0NEHYeYoBWxEr7eA=="
+          "hash": "Tw6o4eDJl7EW04kp8SBahw=="
         }
       },
       "is_incremental": false,
@@ -2865,7 +3177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Client.Services.html",
-          "hash": "dhhD3GPlBlh9HoOJ5dGoGg=="
+          "hash": "JRVF/NuquKeFHEmlj4KHBw=="
         }
       },
       "is_incremental": false,
@@ -3849,7 +4161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "EzwR1gW2Y1KjMPNeddyZcg=="
+          "hash": "/Wy9cA65pzUVAxB2PAurfA=="
         }
       },
       "is_incremental": false,
@@ -3995,7 +4307,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 319,
+          "total_file_count": 345,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
