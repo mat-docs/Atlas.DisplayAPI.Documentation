@@ -87,7 +87,7 @@ public interface IAlarmsService : IAutomationService</code></pre>
   </h3>
   <a id="MAT_Atlas_Automation_Api_IAlarmsService_GetAlarm_" data-uid="MAT.Atlas.Automation.Api.IAlarmsService.GetAlarm*"></a>
   <h4 id="MAT_Atlas_Automation_Api_IAlarmsService_GetAlarm_MAT_Atlas_Automation_Api_Models_ObjectId_" data-uid="MAT.Atlas.Automation.Api.IAlarmsService.GetAlarm(MAT.Atlas.Automation.Api.Models.ObjectId)">GetAlarm(ObjectId)</h4>
-  <div class="markdown level1 summary"><p>Gets alarm.</p>
+  <div class="markdown level1 summary"><p>Gets the alarm associated with the specified ID.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -107,7 +107,8 @@ public interface IAlarmsService : IAutomationService</code></pre>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.ObjectId.html">ObjectId</a></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
+        <td><p>The unique identifier of the alarm to retrieve.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -122,13 +123,14 @@ public interface IAlarmsService : IAutomationService</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Alarm.html">Alarm</a></td>
-        <td></td>
+        <td><p>The alarm associated with the specified ID.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Api_IAlarmsService_GetAlarms_" data-uid="MAT.Atlas.Automation.Api.IAlarmsService.GetAlarms*"></a>
   <h4 id="MAT_Atlas_Automation_Api_IAlarmsService_GetAlarms" data-uid="MAT.Atlas.Automation.Api.IAlarmsService.GetAlarms">GetAlarms()</h4>
-  <div class="markdown level1 summary"><p>Gets alarms.</p>
+  <div class="markdown level1 summary"><p>Gets all the alarms.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -146,13 +148,14 @@ public interface IAlarmsService : IAutomationService</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.Alarm.html">Alarm</a>[]</td>
-        <td></td>
+        <td><p>An array of all the alarms.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="MAT_Atlas_Automation_Api_IAlarmsService_GetTriggeredAlarms_" data-uid="MAT.Atlas.Automation.Api.IAlarmsService.GetTriggeredAlarms*"></a>
   <h4 id="MAT_Atlas_Automation_Api_IAlarmsService_GetTriggeredAlarms" data-uid="MAT.Atlas.Automation.Api.IAlarmsService.GetTriggeredAlarms">GetTriggeredAlarms()</h4>
-  <div class="markdown level1 summary"><p>Gets triggered alarms.</p>
+  <div class="markdown level1 summary"><p>Gets all triggered alarms.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -170,7 +173,8 @@ public interface IAlarmsService : IAutomationService</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.TriggeredAlarm.html">TriggeredAlarm</a>[]</td>
-        <td></td>
+        <td><p>An array containing all the alarms that have been triggered.</p>
+</td>
       </tr>
     </tbody>
   </table>
