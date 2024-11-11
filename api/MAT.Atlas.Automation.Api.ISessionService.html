@@ -456,6 +456,99 @@ public interface ISessionService : IAutomationService</code></pre>
   <h5 id="MAT_Atlas_Automation_Api_ISessionService_AppendSessionsWithAssociates_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_Int64____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>A version per file path must be provided.</p>
 </div>
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessions_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessions_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String___" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[])">AppendSqlRaceSessions(SessionId, String[], String[])</h4>
+  <div class="markdown level1 summary"><p>Append Sql Race sessions to session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AppendSqlRaceSessions(SessionId sessionId, string[] keys, string[] connectionStrings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>Sessions to append.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">connectionStrings</span></td>
+        <td><p>Session connection strings.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessions_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The length of the keys and connectionStrings must be equal.</p>
+</div>
+  <a id="MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessionsWithAssociates_" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates*"></a>
+  <h4 id="MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessionsWithAssociates_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String___System_Int64___" data-uid="MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[],System.Int64[])">AppendSqlRaceSessionsWithAssociates(SessionId, String[], String[], Int64[])</h4>
+  <div class="markdown level1 summary"><p>Append Sql Race sessions with associates to a session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AppendSqlRaceSessionsWithAssociates(SessionId sessionId, string[] keys, string[] connectionStrings, long[] versions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MAT.Atlas.Automation.Api.Models.SessionId.html">SessionId</a></td>
+        <td><span class="parametername">sessionId</span></td>
+        <td><p>Unique identifier of a session.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>Sessions to append.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">connectionStrings</span></td>
+        <td><p>Session connection strings.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span>[]</td>
+        <td><span class="parametername">versions</span></td>
+        <td><p>Versions of the sessions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessionsWithAssociates_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String___System_Int64____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The length of the keys, connectionStrings, and versions must be equal.
+If a version is 0, the highest version will be loaded.
+Otherwise, the associate file for the specified version will be loaded.
+If no associate file exists for the specified version, the file without any associate will be loaded.</p>
+</div>
   <a id="MAT_Atlas_Automation_Api_ISessionService_GetCompositeSession_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetCompositeSession*"></a>
   <h4 id="MAT_Atlas_Automation_Api_ISessionService_GetCompositeSession_MAT_Atlas_Automation_Api_Models_SessionId_" data-uid="MAT.Atlas.Automation.Api.ISessionService.GetCompositeSession(MAT.Atlas.Automation.Api.Models.SessionId)">GetCompositeSession(SessionId)</h4>
   <div class="markdown level1 summary"><p>Get the properties of a composite session.</p>

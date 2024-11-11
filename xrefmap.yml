@@ -3034,6 +3034,18 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSessionsWithAssociatesAsyncSummariesWithAssociationsDoNotMatchNumberOfVersions
   fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSessionsWithAssociatesAsyncSummariesWithAssociationsDoNotMatchNumberOfVersions
   nameWithType: FaultReasons.AppendSessionsWithAssociatesAsyncSummariesWithAssociationsDoNotMatchNumberOfVersions
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSqlRaceSessionFatalError
+  name: AppendSqlRaceSessionFatalError
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_AppendSqlRaceSessionFatalError
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSqlRaceSessionFatalError
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSqlRaceSessionFatalError
+  nameWithType: FaultReasons.AppendSqlRaceSessionFatalError
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSqlRaceSessionWithAssociatesFatalError
+  name: AppendSqlRaceSessionWithAssociatesFatalError
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_AppendSqlRaceSessionWithAssociatesFatalError
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSqlRaceSessionWithAssociatesFatalError
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.AppendSqlRaceSessionWithAssociatesFatalError
+  nameWithType: FaultReasons.AppendSqlRaceSessionWithAssociatesFatalError
 - uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.AutoFitLimitOutOfRange
   name: AutoFitLimitOutOfRange
   href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_AutoFitLimitOutOfRange
@@ -3220,6 +3232,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.KeyExpected
   fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.KeyExpected
   nameWithType: FaultReasons.KeyExpected
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.KeysAndConnectionStringsAndVersionLengthMustMatch
+  name: KeysAndConnectionStringsAndVersionLengthMustMatch
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_KeysAndConnectionStringsAndVersionLengthMustMatch
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.KeysAndConnectionStringsAndVersionLengthMustMatch
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.KeysAndConnectionStringsAndVersionLengthMustMatch
+  nameWithType: FaultReasons.KeysAndConnectionStringsAndVersionLengthMustMatch
 - uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.KeysAndConnectionStringsLengthMustMatch
   name: KeysAndConnectionStringsLengthMustMatch
   href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_KeysAndConnectionStringsLengthMustMatch
@@ -3502,6 +3520,18 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.TimeBaseCallbackExpected
   fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.TimeBaseCallbackExpected
   nameWithType: FaultReasons.TimeBaseCallbackExpected
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.VersionExpected
+  name: VersionExpected
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_VersionExpected
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.VersionExpected
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.VersionExpected
+  nameWithType: FaultReasons.VersionExpected
+- uid: MAT.Atlas.Automation.Api.Constants.FaultReasons.VersionMissMatch
+  name: VersionMissMatch
+  href: api/MAT.Atlas.Automation.Api.Constants.FaultReasons.html#MAT_Atlas_Automation_Api_Constants_FaultReasons_VersionMissMatch
+  commentId: F:MAT.Atlas.Automation.Api.Constants.FaultReasons.VersionMissMatch
+  fullName: MAT.Atlas.Automation.Api.Constants.FaultReasons.VersionMissMatch
+  nameWithType: FaultReasons.VersionMissMatch
 - uid: MAT.Atlas.Automation.Api.Constants.WellKnownSessionDetailNames
   name: WellKnownSessionDetailNames
   href: api/MAT.Atlas.Automation.Api.Constants.WellKnownSessionDetailNames.html
@@ -6248,6 +6278,36 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.ISessionService.AppendSessionsWithAssociates
   fullName: MAT.Atlas.Automation.Api.ISessionService.AppendSessionsWithAssociates
   nameWithType: ISessionService.AppendSessionsWithAssociates
+- uid: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[])
+  name: AppendSqlRaceSessions(SessionId, String[], String[])
+  href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessions_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String___
+  commentId: M:MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[])
+  name.vb: AppendSqlRaceSessions(SessionId, String(), String())
+  fullName: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId, System.String[], System.String[])
+  fullName.vb: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId, System.String(), System.String())
+  nameWithType: ISessionService.AppendSqlRaceSessions(SessionId, String[], String[])
+  nameWithType.vb: ISessionService.AppendSqlRaceSessions(SessionId, String(), String())
+- uid: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions*
+  name: AppendSqlRaceSessions
+  href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessions_
+  commentId: Overload:MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions
+  fullName: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessions
+  nameWithType: ISessionService.AppendSqlRaceSessions
+- uid: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[],System.Int64[])
+  name: AppendSqlRaceSessionsWithAssociates(SessionId, String[], String[], Int64[])
+  href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessionsWithAssociates_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String___System_Int64___
+  commentId: M:MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[],System.Int64[])
+  name.vb: AppendSqlRaceSessionsWithAssociates(SessionId, String(), String(), Int64())
+  fullName: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates(MAT.Atlas.Automation.Api.Models.SessionId, System.String[], System.String[], System.Int64[])
+  fullName.vb: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates(MAT.Atlas.Automation.Api.Models.SessionId, System.String(), System.String(), System.Int64())
+  nameWithType: ISessionService.AppendSqlRaceSessionsWithAssociates(SessionId, String[], String[], Int64[])
+  nameWithType.vb: ISessionService.AppendSqlRaceSessionsWithAssociates(SessionId, String(), String(), Int64())
+- uid: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates*
+  name: AppendSqlRaceSessionsWithAssociates
+  href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_AppendSqlRaceSessionsWithAssociates_
+  commentId: Overload:MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates
+  fullName: MAT.Atlas.Automation.Api.ISessionService.AppendSqlRaceSessionsWithAssociates
+  nameWithType: ISessionService.AppendSqlRaceSessionsWithAssociates
 - uid: MAT.Atlas.Automation.Api.ISessionService.GetCompositeSession(MAT.Atlas.Automation.Api.Models.SessionId)
   name: GetCompositeSession(SessionId)
   href: api/MAT.Atlas.Automation.Api.ISessionService.html#MAT_Atlas_Automation_Api_ISessionService_GetCompositeSession_MAT_Atlas_Automation_Api_Models_SessionId_
@@ -17937,6 +17997,21 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSessionsWithAssociatesVba
   fullName: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSessionsWithAssociatesVba
   nameWithType: ISessionServiceClient.AppendSessionsWithAssociatesVba
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[])
+  name: AppendSqlRaceSessions(SessionId, String[], String[])
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ISessionServiceClient_AppendSqlRaceSessions_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String___
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[])
+  name.vb: AppendSqlRaceSessions(SessionId, String(), String())
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId, System.String[], System.String[])
+  fullName.vb: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId, System.String(), System.String())
+  nameWithType: ISessionServiceClient.AppendSqlRaceSessions(SessionId, String[], String[])
+  nameWithType.vb: ISessionServiceClient.AppendSqlRaceSessions(SessionId, String(), String())
+- uid: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSqlRaceSessions*
+  name: AppendSqlRaceSessions
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ISessionServiceClient_AppendSqlRaceSessions_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSqlRaceSessions
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.AppendSqlRaceSessions
+  nameWithType: ISessionServiceClient.AppendSqlRaceSessions
 - uid: MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.GetCompositeSession(MAT.Atlas.Automation.Api.Models.SessionId)
   name: GetCompositeSession(SessionId)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.ISessionServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_ISessionServiceClient_GetCompositeSession_MAT_Atlas_Automation_Api_Models_SessionId_
@@ -19296,6 +19371,21 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSessionsWithAssociatesVba
   fullName: MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSessionsWithAssociatesVba
   nameWithType: SessionServiceClient.AppendSessionsWithAssociatesVba
+- uid: MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[])
+  name: AppendSqlRaceSessions(SessionId, String[], String[])
+  href: api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html#MAT_Atlas_Automation_Client_Services_SessionServiceClient_AppendSqlRaceSessions_MAT_Atlas_Automation_Api_Models_SessionId_System_String___System_String___
+  commentId: M:MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId,System.String[],System.String[])
+  name.vb: AppendSqlRaceSessions(SessionId, String(), String())
+  fullName: MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId, System.String[], System.String[])
+  fullName.vb: MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSqlRaceSessions(MAT.Atlas.Automation.Api.Models.SessionId, System.String(), System.String())
+  nameWithType: SessionServiceClient.AppendSqlRaceSessions(SessionId, String[], String[])
+  nameWithType.vb: SessionServiceClient.AppendSqlRaceSessions(SessionId, String(), String())
+- uid: MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSqlRaceSessions*
+  name: AppendSqlRaceSessions
+  href: api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html#MAT_Atlas_Automation_Client_Services_SessionServiceClient_AppendSqlRaceSessions_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSqlRaceSessions
+  fullName: MAT.Atlas.Automation.Client.Services.SessionServiceClient.AppendSqlRaceSessions
+  nameWithType: SessionServiceClient.AppendSqlRaceSessions
 - uid: MAT.Atlas.Automation.Client.Services.SessionServiceClient.GetCompositeSession(MAT.Atlas.Automation.Api.Models.SessionId)
   name: GetCompositeSession(SessionId)
   href: api/MAT.Atlas.Automation.Client.Services.SessionServiceClient.html#MAT_Atlas_Automation_Client_Services_SessionServiceClient_GetCompositeSession_MAT_Atlas_Automation_Api_Models_SessionId_
