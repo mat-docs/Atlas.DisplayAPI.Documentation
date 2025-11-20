@@ -4288,6 +4288,12 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.StatisticOption.AbsoluteMean
   fullName: MAT.Atlas.Automation.Api.Enums.StatisticOption.AbsoluteMean
   nameWithType: StatisticOption.AbsoluteMean
+- uid: MAT.Atlas.Automation.Api.Enums.StatisticOption.All
+  name: All
+  href: api/MAT.Atlas.Automation.Api.Enums.StatisticOption.html#MAT_Atlas_Automation_Api_Enums_StatisticOption_All
+  commentId: F:MAT.Atlas.Automation.Api.Enums.StatisticOption.All
+  fullName: MAT.Atlas.Automation.Api.Enums.StatisticOption.All
+  nameWithType: StatisticOption.All
 - uid: MAT.Atlas.Automation.Api.Enums.StatisticOption.Change
   name: Change
   href: api/MAT.Atlas.Automation.Api.Enums.StatisticOption.html#MAT_Atlas_Automation_Api_Enums_StatisticOption_Change
@@ -14930,12 +14936,6 @@ references:
   commentId: M:MAT.Atlas.Automation.Client.ConnectionFailedException.#ctor
   fullName: MAT.Atlas.Automation.Client.ConnectionFailedException.ConnectionFailedException()
   nameWithType: ConnectionFailedException.ConnectionFailedException()
-- uid: MAT.Atlas.Automation.Client.ConnectionFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: ConnectionFailedException(SerializationInfo, StreamingContext)
-  href: api/MAT.Atlas.Automation.Client.ConnectionFailedException.html#MAT_Atlas_Automation_Client_ConnectionFailedException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:MAT.Atlas.Automation.Client.ConnectionFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: MAT.Atlas.Automation.Client.ConnectionFailedException.ConnectionFailedException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: ConnectionFailedException.ConnectionFailedException(SerializationInfo, StreamingContext)
 - uid: MAT.Atlas.Automation.Client.ConnectionFailedException.#ctor(System.String)
   name: ConnectionFailedException(String)
   href: api/MAT.Atlas.Automation.Client.ConnectionFailedException.html#MAT_Atlas_Automation_Client_ConnectionFailedException__ctor_System_String_
