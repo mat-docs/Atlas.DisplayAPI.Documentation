@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/a/5/s/MAT.Atlas.Documentation",
+  "source_base_path": "C:/a/1/s/MAT.Atlas.Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -689,6 +689,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.html",
+          "hash": "Nsty1qGLkin4YsQKWaXGbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.yml",
       "output": {
         ".html": {
@@ -825,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Enums.html",
-          "hash": "Ns+s45l1dZL6PkPjx67OUQ=="
+          "hash": "EqPrF9+saR07dGrdzi7C7A=="
         }
       },
       "is_incremental": false,
@@ -1809,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Interfaces.IRecorder.html",
-          "hash": "SOb9fZ5Zp9cmYCbKtfVPlw=="
+          "hash": "pPBRqjVS3LExW1lQeaCWUw=="
         }
       },
       "is_incremental": false,
@@ -2145,7 +2157,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Recorder.html",
-          "hash": "z0rNsrGhrqGxepuqUGUiuQ=="
+          "hash": "RB5YItPsFz+wO29W+FfmQA=="
         }
       },
       "is_incremental": false,
@@ -2169,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MAT.Atlas.Automation.Api.Models.Session.html",
-          "hash": "05gwDTTXtJvXEDEedCCUfQ=="
+          "hash": "oFtQiADW4CB1EnLt36IRVA=="
         }
       },
       "is_incremental": false,
@@ -3225,7 +3237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "JIrjl8armqaEEDoYydZC2A=="
+          "hash": "5LYhbFyaQh9R8vp1JExp9A=="
         }
       },
       "is_incremental": false,
@@ -3386,7 +3398,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 267,
+          "total_file_count": 268,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

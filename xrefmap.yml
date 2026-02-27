@@ -3988,6 +3988,36 @@ references:
   commentId: F:MAT.Atlas.Automation.Api.Enums.DataStatusType.value__
   fullName: MAT.Atlas.Automation.Api.Enums.DataStatusType.value__
   nameWithType: DataStatusType.value__
+- uid: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption
+  name: DeleteSessionOption
+  href: api/MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.html
+  commentId: T:MAT.Atlas.Automation.Api.Enums.DeleteSessionOption
+  fullName: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption
+  nameWithType: DeleteSessionOption
+- uid: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.NoSessionDelete
+  name: NoSessionDelete
+  href: api/MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.html#MAT_Atlas_Automation_Api_Enums_DeleteSessionOption_NoSessionDelete
+  commentId: F:MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.NoSessionDelete
+  fullName: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.NoSessionDelete
+  nameWithType: DeleteSessionOption.NoSessionDelete
+- uid: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.RecordedSessions
+  name: RecordedSessions
+  href: api/MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.html#MAT_Atlas_Automation_Api_Enums_DeleteSessionOption_RecordedSessions
+  commentId: F:MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.RecordedSessions
+  fullName: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.RecordedSessions
+  nameWithType: DeleteSessionOption.RecordedSessions
+- uid: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.SQLiteDatabase
+  name: SQLiteDatabase
+  href: api/MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.html#MAT_Atlas_Automation_Api_Enums_DeleteSessionOption_SQLiteDatabase
+  commentId: F:MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.SQLiteDatabase
+  fullName: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.SQLiteDatabase
+  nameWithType: DeleteSessionOption.SQLiteDatabase
+- uid: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.value__
+  name: value__
+  href: api/MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.html#MAT_Atlas_Automation_Api_Enums_DeleteSessionOption_value__
+  commentId: F:MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.value__
+  fullName: MAT.Atlas.Automation.Api.Enums.DeleteSessionOption.value__
+  nameWithType: DeleteSessionOption.value__
 - uid: MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState
   name: DiagnosticProfilingState
   href: api/MAT.Atlas.Automation.Api.Enums.DiagnosticProfilingState.html
@@ -12854,6 +12884,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Api.Models.Session.#ctor
   fullName: MAT.Atlas.Automation.Api.Models.Session.Session
   nameWithType: Session.Session
+- uid: MAT.Atlas.Automation.Api.Models.Session.Key
+  name: Key
+  href: api/MAT.Atlas.Automation.Api.Models.Session.html#MAT_Atlas_Automation_Api_Models_Session_Key
+  commentId: P:MAT.Atlas.Automation.Api.Models.Session.Key
+  fullName: MAT.Atlas.Automation.Api.Models.Session.Key
+  nameWithType: Session.Key
+- uid: MAT.Atlas.Automation.Api.Models.Session.Key*
+  name: Key
+  href: api/MAT.Atlas.Automation.Api.Models.Session.html#MAT_Atlas_Automation_Api_Models_Session_Key_
+  commentId: Overload:MAT.Atlas.Automation.Api.Models.Session.Key
+  fullName: MAT.Atlas.Automation.Api.Models.Session.Key
+  nameWithType: Session.Key
 - uid: MAT.Atlas.Automation.Api.Models.SessionBase
   name: SessionBase
   href: api/MAT.Atlas.Automation.Api.Models.SessionBase.html
