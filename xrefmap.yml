@@ -5690,6 +5690,18 @@ references:
   commentId: T:MAT.Atlas.Automation.Api.IDisplayService
   fullName: MAT.Atlas.Automation.Api.IDisplayService
   nameWithType: IDisplayService
+- uid: MAT.Atlas.Automation.Api.IDisplayService.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: ActivateDisplay(ObjectId)
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_ActivateDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Api.IDisplayService.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: IDisplayService.ActivateDisplay(ObjectId)
+- uid: MAT.Atlas.Automation.Api.IDisplayService.ActivateDisplay*
+  name: ActivateDisplay
+  href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_ActivateDisplay_
+  commentId: Overload:MAT.Atlas.Automation.Api.IDisplayService.ActivateDisplay
+  fullName: MAT.Atlas.Automation.Api.IDisplayService.ActivateDisplay
+  nameWithType: IDisplayService.ActivateDisplay
 - uid: MAT.Atlas.Automation.Api.IDisplayService.AddDisplayParameter(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
   name: AddDisplayParameter(ObjectId, String)
   href: api/MAT.Atlas.Automation.Api.IDisplayService.html#MAT_Atlas_Automation_Api_IDisplayService_AddDisplayParameter_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
@@ -16627,6 +16639,18 @@ references:
   commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.#ctor
   fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.DisplayServiceClient
   nameWithType: DisplayServiceClient.DisplayServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: ActivateDisplay(ObjectId)
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_ActivateDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: DisplayServiceClient.ActivateDisplay(ObjectId)
+- uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.ActivateDisplay*
+  name: ActivateDisplay
+  href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_ActivateDisplay_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.DisplayServiceClient.ActivateDisplay
+  fullName: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.ActivateDisplay
+  nameWithType: DisplayServiceClient.ActivateDisplay
 - uid: MAT.Atlas.Automation.Client.Services.DisplayServiceClient.AddDisplayParameter(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
   name: AddDisplayParameter(ObjectId, String)
   href: api/MAT.Atlas.Automation.Client.Services.DisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_DisplayServiceClient_AddDisplayParameter_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
@@ -17244,6 +17268,18 @@ references:
   commentId: T:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient
   fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient
   nameWithType: IDisplayServiceClient
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  name: ActivateDisplay(ObjectId)
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_ActivateDisplay_MAT_Atlas_Automation_Api_Models_ObjectId_
+  commentId: M:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.ActivateDisplay(MAT.Atlas.Automation.Api.Models.ObjectId)
+  nameWithType: IDisplayServiceClient.ActivateDisplay(ObjectId)
+- uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.ActivateDisplay*
+  name: ActivateDisplay
+  href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_ActivateDisplay_
+  commentId: Overload:MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.ActivateDisplay
+  fullName: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.ActivateDisplay
+  nameWithType: IDisplayServiceClient.ActivateDisplay
 - uid: MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.AddDisplayParameter(MAT.Atlas.Automation.Api.Models.ObjectId,System.String)
   name: AddDisplayParameter(ObjectId, String)
   href: api/MAT.Atlas.Automation.Client.Services.Interface.IDisplayServiceClient.html#MAT_Atlas_Automation_Client_Services_Interface_IDisplayServiceClient_AddDisplayParameter_MAT_Atlas_Automation_Api_Models_ObjectId_System_String_
